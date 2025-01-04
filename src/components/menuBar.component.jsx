@@ -16,10 +16,20 @@ import {useState, useEffect} from 'react';
 import { useNavigate } from 'react-router-dom';
 
 export default function MenuAppBar() {
+  const [anchorEl, setAnchorEl] = React.useState(null);
+  const [anchorE2, setAnchorE2] = React.useState(null);
+
+  const handleUserMenu = (event) => {
+    setAnchorE2(event.currentTarget);
+  };
+
+  const handleUserClose = () => {
+    setAnchorE2(null);
+  };
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" sx={{ backgroundColor: "RebeccaPurple", marginBottom: "5em"}}>
+      <AppBar position="static" sx={{ backgroundColor: "DarkGreen", marginBottom: "5em"}}>
         <Toolbar>
         
         <Typography variant="h6" component="div" sx={{ flexGrow: 1}}>
@@ -32,7 +42,6 @@ export default function MenuAppBar() {
                     aria-label="account of current user"
                     aria-controls="menu-appbar"
                     aria-haspopup="true"
-                    onClick={handleUserMenu}
                     color="inherit"
                 >
 
@@ -42,7 +51,6 @@ export default function MenuAppBar() {
             
             <Menu
                 id="menu-appbar"
-                anchorEl={anchorE2}
                 anchorOrigin={{
                     vertical: 'top',
                     horizontal: 'right',
