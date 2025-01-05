@@ -17,14 +17,13 @@ import { useNavigate } from 'react-router-dom';
 
 export default function MenuAppBar() {
   const [anchorEl, setAnchorEl] = React.useState(null);
-  const [anchorE2, setAnchorE2] = React.useState(null);
 
-  const handleUserMenu = (event) => {
-    setAnchorE2(event.currentTarget);
+  const handleMenu = (event) => {
+    setAnchorEl(event.currentTarget);
   };
 
-  const handleUserClose = () => {
-    setAnchorE2(null);
+  const handleClose = () => {
+    setAnchorEl(null);
   };
 
   return (
@@ -43,6 +42,7 @@ export default function MenuAppBar() {
                     aria-controls="menu-appbar"
                     aria-haspopup="true"
                     color="inherit"
+                    onClick={handleMenu}
                 >
 
                 <AccountCircle />
@@ -51,6 +51,7 @@ export default function MenuAppBar() {
             
             <Menu
                 id="menu-appbar"
+                anchorEl={anchorEl}
                 anchorOrigin={{
                     vertical: 'top',
                     horizontal: 'right',
@@ -60,12 +61,15 @@ export default function MenuAppBar() {
                     vertical: 'top',
                     horizontal: 'right',
                 }}
-                open={Boolean(anchorE2)}
-                onClose={handleUserClose}
+                open={Boolean(anchorEl)}
+                onClose={handleClose}
             >
-                <MenuItem href="../Messages" component="a" onClick={handleUserClose}>Messages</MenuItem>
-                <MenuItem href="../Requests" component="a" onClick={handleUserClose}>Requests</MenuItem>
-                <MenuItem href="../Friends" component="a" onClick={handleUserClose}>Friends</MenuItem>
+                <MenuItem href="../" component="a" onClick={handleClose}>Home</MenuItem>
+                <MenuItem href="../Programs" component="a" onClick={handleClose}>Programs</MenuItem>
+                <MenuItem href="../Registration" component="a" onClick={handleClose}>Registration</MenuItem>
+                <MenuItem href="../Contact" component="a" onClick={handleClose}>Contact Us</MenuItem>
+                <MenuItem href="../Results" component="a" onClick={handleClose}>Race Results</MenuItem>
+                <MenuItem href="../Directors" component="a" onClick={handleClose}>Board of Directors</MenuItem>
             </Menu>
         </div>
 
