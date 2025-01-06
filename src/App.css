@@ -1,20 +1,86 @@
-body {
-  flex-direction: column;
-  justify-content: flex-start;
-  background-color: darkslategray;
-}
-
 #root {
   margin: 0 auto;
-  padding-bottom: 0;
   text-align: center;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  background-color: darkslategray;
 }
 
-.titleText {
-  align-content: left;
+body {
+  background-color: #0B5D1E;
+}
+
+.homeBody {
+  height: 90vh;
+  align-content: center;
+  justify-content: center;
+  display: grid; /* set as grid to fix hosted formatting issue with edge */
+}
+
+.parkingModelUser {
+  font-size: 1.2em;
+}
+
+button {
+  background-color: aliceblue;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+select {
+  width: 10rem;
+  background-color: #ffffff67;
+  border: #23c8ce 2px solid;
+  border-radius: .5em;
+  height: 3em;
+  width: 100%;
+  font: 1.3em sans-serif;
+  color: rgb(0, 0, 0);
+  text-align: start;
+}
+
+select>option {
+  background-color: #ffffff4d;
+}
+
+.title {
+  font-size: 4em;
+  color: #FDBD0D;
+  border: #000000;
+  border-radius: 1em;
+}
+
+.employeeInfo {
+  display: flex;
 }
