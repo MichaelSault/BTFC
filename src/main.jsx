@@ -9,7 +9,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 import './index.css'
 
-import Home from './components/Home.jsx';
+import Home from './components/home.component.jsx';
 
 ReactDOM.createRoot(document.getElementById('navBar')).render(
   <React.StrictMode>

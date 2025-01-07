@@ -35,52 +35,24 @@ button {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
-select {
-  width: 10rem;
-  background-color: #ffffff67;
-  border: #23c8ce 2px solid;
-  border-radius: .5em;
-  height: 3em;
-  width: 100%;
-  font: 1.3em sans-serif;
-  color: rgb(0, 0, 0);
-  text-align: start;
-}
-
-select>option {
-  background-color: #ffffff4d;
-}
-
-.title {
-  font-size: 4em;
-  color: #FDBD0D;
-  border: #000000;
-  border-radius: 1em;
-}
-
-.employeeInfo {
+.programsRow {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  height: 100vh;
+  justify-content: center;
+  padding: 3em 3em;
+  /* background-color: #f9f5f2; */
+}
+
+.registrationRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  height: 100vh;
+  justify-content: center;
+  padding: 3em 3em;
+  /* background-color: #f9f5f2; */
 }
