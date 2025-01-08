@@ -35,6 +35,28 @@ button {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.contactRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  height: 100vh;
+  justify-content: center;
+  padding: 3em 3em;
+  background-color: #0B5D1E;
+}
+
+.directorsRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  height: 100vh;
+  justify-content: center;
+  padding: 3em 3em;
+  background-color: #0B5D1E;
+}
+
 .programsRow {
   display: flex;
   flex-direction: row;
@@ -43,7 +65,7 @@ button {
   height: 100vh;
   justify-content: center;
   padding: 3em 3em;
-  /* background-color: #f9f5f2; */
+  background-color: #0B5D1E;
 }
 
 .registrationRow {
@@ -54,5 +76,22 @@ button {
   height: 100vh;
   justify-content: center;
   padding: 3em 3em;
-  /* background-color: #f9f5f2; */
+  background-color: #0D6E23;
+}
+
+.resultsRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  height: 100vh;
+  justify-content: center;
+  padding: 3em 3em;
+  background-color: #0D6E23;
+}
+
+.title {
+  color: #FDBD0D;
+  text-shadow: 5px 5px 8px #000000;
+  font-size: 8em;
 }

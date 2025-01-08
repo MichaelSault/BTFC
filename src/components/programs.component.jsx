@@ -12,6 +12,12 @@ function Programs() {
         <div className="programsRow">
             <h1 className="title">Programs</h1>
         </div>
+
+        <div className="programsRow">
+          <div className="programsCol">
+            
+          </div>
+        </div>
                 
     </>
   )
