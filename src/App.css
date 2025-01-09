@@ -35,6 +35,10 @@ button {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.banner {
+  width: 100%;
+}
+
 .contactRow {
   display: flex;
   flex-direction: row;

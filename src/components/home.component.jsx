@@ -19,7 +19,7 @@ function Home() {
 
   return (
     <>
-        <img src={Banner} width={"100%"}/>
+        <img src={Banner} className="banner"/>
         {/* <h1 className="title">Burlington Track and Field Club</h1> */}
         <Programs/>    
         <Registration/>
