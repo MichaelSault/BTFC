@@ -1,5 +1,7 @@
 import { forwardRef } from 'react';
+import '../App.css';
 
+import {Button} from "react-bootstrap";
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
@@ -10,6 +12,7 @@ import Typography from '@mui/material/Typography';
 const ProgramCard = forwardRef(
     (
         {
+            photo,
             name,
             age,
             distance,
@@ -28,8 +31,8 @@ const ProgramCard = forwardRef(
             <div className='programCard'>
                 <Card className='programCardText'>
                     <CardMedia
-                        sx={{ minHeight: 75 }}
-                        //image={eventPhoto}
+                        sx={{ height: 100 }}
+                        image={photo}
                         title={name}
                     />
 
@@ -39,26 +42,27 @@ const ProgramCard = forwardRef(
                             {name}
                         </Typography>
                         <Typography fontFamily='Montserrat' variant="body2" color="text.secondary">
-                            Ages: {age}
+                            <b>Ages:</b> {age}
                         </Typography>
                         <Typography fontFamily='Montserrat' variant="body2" color="text.secondary">
-                            Distances: {distance}
+                            <b>Distances:</b> {distance}
                         </Typography>
                         <Typography fontFamily='Montserrat' variant="body2" color="text.secondary">
-                            Experience Level: {experience}
+                            <b>Experience Level:</b> {experience}
                         </Typography>
                         <Typography fontFamily='Montserrat' variant="body2" color="text.secondary">
-                            Training: {training}
+                            <b>Training:</b> {training}
                         </Typography>
                         <Typography fontFamily='Montserrat' variant="body2" color="text.secondary">
-                            Practices: {schedule}
+                            <b>Practices:</b> {schedule}
                         </Typography>
                         <Typography fontFamily='Montserrat' variant="body2" color="text.secondary">
-                            Competitions: {races}
+                            <b>Competitions:</b> {races}
                         </Typography>
                         <Typography fontFamily='Montserrat' variant="body2" color="text.secondary">
-                            Seasons: {seasons}
+                            <b>Seasons:</b> {seasons}
                         </Typography>
+                        <Button>Learn More</Button>
                     </CardContent>
 
                     </div>
