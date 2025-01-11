@@ -10,6 +10,9 @@ import Navbar from 'react-bootstrap/Navbar';
 import './index.css'
 
 import Home from './components/home.component.jsx';
+import Junior from './components/programs/junior.component.jsx';
+import Distance from './components/programs/distance.component.jsx';
+import Sprint from './components/programs/sprint.component.jsx';
 
 ReactDOM.createRoot(document.getElementById('navBar')).render(
   <React.StrictMode>
@@ -33,7 +36,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />}/>
-        
+        <Route path='/Junior' element={<Junior />}/>
+        <Route path='/Distance' element={<Distance />}/>
+        <Route path='/Sprint' element={<Sprint />}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
