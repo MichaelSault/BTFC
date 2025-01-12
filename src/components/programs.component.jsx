@@ -1,4 +1,3 @@
-import { useNavigate } from "react-router-dom";
 import '../App.css';
 
 import ProgramCard from "./programCard.component";
@@ -9,12 +8,11 @@ import senior from '../assets/runningbanner.jpeg';
 import sprint from '../assets/runningbanner.jpeg';
 
 function Programs() {
-  const navigate = useNavigate();
 
   return (
     <>
         <div className="programsRow">
-            <h1 className="title">Programs</h1>
+          <h1 className="title">Programs</h1>
         
 
           <div className="bodyProgramCards">
@@ -29,6 +27,7 @@ function Programs() {
                 schedule="Indoor - Monday, Wednesday; Outdoor / XC - Monday, Thursday 6-7:30pm" 
                 races="Meets are on weekends throughout each season. Meet schedules are TBC" 
                 seasons="January to April: Indoor Training; May to August: Outdoor Track; September to December: Cross Country + Indoor Training"
+                url="/Junior"
               />
               <ProgramCard
                 photo={senior}
@@ -40,6 +39,7 @@ function Programs() {
                 schedule="Monday and Wednesday evenings; Saturday mornings" 
                 races="Meets are on weekends throughout each season and some weekday evenings in summer." 
                 seasons="January to April: Indoor Training; May to August: Outdoor Track; September to December: Cross Country + Indoor Training"
+                url="/Distance"
               />
               <ProgramCard
                 photo={sprint}
@@ -51,6 +51,7 @@ function Programs() {
                 schedule="Monday and Wednesday evenings; Saturday mornings" 
                 races="Meets are on weekends throughout each season and some weekday evenings in summer." 
                 seasons="January to April: Indoor Training; May to August: Outdoor Track; September to December: Outdoor + Indoor Training"
+                url="/Sprint"
               />
             </div>
           </div>

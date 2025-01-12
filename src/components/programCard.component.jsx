@@ -1,4 +1,5 @@
 import { forwardRef } from 'react';
+import { useNavigate } from "react-router-dom";
 import '../App.css';
 
 import {Button} from "react-bootstrap";
@@ -20,11 +21,14 @@ const ProgramCard = forwardRef(
             training,
             schedule,
             races,
-            seasons
+            seasons,
+            url
         },
         ref
     ) => {
     
+    const navigate = useNavigate();
+
     return (
         <>
 
@@ -62,7 +66,7 @@ const ProgramCard = forwardRef(
                         <Typography fontFamily='Montserrat' variant="body2" color="text.secondary">
                             <b>Seasons:</b> {seasons}
                         </Typography>
-                        <Button>Learn More</Button>
+                        <Button onClick={() => navigate({url})}>Learn More</Button>
                     </CardContent>
 
                     </div>
