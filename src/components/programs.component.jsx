@@ -27,7 +27,7 @@ function Programs() {
                 schedule="Indoor - Monday, Wednesday; Outdoor / XC - Monday, Thursday 6-7:30pm" 
                 races="Meets are on weekends throughout each season. Meet schedules are TBC" 
                 seasons="January to April: Indoor Training; May to August: Outdoor Track; September to December: Cross Country + Indoor Training"
-                url="/Junior"
+                url="Junior"
               />
               <ProgramCard
                 photo={senior}
@@ -39,7 +39,7 @@ function Programs() {
                 schedule="Monday and Wednesday evenings; Saturday mornings" 
                 races="Meets are on weekends throughout each season and some weekday evenings in summer." 
                 seasons="January to April: Indoor Training; May to August: Outdoor Track; September to December: Cross Country + Indoor Training"
-                url="/Distance"
+                url="Distance"
               />
               <ProgramCard
                 photo={sprint}
@@ -51,7 +51,7 @@ function Programs() {
                 schedule="Monday and Wednesday evenings; Saturday mornings" 
                 races="Meets are on weekends throughout each season and some weekday evenings in summer." 
                 seasons="January to April: Indoor Training; May to August: Outdoor Track; September to December: Outdoor + Indoor Training"
-                url="/Sprint"
+                url="Sprint"
               />
             </div>
           </div>

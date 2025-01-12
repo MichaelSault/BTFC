@@ -66,7 +66,7 @@ const ProgramCard = forwardRef(
                         <Typography fontFamily='Montserrat' variant="body2" color="text.secondary">
                             <b>Seasons:</b> {seasons}
                         </Typography>
-                        <Button onClick={() => navigate({url})}>Learn More</Button>
+                        <Button onClick={() => navigate('/'+{url}.url)}>Learn More</Button>
                     </CardContent>
 
                     </div>
