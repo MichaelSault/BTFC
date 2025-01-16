@@ -51,6 +51,12 @@ button {
   justify-content: space-between;
 }
 
+.centerSocials {
+  justify-content: center;
+  display: flex;
+  min-width: 100%;
+}
+
 .contactRow {
   display: flex;
   flex-direction: row;

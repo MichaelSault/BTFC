@@ -12,6 +12,7 @@ import Programs from './programs.component.jsx';
 import Contact from "./contact.component.jsx";
 import Results from "./results.component.jsx";
 import Directors from "./directors.component.jsx";
+import Footer from "./socialFooter.component.jsx";
 
 function Home() {
   const navigate = useNavigate();
@@ -24,6 +25,7 @@ function Home() {
         <Contact/>
         <Results/>
         <Directors/>
+        <Footer />
     </>
   )
 }
