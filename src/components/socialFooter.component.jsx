@@ -65,19 +65,17 @@ function Footer() {
                 <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
                 <h6 className='text-uppercase fw-bold mb-4 text-white'>Contact</h6>
                 <p className='text-white'>
-                    <MDBIcon icon="home" className="me-2" />
                     Head Coach - Tammy Mackenzie
                 </p>
                 <p className='text-white'>
-                    <MDBIcon icon="envelope" className="me-3" />
+                    <MDBIcon icon="envelope" className="me-1" />
                     tammymackenzie@bell.net
                 </p>
                 <p className='text-white'>
-                    <MDBIcon icon="home" className="me-2" />
                     General Inquires
                 </p>
                 <p className='text-white'>
-                    <MDBIcon icon="print" className="me-3" />
+                    <MDBIcon icon="envelope" className="me-1" />
                     president@burlingtontrackandfield.org
                 </p>
                 </MDBCol>
@@ -86,29 +84,23 @@ function Footer() {
         </section>
 
         <div className='text-center p-4 text-white' style={{ backgroundColor: 'rgba(0, 0, 0, 0.02)' }}>
-            © 2021 Copyright Burlington Track and Field Club
+            © 2025 Copyright Burlington Track and Field Club
         </div>
 
         <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
             <div className="centerSocials">
-                <a href='' className='me-4 text-reset text-white'>
-                    <MDBIcon icon="facebook-f" className='text-white'/>
+                <a href='https://www.burlingtontrackandfield.org/' className='me-4 text-reset text-white'>
+                    <MDBIcon icon="desktop" className='text-white'/>
                 </a>
-                <a href='' className='me-4 text-reset'>
-                    <MDBIcon icon="twitter" className='text-white'/>
+                <a href='https://www.burlingtontrackandfield.org/race-results' className='me-4 text-reset'>
+                    <MDBIcon icon="folder" className='text-white'/>
                 </a>
-                <a href='' className='me-4 text-reset'>
-                    <MDBIcon icon="google" className='text-white'/>
+                <a href='mailto:president@burlingtontrackandfield.org' className='me-4 text-reset'>
+                    <MDBIcon icon="envelope" className='text-white'/>
                 </a>
-                <a href='' className='me-4 text-reset'>
+                <a href='https://www.instagram.com/burlington_track_field_club/' className='me-4 text-reset'>
                     <MDBIcon icon="instagram" className='text-white'/>
-                </a>
-                <a href='' className='me-4 text-reset'>
-                    <MDBIcon icon="linkedin" className='text-white'/>
-                </a>
-                <a href='' className='me-4 text-reset'>
-                    <MDBIcon icon="github" className='text-white'/>
-                </a>   
+                </a> 
             </div>
         </section>
     </MDBFooter>
