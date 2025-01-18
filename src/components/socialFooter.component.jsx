@@ -22,18 +22,18 @@ function Footer() {
                 <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
                 <h6 className='text-uppercase fw-bold mb-4 text-white'>Programs</h6>
                 <p>
-                    <a href='#!' className='text-white'>
-                    Junior
+                    <a href='Junior' className='text-white'>
+                        Junior
                     </a>
                 </p>
                 <p>
-                    <a href='#!' className='text-white'>
-                    Senior Distance
+                    <a href='Distance' className='text-white'>
+                        Senior Distance
                     </a>
                 </p>
                 <p>
-                    <a href='#!' className='text-white'>
-                    Senior Sprint
+                    <a href='Sprint' className='text-white'>
+                        Senior Sprint
                     </a>
                 </p>
                 </MDBCol>
@@ -41,23 +41,23 @@ function Footer() {
                 <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
                 <h6 className='text-uppercase fw-bold mb-4 text-white'>Useful links</h6>
                 <p>
-                    <a href='#!' className='text-white'>
-                    Registration
+                    <a href='Programs' className='text-white'>
+                        Registration
                     </a>
                 </p>
                 <p>
-                    <a href='#!' className='text-white'>
-                    Results
+                    <a href='Results' className='text-white'>
+                        Results
                     </a>
                 </p>
                 <p>
-                    <a href='#!' className='text-white'>
-                    Contact
+                    <a href='Contact' className='text-white'>
+                        Contact
                     </a>
                 </p>
                 <p>
-                    <a href='#!' className='text-white'>
-                    Board of Directors
+                    <a href='Directors' className='text-white'>
+                        Board of Directors
                     </a>
                 </p>
                 </MDBCol>
@@ -92,7 +92,7 @@ function Footer() {
                 <a href='https://www.burlingtontrackandfield.org/' className='me-4 text-reset text-white'>
                     <MDBIcon icon="desktop" className='text-white'/>
                 </a>
-                <a href='https://www.burlingtontrackandfield.org/race-results' className='me-4 text-reset'>
+                <a href='Results' className='me-4 text-reset'>
                     <MDBIcon icon="folder" className='text-white'/>
                 </a>
                 <a href='mailto:president@burlingtontrackandfield.org' className='me-4 text-reset'>

@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useState } from 'react'
 import '../../App.css';
 
+import Footer from "../socialFooter.component";
 
 function Distance() {
   const navigate = useNavigate();
@@ -10,6 +11,7 @@ function Distance() {
   return (
     <>
         <h1>Senior Distance Program</h1>
+        <Footer/>
     </>
   )
 }

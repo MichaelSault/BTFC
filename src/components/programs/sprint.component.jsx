@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useState } from 'react'
 import '../../App.css';
 
+import Footer from "../socialFooter.component";
 
 function Sprint() {
   const navigate = useNavigate();
@@ -10,6 +11,7 @@ function Sprint() {
   return (
     <>
         <h1>Senior Sprint Program</h1>
+        <Footer/>
     </>
   )
 }
