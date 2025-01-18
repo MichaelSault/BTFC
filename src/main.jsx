@@ -14,6 +14,11 @@ import Junior from './components/programs/junior.component.jsx';
 import Distance from './components/programs/distance.component.jsx';
 import Sprint from './components/programs/sprint.component.jsx';
 
+import Programs from './components/programs.component.jsx';
+import Contact from './components/contact.component.jsx';
+import Results from './components/results.component.jsx';
+import Directors from './components/directors.component.jsx';
+
 ReactDOM.createRoot(document.getElementById('navBar')).render(
   <React.StrictMode>
     <Navbar bg="dark" data-bs-theme="dark">
@@ -39,6 +44,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='/Junior' element={<Junior />}/>
         <Route path='/Distance' element={<Distance />}/>
         <Route path='/Sprint' element={<Sprint />}/>
+        <Route path='/Programs' element={<Programs/>}/>
+        <Route path='/Register' element={<Programs/>}/>
+        <Route path='/Contact' element={<Contact/>}/>
+        <Route path='Results' element={<Results/>}/>
+        <Route path='Directors' element={<Directors/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
