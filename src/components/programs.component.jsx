@@ -3,9 +3,9 @@ import '../App.css';
 import ProgramCard from "./programCard.component";
 
 //card photos
-import junior from '../assets/runningbanner.jpeg';
-import senior from '../assets/runningbanner.jpeg';
-import sprint from '../assets/runningbanner.jpeg';
+import junior from '../assets/lasalpark.png';
+import senior from '../assets/distance.jpeg';
+import sprint from '../assets/sprint.jpeg';
 
 function Programs() {
 
@@ -19,7 +19,7 @@ function Programs() {
             <div className="programsCardsRow">
               <ProgramCard
                 photo={junior}
-                name="Junior(MTA)" 
+                name="Junior (MTA)" 
                 age="6 to 13" 
                 distance="All" 
                 experience="All levels welcome" 
