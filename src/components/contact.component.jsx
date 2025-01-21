@@ -4,6 +4,8 @@ import { useState } from 'react';
 import '../App.css';
 import '../styles/contact.css';
 
+import ContactImage from '../assets/contact.png';
+
 
 function Contact() {
   const navigate = useNavigate();
@@ -30,7 +32,8 @@ function Contact() {
             </div>
         </div>
         <div className='contactPhotoCol'>
-          <h2 className='attireSubText'>Contact Us Image</h2>
+          <img src={ContactImage} />
+          <h6 className='contactSubText'><i>Caption text for the above image.</i></h6>
         </div>
       </div>
                 
