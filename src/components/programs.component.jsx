@@ -12,7 +12,7 @@ function Programs() {
   return (
     <>
         <div className="programsRow">
-          <h1 className="title">Programs</h1>
+          {/* <h1 className="title">Programs</h1> */}
         
 
           <div className="bodyProgramCards">

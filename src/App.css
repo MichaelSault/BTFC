@@ -1,10 +1,10 @@
 #root {
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
 }
 
 body {
-  background-color: #c5e4bf;
+  background-color: #d4e6d1;
 }
 
 .homeBody {
@@ -79,6 +79,27 @@ button {
   background-color: #e4e2bf;
 }
 
+hr {
+  align-self: left;
+  width: 100%;
+}
+
+.fullHr {
+  align-self: center;
+  width: 90%;
+}
+
+.introRow {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  min-height: 30vh;
+  justify-content: left;
+  padding: 3em 15em;
+  background-color: #d4e6d1;
+}
+
 .programCard {
   display: flex;
   flex-direction: row;
@@ -107,13 +128,13 @@ button {
 
 .programsRow {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   align-items: flex-start;
   min-height: 100vh;
-  justify-content: center;
+  justify-content: left;
   padding: 3em 3em;
-  background-color: #c5e4bf;
+  background-color: #d4e6d1;
 }
 
 .registrationRow {
