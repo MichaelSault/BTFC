@@ -44,7 +44,7 @@ button {
 }
 
 .cardText {
-  max-width: 500px;
+  width: 1000px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -107,6 +107,16 @@ hr {
   align-items: flex-start;
   justify-content: center;
   min-width: 500px;
+}
+
+.programCardLong {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  width: 90vw;
+  padding-bottom: 1em;
 }
 
 .programsCardsRow {

@@ -2,6 +2,8 @@ import '../App.css';
 
 import ProgramCard from "./programCard.component";
 
+import ProgramCardLong from "./programCardLong.component";
+
 //card photos
 import junior from '../assets/lasalpark.png';
 import senior from '../assets/distance.jpeg';
@@ -17,7 +19,7 @@ function Programs() {
 
           <div className="bodyProgramCards">
             <div className="programsCardsRow">
-              <ProgramCard
+              <ProgramCardLong
                 photo={junior}
                 name="Junior (MTA)" 
                 age="6 to 13" 
@@ -29,7 +31,7 @@ function Programs() {
                 seasons="January to April: Indoor Training; May to August: Outdoor Track; September to December: Cross Country + Indoor Training"
                 url="Junior"
               />
-              <ProgramCard
+              <ProgramCardLong
                 photo={senior}
                 name="Senior Distance (AO)" 
                 distance="Middle & Long 800m and up" 
@@ -41,7 +43,7 @@ function Programs() {
                 seasons="January to April: Indoor Training; May to August: Outdoor Track; September to December: Cross Country + Indoor Training"
                 url="Distance"
               />
-              <ProgramCard
+              <ProgramCardLong
                 photo={sprint}
                 name="Senior Sprint (AO)" 
                 distance="Sprint up to 400m" 
