@@ -87,7 +87,7 @@ function Footer() {
             © 2025 Copyright Burlington Track and Field Club
         </div>
 
-        <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
+        <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom' style={{ backgroundColor: 'rgba(0, 0, 0, 0.02)' }}>
             <div className="centerSocials">
                 <a href='https://www.burlingtontrackandfield.org/' className='me-4 text-reset text-white'>
                     <MDBIcon icon="desktop" className='text-white'/>

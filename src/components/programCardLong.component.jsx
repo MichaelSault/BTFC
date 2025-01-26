@@ -66,7 +66,7 @@ const ProgramCardLong = forwardRef(
                 </Box>
                 <CardMedia
                     component="img"
-                    sx={{ width: 300, height: 300 }}
+                    sx={{ width: 300, minHeight: 300 }}
                     image={photo}
                     alt="Live from space album cover"
                 />

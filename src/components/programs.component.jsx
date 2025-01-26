@@ -14,9 +14,8 @@ function Programs() {
   return (
     <>
         <div className="programsRow">
-          {/* <h1 className="title">Programs</h1> */}
-        
-
+          <hr/>
+          <h1><b>Available Programs</b></h1>
           <div className="bodyProgramCards">
             <div className="programsCardsRow">
               <ProgramCardLong
