@@ -2,23 +2,21 @@ import '../App.css';
 
 import ProgramCard from "./programCard.component";
 
-import ProgramCardLong from "./programCardLong.component";
-
 //card photos
 import junior from '../assets/lasalpark.png';
 import senior from '../assets/distance.jpeg';
 import sprint from '../assets/sprint.jpeg';
 
-function Programs() {
+function ProgramsMobile() {
 
   return (
     <>
-        <div className="programsRow desktopOnly">
+        <div className="programsRow mobileOnly">
           <hr/>
           <h1><b>Available Programs</b></h1>
           <div className="bodyProgramCards">
             <div className="programsCardsRow">
-              <ProgramCardLong
+              <ProgramCard
                 photo={junior}
                 name="Junior (MTA)" 
                 age="6 to 13" 
@@ -30,7 +28,7 @@ function Programs() {
                 seasons="January to April: Indoor Training; May to August: Outdoor Track; September to December: Cross Country + Indoor Training"
                 url="Junior"
               />
-              <ProgramCardLong
+              <ProgramCard
                 photo={senior}
                 name="Senior Distance (AO)" 
                 distance="Middle & Long 800m and up" 
@@ -42,7 +40,7 @@ function Programs() {
                 seasons="January to April: Indoor Training; May to August: Outdoor Track; September to December: Cross Country + Indoor Training"
                 url="Distance"
               />
-              <ProgramCardLong
+              <ProgramCard
                 photo={sprint}
                 name="Senior Sprint (AO)" 
                 distance="Sprint up to 400m" 
@@ -61,4 +59,4 @@ function Programs() {
   )
 }
 
-export default Programs
+export default ProgramsMobile
