@@ -44,7 +44,7 @@ button {
 }
 
 .cardText {
-  width: 1000px;
+  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -145,7 +145,7 @@ hr {
   min-height: 100vh;
   justify-content: left;
   padding: 3em 3em;
-  background-color: #d4e6d1;
+  background-color: #ebece91f;
 }
 
 .registrationRow {

@@ -15,7 +15,7 @@ function Programs() {
     <>
         <div className="programsRow desktopOnly">
           <hr/>
-          <h1><b>Available Programs</b></h1>
+          <h1>Available Programs</h1>
           <div className="bodyProgramCards">
             <div className="programsCardsRow">
               <ProgramCardLong

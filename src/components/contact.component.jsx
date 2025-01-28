@@ -15,19 +15,19 @@ function Contact() {
       <div className='contactRow'>
         <div className='ContactQuestionsCol'>
             <div className='contactTitleSubCol'>
-                <h1 className='contactTitle'>Contact Us</h1>
+                <h2 className='contactTitle'>Contact Us</h2>
                 <hr className='hrContact'/>
                 
                 <div className='contactInfoSubCol'>
-                  <h2>Tammy Mackenzie - Head Coach</h2>
-                  <h4>Junior Group - Ages 5 to 13</h4>
-                  <h4>Senior Distance Group - Highschool Age</h4>
+                  <h3>Tammy Mackenzie - Head Coach</h3>
+                  <h6>Junior Group - Ages 5 to 13</h6>
+                  <h6>Senior Distance Group - Highschool Age</h6>
                   <br/>
-                  <h4>Email - tammymackenzie@bell.net</h4>
-                  <h4>Call - (905)-332-7072</h4>
+                  <h6>Email - tammymackenzie@bell.net</h6>
+                  <h6>Call - (905)-332-7072</h6>
                   <br/>
-                  <h2>General Inquiries</h2>
-                  <h4>Email - president@burlingtontrackandfield.org</h4>
+                  <h3>General Inquiries</h3>
+                  <h6>Email - president@burlingtontrackandfield.org</h6>
                 </div>
             </div>
         </div>
