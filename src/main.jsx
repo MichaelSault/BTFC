@@ -19,6 +19,8 @@ import Contact from './components/contact.component.jsx';
 import Results from './components/results.component.jsx';
 import Directors from './components/directors.component.jsx';
 
+import Footer from './components/socialFooter.component.jsx';
+
 ReactDOM.createRoot(document.getElementById('navBar')).render(
   <React.StrictMode>
     <Navbar bg="dark" data-bs-theme="dark">
@@ -50,7 +52,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='Results' element={<Results/>}/>
         <Route path='Directors' element={<Directors/>}/>
       </Routes>
+      <Footer/>
     </BrowserRouter>
+    
   </React.StrictMode>
+
+  
 )
 

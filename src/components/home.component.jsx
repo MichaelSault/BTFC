@@ -37,7 +37,6 @@ function Home() {
         
         <Results/>
         <Directors/> */}
-        <Footer />
     </>
   )
 }
