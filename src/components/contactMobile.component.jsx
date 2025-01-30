@@ -7,15 +7,15 @@ import '../styles/contact.css';
 import ContactImage from '../assets/contact.png';
 
 
-function Contact() {
+function ContactMobile() {
   const navigate = useNavigate();
 
   return (
-    <div className="desktopOnly">
+    <div className="mobileOnly">
       <div className='contactRow'>
         <div className='ContactQuestionsCol'>
             <div className='contactTitleSubCol'>
-                <h2 className='contactTitle'>Contact Us</h2>
+                <h2 className='contactTitle'>Contact Us (Mobile)</h2>
                 <hr className='hrContact'/>
                 
                 <div className='contactInfoSubCol'>
@@ -41,4 +41,4 @@ function Contact() {
   )
 }
 
-export default Contact
+export default ContactMobile

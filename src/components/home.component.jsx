@@ -10,8 +10,10 @@ import Banner from '../assets/runningbanner.jpeg';
 //import page components
 import Programs from './programs.component.jsx';
 import ProgramsMobile from './programsMobile.component..jsx';
-import Contact from "./contact.component.jsx";
 import Results from "./results.component.jsx";
+import ResultsMobile from "./resultsMobile.component.jsx";
+import Contact from "./contact.component.jsx";
+import ContactMobile from "./contactMobile.component.jsx";
 import Directors from "./directors.component.jsx";
 import Footer from "./socialFooter.component.jsx";
 
@@ -29,13 +31,15 @@ function Home() {
               but this will serve as some sort of placeholder.</p>
         </div>
         <Programs/>
-        <ProgramsMobile className="mobileOnly"/>
-
+        <ProgramsMobile/>
+        <Results/>
+        <ResultsMobile/>
         <Contact/>
+        <ContactMobile/>
         {/* <h1 className="title">Burlington Track and Field Club</h1> */}
         {/*
         
-        <Results/>
+        
         <Directors/> */}
     </>
   )

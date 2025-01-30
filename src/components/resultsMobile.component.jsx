@@ -9,15 +9,15 @@ import ContactImage from '../assets/contact.png';
 
 
 
-function Results() {
+function ResultsMobile() {
   const navigate = useNavigate();
 
   return (
-    <div className='desktopOnly'>
-      <div className='resultsRow desktopOnly'>
+    <div className='mobileOnly'>
+      <div className='resultsRow'>
         <div className='resultsQuestionsCol'>
             <div className='resultsTitleSubCol'>
-                <h2 className='resultsTitle'>Gord Rusby Memorial Meet</h2>
+                <h2 className='resultsTitle'>Gord Rusby Memorial Meet (Mobile)</h2>
                 <hr className='hrResults'/>
                 
                 <div className='resultsInfoSubCol'>
@@ -47,7 +47,7 @@ function Results() {
         </div>
         <div className='resultsQuestionsCol'>
             <div className='resultsTitleSubCol'>
-                <h2 className='resultsTitle'>Ken Lake Memorial Meet</h2>
+                <h2 className='resultsTitle'>Ken Lake Memorial Meet (Mobile)</h2>
                 <hr className='hrResults'/>
                 
                 <div className='resultsInfoSubCol'>
@@ -71,4 +71,4 @@ function Results() {
   )
 }
 
-export default Results
+export default ResultsMobile
