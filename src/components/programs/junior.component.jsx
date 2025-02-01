@@ -12,7 +12,6 @@ function Junior() {
   return (
     <>
         <h1>Junior Program</h1>
-        <Footer/>
     </>
   )
 }

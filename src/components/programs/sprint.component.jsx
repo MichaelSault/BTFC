@@ -11,7 +11,7 @@ function Sprint() {
   return (
     <>
         <h1>Senior Sprint Program</h1>
-        <Footer/>
+        
     </>
   )
 }

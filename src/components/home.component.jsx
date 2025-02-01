@@ -15,6 +15,7 @@ import ResultsMobile from "./resultsMobile.component.jsx";
 import Contact from "./contact.component.jsx";
 import ContactMobile from "./contactMobile.component.jsx";
 import Directors from "./directors.component.jsx";
+import DirectorsMobile from "./directorsMobile.component.jsx";
 import Footer from "./socialFooter.component.jsx";
 
 function Home() {
@@ -36,11 +37,8 @@ function Home() {
         <ResultsMobile/>
         <Contact/>
         <ContactMobile/>
-        {/* <h1 className="title">Burlington Track and Field Club</h1> */}
-        {/*
-        
-        
-        <Directors/> */}
+        <Directors/>
+        <DirectorsMobile/>
     </>
   )
 }

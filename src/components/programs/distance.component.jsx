@@ -11,7 +11,6 @@ function Distance() {
   return (
     <>
         <h1>Senior Distance Program</h1>
-        <Footer/>
     </>
   )
 }

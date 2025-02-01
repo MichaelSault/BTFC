@@ -4,12 +4,12 @@ import { useState } from 'react'
 import '../App.css'
 
 
-function Directors() {
+function DirectorsMobile() {
   const navigate = useNavigate();
 
   return (
     <>
-        <div className="directorsRow desktopOnly">
+        <div className="directorsRow mobileOnly">
             <h4>Board of Directors</h4>
         </div>
                 
@@ -17,4 +17,4 @@ function Directors() {
   )
 }
 
-export default Directors
+export default DirectorsMobile
