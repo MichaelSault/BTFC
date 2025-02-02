@@ -49,8 +49,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='/Programs' element={<Programs/>}/>
         <Route path='/Register' element={<Programs/>}/>
         <Route path='/Contact' element={<Contact/>}/>
-        <Route path='Results' element={<Results/>}/>
-        <Route path='Directors' element={<Directors/>}/>
+        <Route path='/Results' element={<Results/>}/>
+        <Route path='/Directors' element={<Directors/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>
