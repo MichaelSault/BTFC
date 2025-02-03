@@ -18,7 +18,16 @@
     padding-top: 3em;
     /* border-style: dashed; */
     justify-content: start;
-  
+  }
+
+  .directorsColMobile {
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+    width: 100%;
+    padding-top: 3em;
+    /* border-style: dashed; */
+    justify-content: start;
   }
   
   .directorsPhotoCol {

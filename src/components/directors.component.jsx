@@ -11,8 +11,8 @@ function Directors() {
   const navigate = useNavigate();
 
   return (
-    <>
-        <div className="directorsRow desktopOnly">
+    <div className="desktopOnly">
+        <div className="directorsRow">
             <h4>Board of Directors</h4>
             <div className="directorsCol">
               <h6>Our board of directors helps ensure that the club is able to operate and is equipped tp provide the best experience for our athletes.</h6>
@@ -32,7 +32,7 @@ function Directors() {
             </div>
         </div>
                 
-    </>
+    </div>
   )
 }
 
