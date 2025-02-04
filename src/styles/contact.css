@@ -3,7 +3,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
-    height: 100vh;
+    height: 80vh;
     justify-content: center;
     padding: 3em 3em;
     /* border-style: dashed; */
@@ -12,10 +12,11 @@
   
   .contactQuestionsCol {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     height: 85%;
-    width: 50%;
+    width: 40%;
     padding-top: 3em;
+    margin: 3em;
     /* border-style: dashed; */
     justify-content: center;
   
