@@ -3,11 +3,8 @@ import { useNavigate } from "react-router-dom";
 import { useState } from 'react'
 import '../App.css'
 
-
-//import photos
-import Banner from '../assets/runningbanner.jpeg';
-
 //import page components
+import BannerHero from './banner.component.jsx';
 import Programs from './programs.component.jsx';
 import ProgramsMobile from './programsMobile.component..jsx';
 import Results from "./results.component.jsx";
@@ -23,7 +20,7 @@ function Home() {
 
   return (
     <>
-        <img src={Banner} className="banner"/>
+        <BannerHero />
         <div className="introRow">
           <h1><b>The Burlington Track and Field Club</b></h1>
           <hr/>
