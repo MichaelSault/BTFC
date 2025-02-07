@@ -3,6 +3,7 @@
 .Banner {
     font-family: Anton;
     font-size: 160px;
+    max-width: 1000px;
 
     color: green;
 
