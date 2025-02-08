@@ -1,0 +1,51 @@
+@import "../fonts/fonts.css";
+
+.programsRow {
+    background-color: #10ab08;
+}
+
+.title {
+    font-family: Anton;
+    font-size: 130px;
+    max-width: 1000px;
+
+    color: #ffe500;
+
+    padding-top: .5em;
+    align-self: center;
+}
+
+.description {
+    font-family: Pragmatica;
+    font-size: 30px;
+    color: whitesmoke;
+
+    max-width: 800px;
+    padding-top: 6em;
+    align-self: center;
+}
+
+.buttonRow {
+    padding-top: 5em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    height: 60px;
+    width: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+    font-family: Anton;
+    font-size: 30px;
+    color: white;
+
+    align-self: center;
+    align-items: center;
+    margin: 1em;
+    
+
+}

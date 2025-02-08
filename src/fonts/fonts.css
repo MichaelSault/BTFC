@@ -2,3 +2,8 @@
     font-family: 'Anton';
     src: local('Anton-Regular'), url('./Anton-Regular.ttf') format('truetype');
 }
+
+@font-face {
+    font-family: 'Pragmatica';
+    src: local('Pragmatica'), url('./Pragmatica.ttf') format('truetype');
+}
