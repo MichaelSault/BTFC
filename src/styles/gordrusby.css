@@ -1,0 +1,15 @@
+.grRow {
+    height: 100vh;
+}
+
+.grCol {
+    height: 100vh;
+    width: 50%;
+    background-color: #10ab08;
+}
+
+.grCol2 {
+    height: 100vh;
+    width: 50%;
+    background-image: url(../assets/runningbanner.jpeg);
+}

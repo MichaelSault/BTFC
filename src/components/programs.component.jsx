@@ -13,7 +13,6 @@ function Programs() {
             <a className='button'>DISTANCE</a>
             <a className='button'>SPRINT</a>
           </div>
-            
         </div>
     </>
   )

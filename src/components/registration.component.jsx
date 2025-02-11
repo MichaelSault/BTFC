@@ -12,7 +12,9 @@ function Registration() {
                 <h1 className='registrationTitle'>REGISTRATION OPTIONS</h1>
                 <div className='disclaimerBox'>
                     <p className='registrationDisclaimer'>
-                        Fees include weekly training, MTA membership fees, meet entries and club singlet.
+                        <i>
+                            Fees include weekly training, MTA membership fees, meet entries and club singlet.
+                        </i>
                     </p>
                 </div>
             </div>
