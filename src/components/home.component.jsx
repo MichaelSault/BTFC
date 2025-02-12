@@ -8,6 +8,7 @@ import BannerHero from './banner.component.jsx';
 import Programs from './programs.component.jsx';
 import ProgramsMobile from './programsMobile.component..jsx';
 import GordRusby from "./gordRusby.component.jsx";
+import KenLake from "./kenLake.component.jsx";
 import Registration from "./registration.component.jsx";
 
 function Home() {
@@ -20,6 +21,7 @@ function Home() {
         <ProgramsMobile/>
         <Registration/>
         <GordRusby/>
+        <KenLake/>
     </>
   )
 }
