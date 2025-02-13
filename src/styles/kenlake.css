@@ -1,15 +1,17 @@
-.grRow {
+.klRow {
     height: 100vh;
     display: flex;
 }
 
-.grCol {
+.klCol {
     height: 100vh;
     width: 50%;
     background-color: #10ab08;
+
+    transform: rotate(10deg);
 }
 
-.grCol2 {
+.klCol2 {
     height: 100vh;
     width: 50%;
     background-image: url(../assets/runningbanner.jpeg);
