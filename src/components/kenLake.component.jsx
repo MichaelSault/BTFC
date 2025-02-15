@@ -8,12 +8,16 @@ function KenLake() {
     <>
       <div className='klRow'>
         <div className='klCol2'>
+          <div className="outerwrapperKL">
+            <div className='innerwrapperKL'>
               test
+            </div>
           </div>
-          <div className='klCol'>
-              <h1 className='title'>KEN LAKE MEMORIAL MEET</h1>
-              <p className='description'>Every year, the Burlington Track and Field Club hosts the Ken Lake Memorial Meet during the Cross Country season.</p>
-          </div>
+        </div>
+        <div className='klCol'>
+            <h1 className='title'>KEN LAKE MEMORIAL MEET</h1>
+            <p className='description'>Every year, the Burlington Track and Field Club hosts the Ken Lake Memorial Meet during the Cross Country season.</p>
+        </div>
           
       </div>
     </>

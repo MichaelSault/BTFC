@@ -13,5 +13,33 @@
 .klCol2 {
     height: 100vh;
     width: 50%;
+    
+    overflow: hidden;
+
+    background-color: #10ab08;
+}
+
+
+.innerwrapperKL {
+    transform: rotate(-10deg);
+    transform-origin: 0% -10vw;
+    z-index: -1;
+
+
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+
     background-image: url(../assets/runningbanner.jpeg);
+    background-size: auto 150vh;
+}
+
+.outerwrapperKL {
+    transform: rotate(10deg);
+    transform-origin: 150vh -290vw;
+    width: 100vw;
+    height: 150vh;
+    overflow: hidden;
+
+    background-color: pink;
 }
