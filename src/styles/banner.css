@@ -10,6 +10,7 @@
     position: absolute;
     bottom: 10px;
     left: 20px;
+    z-index: 2;
 
     text-shadow:
         -2px   -2px yellow,
@@ -53,4 +54,5 @@
     background-size: 1920px 100vh;
     -webkit-filter: grayscale(100%);
     position: relative;
+    z-index: 2;
 }
