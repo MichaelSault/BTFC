@@ -1,8 +1,6 @@
 import '../App.css';
 import '../styles/registration.css';
 
-import backgroundImage from '../assets/runningbanner.jpeg';
-
 function Contact() {
 
   return (

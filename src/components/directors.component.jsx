@@ -4,34 +4,45 @@ import { useState } from 'react';
 import '../App.css';
 import '../styles/bod.css';
 
-import ContactImage from '../assets/contact.png';
+import BodTile from "./bodTile.component";
+
+import President from "../assets/bodImages/president.jpg";
+import AthleticDirector from "../assets/bodImages/athleticDirector.jpg";
+import Treasurer from "../assets/bodImages/treasurer.jpg";
+
+import Secretary from "../assets/bodImages/secretary.jpg";
+import Coach from "../assets/bodImages/coach.jpg";
+
+import Director1 from "../assets/bodImages/director1.jpg";
+import Director2 from "../assets/bodImages/director2.jpg";
+import Director3 from "../assets/bodImages/director3.jpg";
+import Director4 from "../assets/bodImages/director4.jpg";
+
 
 
 function Directors() {
   const navigate = useNavigate();
 
   return (
-    <div className="desktopOnly">
-      <div className="directorsRow">
-          <h4>Board of Directors</h4>
-      <div className="directorsCol">
-        <h6>Our board of directors helps ensure that the club is able to operate and is equipped tp provide the best experience for our athletes.</h6>
-        <p><b>President</b> - Gustav Karlsson</p>
-        <p><b>Athletic Director</b> - Scott Douglas</p>
-        <p><b>Treasurer</b> - Angus Shuttleworth</p>
-        <p><b>Secretary</b> - Danielle Leahy Laughlin</p>
-        <p><b>Director</b> - Nirup Urs</p>
-        <p><b>Director</b> - Heather Larson</p>
-        <p><b>Director</b> - JC Castellanos</p>
-        <p><b>Director</b> - David Parkes</p>
-        <p><b>Head Coach</b> - Tammy MacKenzie</p>
+    <div className="directorsRow">
+      <div className="bodTitleRow">
+        <h1 className="bodTitle">2025 BOARD OF DIRECTORS</h1>
       </div>
-      <div className="directorsPhotoCol">
-        <img src={ContactImage} />
-        <h6 className='contactSubText'><i>Caption text for the above image.</i></h6>
+      <div className="bodSubRow">
+        <BodTile name={"Gustav Karlsson"} title={"President"} photo={President} />
+        <BodTile name={"Scott Douglas"} title={"Athletic Director"} photo={AthleticDirector}/>
+        <BodTile name={"Angus Shuttleworth"} title={"Treasurer"} photo={Treasurer}/>
       </div>
-    </div>
-                
+      <div className="bodSubRow">
+        <BodTile name={"Danielle Leahy Laughlin"} title={"Secretary"} photo={Secretary}/>
+        <BodTile name={"Tammy MacKenzie"} title={"Head Coach"} photo={Coach}/>
+      </div>
+      <div className="bodSubRow">
+        <BodTile name={"Nirup Urs"} title={"Director"} photo={Director1}/>
+        <BodTile name={"Heather Larsen"} title={"Director"} photo={Director2}/>
+        <BodTile name={"JC Castellanos"} title={"Director"} photo={Director3}/>
+        <BodTile name={"David Parkes"} title={"Director"} photo={Director4}/>
+      </div>
     </div>
   )
 }

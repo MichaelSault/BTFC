@@ -10,6 +10,7 @@ import GordRusby from "./gordRusby.component.jsx";
 import KenLake from "./kenLake.component.jsx";
 import Registration from "./registration.component.jsx";
 import Contact from "./contact.component.jsx";
+import Directors from "./directors.component.jsx";
 
 function Home() {
   const navigate = useNavigate();
@@ -22,6 +23,7 @@ function Home() {
         <GordRusby/>
         <KenLake/>
         <Contact/>
+        <Directors/>
     </>
   )
 }
