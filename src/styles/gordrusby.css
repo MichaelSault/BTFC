@@ -22,7 +22,7 @@
 }
 
 
-.innerwrapper {
+.innerwrapperGR {
     transform: rotate(10deg);
     transform-origin: 0% -10vw;
 
@@ -34,7 +34,7 @@
     background-size: auto 150vh;
 }
 
-.outerwrapper {
+.outerwrapperGR {
     transform: rotate(-10deg);
     transform-origin: 0% -10vw;
     width: 100vw;

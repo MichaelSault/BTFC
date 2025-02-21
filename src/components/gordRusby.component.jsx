@@ -12,8 +12,8 @@ function GordRusby() {
                 <a className='button'>RESULTS</a>
             </div>
             <div className='grCol2'>
-              <div className="outerwrapper">
-                <div className='innerwrapper'>
+              <div className="outerwrapperGR">
+                <div className='innerwrapperGR'>
                   test
                 </div>
               </div>
