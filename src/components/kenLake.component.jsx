@@ -10,7 +10,7 @@ function KenLake() {
         <div className='klCol2'>
           <div className="outerwrapperKL">
             <div className='innerwrapperKL'>
-              test
+              
             </div>
           </div>
         </div>

@@ -36,7 +36,7 @@
 
 .outerwrapperKL {
     transform: rotate(10deg);
-    transform-origin: 150vh -290vw;
+    transform-origin: 200vh -290vw;
     width: 100vw;
     height: 150vh;
     overflow: hidden;
