@@ -21,8 +21,8 @@
 
 
 .innerwrapperKL {
-    transform: rotate(-10deg);
-    transform-origin: 0% -10vw;
+    transform: rotate(5deg);
+    transform-origin: 100vh 100vw;
     z-index: -1;
 
 
@@ -35,8 +35,8 @@
 }
 
 .outerwrapperKL {
-    transform: rotate(10deg);
-    transform-origin: 200vh -290vw;
+    transform: rotate(-5deg);
+    transform-origin: 0vh 650vw;
     width: 100vw;
     height: 150vh;
     overflow: hidden;

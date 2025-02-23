@@ -14,7 +14,6 @@ function GordRusby() {
             <div className='grCol2'>
               <div className='outerwrapperGR'>
                 <div className='innerwrapperGR'>
-                  test
                 </div>
               </div>
             </div>
