@@ -8,6 +8,8 @@
     height: 100vh;
     width: 50%;
     background-color: #10ab08;
+    padding-left: 5em;
+    padding-right: 5em;
 }
 
 .klCol2 {
@@ -42,4 +44,10 @@
     overflow: hidden;
 
     background-color: pink;
+}
+
+.buttonRowKL {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
