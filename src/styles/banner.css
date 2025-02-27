@@ -56,3 +56,20 @@
     position: relative;
     z-index: 2;
 }
+
+
+@media only screen and (max-width: 640px) {
+    .Banner {
+        font-size: 80px;
+        max-width: 500px;
+
+        position: absolute;
+        bottom: 650px;
+        left: 10px;
+    }
+
+    .bannerRow {
+        height: 30vh;
+
+    }
+}

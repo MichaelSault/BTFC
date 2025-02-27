@@ -165,11 +165,3 @@ hr {
   padding: 3em 3em;
   background-color: #c5e4bf;
 }
-
-@media screen and (min-width:800px) {
-  .mobileOnly { display:none }
-}
-
-@media screen and (max-width:799px) {
-  .desktopOnly { display:none }
-}

@@ -5,7 +5,7 @@ function Contact() {
 
   return (
     <>
-        <div className="registrationRow desktopOnly">
+        <div className="registrationRow">
             <div className='registrationCol'>
                 <h1 className='registrationTitle'>CONTACT US</h1>
                 <div className='disclaimerBox'>
