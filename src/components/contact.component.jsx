@@ -1,15 +1,15 @@
 import '../App.css';
-import '../styles/registration.css';
+import '../styles/contact.css';
 
 function Contact() {
 
   return (
     <>
-        <div className="registrationRow">
-            <div className='registrationCol'>
-                <h1 className='registrationTitle'>CONTACT US</h1>
+        <div className="contactRow">
+            <div className='contactCol'>
+                <h1 className='contactTitle'>CONTACT US</h1>
                 <div className='disclaimerBox'>
-                    <p className='registrationDisclaimer'>
+                    <p className='contactDisclaimer'>
                         <b>Tammy Mackenzie</b>
                         <br/>
                         <b><i>Head Coach</i></b>
@@ -27,9 +27,9 @@ function Contact() {
                     </p>
                 </div>
             </div>
-            <div className='registrationCol'>
+            <div className='contactColRight'>
                 <div className='subRow'>
-                    <p className='registrationText'>
+                    <p className='contactText'>
                       We are a volunteer organization with the following aims and objectives:
                       <br/>
                       <br/>
