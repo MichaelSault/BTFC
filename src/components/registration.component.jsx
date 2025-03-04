@@ -11,7 +11,7 @@ function Registration() {
             <div className='registrationCol'>
                 <h1 className='registrationTitle'>REGISTRATION OPTIONS</h1>
                 <div className='disclaimerBox'>
-                    <p className='registrationDisclaimer'>
+                    <p className='registrationDisclaimerDesktop'>
                         <i>
                             Fees include weekly training, MTA membership fees, meet entries and club singlet.
                         </i>
@@ -53,6 +53,13 @@ function Registration() {
                         Junior - $140<br/>
                         Senior - $150<br/>
                         <b><i>Registration opened November 25th, 2024</i></b>
+                    </p>
+                </div>
+                <div className='disclaimerBox'>
+                    <p className='registrationDisclaimerMobile'>
+                        <i>
+                            Fees include weekly training, MTA membership fees, meet entries and club singlet.
+                        </i>
                     </p>
                 </div>
             </div>

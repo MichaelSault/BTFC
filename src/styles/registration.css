@@ -46,12 +46,6 @@
     font-size: 25px;
 }
 
-.registrationDisclaimer {
-    color: whitesmoke;
-    font-size: 25px;
-    align-self: flex-end;
-}
-
 .disclaimerBox {
     height: 50%;
     width: 400px;
@@ -62,15 +56,18 @@
 }
 
 @media only screen and (max-width: 640px) {
-    .disclaimerBox {
+    .registrationDisclaimerDesktop {
         display: none;
+    }
 
-        height: auto;
-        width: 400px;
+    .registrationDisclaimerMobile {
         display: flex;
-        align-self: self-end;
-    
-        padding-left: 3em;
+
+        color: whitesmoke;
+        font-size: 20px;
+        align-self: flex-end;
+
+        margin-top: 2em;
     }
 
     .registrationRow {
@@ -92,7 +89,7 @@
         height: 100%;
         padding-left: 3em;
         padding-right: 3em;
-        margin-bottom: 5em;
+        margin-bottom: 0em;
     }
 
     .registrationTitle {
@@ -103,3 +100,15 @@
         color: #10ab08;
     }
   }
+
+@media only screen and (min-width: 640px) {
+    .registrationDisclaimerDesktop {
+        color: whitesmoke;
+        font-size: 25px;
+        align-self: flex-end;
+    }
+
+    .registrationDisclaimerMobile {
+        display: none;
+    }
+}
