@@ -5,7 +5,7 @@ function GordRusby() {
 
   return (
     <>
-        <div className='grRow'>
+        <div className='grRow desktopOnly'>
             <div className='grCol'>
                 <h1 className='title'>GORD RUSBY MEMORIAL MEET</h1>
                 <p className='resultDescription'>Every year, the Burlington Track and Field Club hosts the Gord Rusby Memorial Meet during the Outdoor Track season.</p>
