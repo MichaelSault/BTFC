@@ -20,6 +20,18 @@ function GordRusby() {
               </div>
             </div>
         </div>
+
+        <div className='grRow mobileOnly'>
+          <div className='grBanner'>
+              <h1 className='title'>GORD RUSBY MEMORIAL MEET</h1>
+          </div>
+          <div className='grCol'>
+            <p className='resultDescription'>Every year, the Burlington Track and Field Club hosts the Gord Rusby Memorial Meet during the Outdoor Track season.</p>
+            <div className='buttonRowGR'>
+              <a className='button'>RESULTS</a>
+            </div>
+          </div>
+        </div>
     </>
   )
 }

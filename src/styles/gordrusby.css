@@ -60,9 +60,29 @@
 }
 
 @media only screen and (max-width: 640px) {
+    .grRow {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+
     .desktopOnly {
         display: none;
-    } 
+    }
+
+    .grCol {
+        width: 100%;
+    }
+
+    .grBanner {
+        width: 100%;
+        background-image: url(../assets/runningbanner.jpeg);
+    }
+
+    .title {
+        padding-top: 1.5em;
+    }
 }
 
 @media only screen and (min-width: 641px) {
