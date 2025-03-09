@@ -68,3 +68,43 @@
   font-weight: bold;
   font-style: italic;
 }
+
+@media only screen and (max-width: 640px) {
+  .desktopOnly {
+      display: none;
+  }
+
+  .directorsRow {
+    flex-wrap: nowrap;
+    align-items: center;
+    height: auto;
+    padding: 2em 1em 1em 1em;
+  }
+
+  .directorsSubRow {
+    flex-direction: column;
+  }
+
+  .bodTileRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 350px;
+    min-width: 350px;
+  }
+
+  .bodTitle {
+    font-family: Anton;
+    font-size: 80px;
+  
+    color: #10ab08;
+  
+    padding: 0;  
+  }
+}
+
+@media only screen and (min-width: 641px) {
+  .mobileOnly {
+      display: none;
+  } 
+}

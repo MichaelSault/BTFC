@@ -5,6 +5,7 @@ import '../App.css';
 import '../styles/bod.css';
 
 import BodTile from "./bodTile.component";
+import BodTileRight from "./bodTileRight.component";
 
 import President from "../assets/bodImages/president.jpg";
 import AthleticDirector from "../assets/bodImages/athleticDirector.jpg";
@@ -24,26 +25,42 @@ function Directors() {
   const navigate = useNavigate();
 
   return (
+    <>
     <div className="directorsRow">
       <div className="bodTitleRow">
-        <h1 className="bodTitle">2025 BOARD OF DIRECTORS</h1>
+        <h1 className="bodTitle">BOARD OF DIRECTORS</h1>
       </div>
-      <div className="bodSubRow">
+      <div className="desktopOnly">
+        <div className="bodSubRow">
+          <BodTile name={"Gustav Karlsson"} title={"President"} photo={President} />
+          <BodTile name={"Scott Douglas"} title={"Athletic Director"} photo={AthleticDirector}/>
+          <BodTile name={"Angus Shuttleworth"} title={"Treasurer"} photo={Treasurer}/>
+        </div>
+        <div className="bodSubRow">
+          <BodTile name={"Danielle Leahy Laughlin"} title={"Secretary"} photo={Secretary}/>
+          <BodTile name={"Tammy MacKenzie"} title={"Head Coach"} photo={Coach}/>
+        </div>
+        <div className="bodSubRow">
+          <BodTile name={"Nirup Urs"} title={"Director"} photo={Director1}/>
+          <BodTile name={"Heather Larsen"} title={"Director"} photo={Director2}/>
+          <BodTile name={"JC Castellanos"} title={"Director"} photo={Director3}/>
+          <BodTile name={"David Parkes"} title={"Director"} photo={Director4}/>
+        </div>
+      </div>
+
+      <div className="mobileOnly">
         <BodTile name={"Gustav Karlsson"} title={"President"} photo={President} />
-        <BodTile name={"Scott Douglas"} title={"Athletic Director"} photo={AthleticDirector}/>
+        <BodTileRight name={"Scott Douglas"} title={"Athletic Director"} photo={AthleticDirector}/>
         <BodTile name={"Angus Shuttleworth"} title={"Treasurer"} photo={Treasurer}/>
-      </div>
-      <div className="bodSubRow">
-        <BodTile name={"Danielle Leahy Laughlin"} title={"Secretary"} photo={Secretary}/>
+        <BodTileRight name={"Danielle Leahy Laughlin"} title={"Secretary"} photo={Secretary}/>
         <BodTile name={"Tammy MacKenzie"} title={"Head Coach"} photo={Coach}/>
-      </div>
-      <div className="bodSubRow">
-        <BodTile name={"Nirup Urs"} title={"Director"} photo={Director1}/>
+        <BodTileRight name={"Nirup Urs"} title={"Director"} photo={Director1}/>
         <BodTile name={"Heather Larsen"} title={"Director"} photo={Director2}/>
-        <BodTile name={"JC Castellanos"} title={"Director"} photo={Director3}/>
+        <BodTileRight name={"JC Castellanos"} title={"Director"} photo={Director3}/>
         <BodTile name={"David Parkes"} title={"Director"} photo={Director4}/>
       </div>
     </div>
+    </>
   )
 }
 

@@ -81,7 +81,11 @@
     }
 
     .title {
-        padding-top: 1.5em;
+        padding-top: 2.5em;
+        padding-bottom: 0.5em;
+        padding-left: 0.25em;
+
+        max-width: 600px;
     }
 }
 
