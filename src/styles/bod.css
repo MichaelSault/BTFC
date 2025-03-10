@@ -78,11 +78,17 @@
     flex-wrap: nowrap;
     align-items: center;
     height: auto;
-    padding: 2em 1em 1em 1em;
+    width: 100%;
+    padding-top: 4em;
+    padding-bottom: 5em;
   }
 
   .directorsSubRow {
     flex-direction: column;
+  }
+
+  .bodTile {
+    padding-top: 1em;
   }
 
   .bodTileRight {
@@ -91,11 +97,14 @@
     justify-content: flex-end;
     width: 350px;
     min-width: 350px;
+
+    padding-top: 1em;
   }
 
   .bodTitle {
+    height: auto;
     font-family: Anton;
-    font-size: 80px;
+    font-size: 70px;
   
     color: #10ab08;
   
@@ -106,5 +115,9 @@
 @media only screen and (min-width: 641px) {
   .mobileOnly {
       display: none;
-  } 
+  }
+
+  .desktopOnly {
+    width: 100%;
+}
 }

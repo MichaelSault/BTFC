@@ -21,6 +21,34 @@
     background-color: #10ab08;
 }
 
+.klTitle {
+    font-family: Anton;
+    font-size: 130px;
+    max-width: 1000px;
+
+    color: #ffe500;
+
+    padding-top: .5em;
+    align-self: center;
+}
+
+.klButton {
+    height: 60px;
+    width: 200px;
+    min-width: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+    font-family: Anton;
+    font-size: 30px;
+    color: white;
+
+    align-self: center;
+    align-items: center;
+    margin: 1em;
+}
+
 
 .innerwrapperKL {
     transform: rotate(5deg);
@@ -66,16 +94,34 @@
 
     .klCol {
         width: 100%;
+        padding-left: 1em;
+        padding-right: 1em;
     }
 
     .klBanner {
+        height: 40vh;
         width: 100%;
+        
+        display: flex;
+        align-items: flex-end;
         background-image: url(../assets/runningbanner.jpeg);
     }
 
-    .title {
-        padding-top: 2.5em;
-        padding-bottom: 0.5em;
+    .klTitle {
+        font-family: Anton;
+        font-size: 60px;
+        color: #ffe500;
+
+        padding-left: 0.25em;
+
+        max-width: 100%;
+    }
+
+    .resultDescription {
+        color: whitesmoke;
+        font-size: 18px;
+        padding-top: 2em;
+        padding-bottom: 2em;
     }
 }
 

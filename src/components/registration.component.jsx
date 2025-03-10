@@ -18,41 +18,41 @@ function Registration() {
                     </p>
                 </div>
             </div>
-            <div className='registrationCol'>
+            <div className='registrationCol2'>
+                <div className='subRow'>
+                    <h2 className='programName'>FULL YEAR</h2>
+                    <p className='registrationText'>
+                        January - December<br/>
+                        Junior - $390<br/>
+                        Senior - $425<br/>
+                        <b><i>Registration: Closed</i></b>
+                    </p>
+                </div>
                 <div className='subRow'>
                     <h2 className='programName'>INDOOR TRACK</h2>
                     <p className='registrationText'>
                         January - April<br/>
                         Junior - $140<br/>
                         Senior - $150<br/>
-                        <b><i>Registration opened November 25th, 2024</i></b>
+                        <b><i>Registration: Closed</i></b>
                     </p>
                 </div>
                 <div className='subRow'>
                     <h2 className='programName'>OUTDOOR TRACK</h2>
                     <p className='registrationText'>
-                        January - April<br/>
-                        Junior - $140<br/>
-                        Senior - $150<br/>
-                        <b><i>Registration opened February 10th, 2025</i></b>
+                        May - August<br/>
+                        Junior - $240<br/>
+                        Senior - $275<br/>
+                        <b><i>Registration: Opens March 24, 2025</i></b>
                     </p>
                 </div>
                 <div className='subRow'>
                     <h2 className='programName'>CROSS COUNTRY</h2>
                     <p className='registrationText'>
-                        January - April<br/>
+                        September - December<br/>
                         Junior - $140<br/>
                         Senior - $150<br/>
                         <b><i>Registration opens July 14th, 2025</i></b>
-                    </p>
-                </div>
-                <div className='subRow'>
-                    <h2 className='programName'>FULL YEAR</h2>
-                    <p className='registrationText'>
-                        January - April<br/>
-                        Junior - $140<br/>
-                        Senior - $150<br/>
-                        <b><i>Registration opened November 25th, 2024</i></b>
                     </p>
                 </div>
                 <div className='disclaimerBox'>

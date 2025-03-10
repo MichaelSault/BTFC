@@ -60,16 +60,11 @@
 
 @media only screen and (max-width: 640px) {
     .Banner {
-        font-size: 80px;
-        max-width: 500px;
+        font-size: 5em;
+        max-width: 100%;
 
         position: absolute;
-        bottom: 650px;
+        bottom: 10px;
         left: 10px;
-    }
-
-    .bannerRow {
-        height: 30vh;
-
     }
 }
