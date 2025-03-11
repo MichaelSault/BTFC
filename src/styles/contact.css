@@ -30,7 +30,7 @@
 
 .contactText {
   color: whitesmoke;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .contactDisclaimer {
@@ -90,9 +90,10 @@
 
 @media only screen and (min-width: 1015px) {
   .contactColRight {
-    width: 50%;
+    width: 40%;
     height: 100%;
     padding-left: 3em;
-    padding-right: 3em;
+    padding-right: 2em;
+    padding-top: 6em;
   }
 }
