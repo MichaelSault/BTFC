@@ -16,7 +16,7 @@ const BodTile = forwardRef(
     return (
         <>
             <div className='bodTile'>
-                {/* <img className="bodPhoto" src={photo}/> */}
+                <img className="bodPhoto" src={photo}/>
                 <div className='bodSubCol'>
                     <p className='bodName'>{name}</p>
                     <p className='bodPosition'>{title}</p>

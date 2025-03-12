@@ -8,6 +8,8 @@ import BannerHero from './banner.component.jsx';
 import Programs from './programs.component.jsx';
 import GordRusby from "./gordRusby.component.jsx";
 import KenLake from "./kenLake.component.jsx";
+import GrResults from "./events/grResults.component.jsx";
+import KlResults from "./events/klResults.component.jsx";
 import Registration from "./registration.component.jsx";
 import Contact from "./contact.component.jsx";
 import Directors from "./directors.component.jsx";
@@ -22,6 +24,8 @@ function Home() {
         <Registration/>
         <GordRusby/>
         <KenLake/>
+        <GrResults/>
+        <KlResults/>
         <Contact/>
         <Directors/>
     </>

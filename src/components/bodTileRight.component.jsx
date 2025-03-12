@@ -20,7 +20,7 @@ const BodTileRight = forwardRef(
                     <p className='bodName'>{name}</p>
                     <p className='bodPosition'>{title}</p>
                 </div>
-                {/* <img className="bodPhoto" src={photo}/> */}
+                <img className="bodPhoto" src={photo}/>
             </div>
         </>
     )
