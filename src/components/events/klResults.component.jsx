@@ -13,17 +13,17 @@ function klResults() {
     <>
       <div className='klRow desktopOnly'>
         <div className='klResultsCol2'>
-          <h1 className="klResultsText">KEN LAKE</h1>
-          <h1 className="klResultsText">MEMORIAL MEET</h1>
-          <h3 className="klResultsSubText">CROSS COUNTRY</h3>
+          <h1 className="klResultText">KEN LAKE</h1>
+          <h1 className="klResultText">MEMORIAL MEET</h1>
+          <h4 className="klResultSubText">CROSS COUNTRY</h4>
         </div>
-        <div className='klCol'>
-          <a className='klButton'>2024 RESULTS</a>
-          <a className='klButton'>2023 RESULTS</a>
-          <a className='klButton'>2022 RESULTS</a>
-          <a className='klButton'>2021 RESULTS</a>
-          <a className='klButton'>2019 RESULTS</a>
-          <a className='klButton'>2018 RESULTS</a>
+        <div className='klResultCol'>
+          <a className='klResultButton'>2024 RESULTS</a>
+          <a className='klResultButton'>2023 RESULTS</a>
+          <a className='klResultButton'>2022 RESULTS</a>
+          <a className='klResultButton'>2021 RESULTS</a>
+          <a className='klResultButton'>2019 RESULTS</a>
+          <a className='klResultButton'>2018 RESULTS</a>
         </div>
       </div>
 
