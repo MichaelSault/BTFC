@@ -1,16 +1,34 @@
 import {Button} from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import { useState } from 'react'
-import '../../App.css';
+import '../../styles/teams.css';
 
 import Footer from "../socialFooter.component";
+
+import DistanceImage from "../../assets/ProgramImage.png";
 
 function Distance() {
   const navigate = useNavigate();
 
   return (
     <>
-        <h1>Senior Distance Program</h1>
+      <div className="teamRow">
+        <div className="teamImageCol">
+          <img className="teamImage" src={DistanceImage}/>
+        </div>
+      
+        <div className="teamTextCol">
+          <h1 className="teamName">SENIOR DISTANCE TEAM</h1>
+          <p className="teamText"><b>Ages:</b> Highschool age and up</p>
+          <p className="teamText"><b>Distances:</b> Middle and Long distance (800m and up)</p>
+          <p className="teamText"><b>Experience Level:</b> Should be able to run at least 4km</p>
+          <p className="teamText"><b>Training:</b> 2-3 days per week</p>
+          <p className="teamText"><b>Training Days:</b></p>
+          <p className="teamText"><b>Racing:</b> Meets are on some weekends, schedule to come.</p>
+
+          <a className='teamButton'>REGISTER</a>
+        </div>
+      </div>
     </>
   )
 }

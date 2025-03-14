@@ -6,6 +6,9 @@ import '../App.css';
 //import page components
 import BannerHero from './banner.component.jsx';
 import Programs from './programs.component.jsx';
+import Junior from './programs/junior.component.jsx';
+import Distance from './programs/distance.component.jsx';
+import Sprint from './programs/sprint.component.jsx';
 import GordRusby from "./gordRusby.component.jsx";
 import KenLake from "./kenLake.component.jsx";
 import GrResults from "./events/grResults.component.jsx";
@@ -21,6 +24,9 @@ function Home() {
     <>
         <BannerHero />
         <Programs/>
+        <Junior/>
+        <Distance/>
+        <Sprint/>
         <Registration/>
         <GordRusby/>
         <KenLake/>

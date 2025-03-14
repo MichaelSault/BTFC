@@ -1,0 +1,57 @@
+.teamRow {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+
+    background-image: linear-gradient(135deg, #000000, #737373);
+}
+
+.teamImageCol {
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.teamImage {
+    height: 60%;
+    width: auto;
+    margin-left: -20%;
+}
+
+.teamTextCol {
+    height: 60%;
+    width: 40%;
+    padding-left: 2em;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.teamName {
+    font-family: Anton;
+    color: #10ab08;
+}
+
+.teamText {
+    color: whitesmoke;
+    font-size: 18px;
+    margin-bottom: 0;
+    width: 90%;
+}
+
+.teamButton {
+    height: 60px;
+    width: 200px;
+    min-width: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+    font-family: Anton;
+    font-size: 30px;
+    color: white;
+
+    align-items: center;
+}
