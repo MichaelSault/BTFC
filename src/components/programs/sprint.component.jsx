@@ -25,6 +25,10 @@ function Sprint() {
         <p className="teamText"><b>Experience Level:</b> All levels welcome</p>
         <p className="teamText"><b>Training:</b> 2-3 days per week</p>
         <p className="teamText"><b>Training Days:</b></p>
+        <ul className="teamText">
+          <li>Monday and Wednesday evenings</li>
+          <li>Saturday mornings</li>
+        </ul>
         <p className="teamText"><b>Racing:</b> Meets are on some weekends, schedule to come.</p>
 
         <a className='teamButton'>REGISTER</a>
