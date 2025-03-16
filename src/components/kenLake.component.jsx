@@ -30,7 +30,7 @@ function KenLake() {
         <div className='klCol'>
           <p className='resultDescription'>Every year, the Burlington Track and Field Club hosts the Gord Rusby Memorial Meet during the Outdoor Track season.</p>
           <div className='buttonRowKL'>
-            <a className='klButton'>RESULTS</a>
+            <a href='/#/KenLake' className='klButton'>RESULTS</a>
           </div>
         </div>
       </div>
