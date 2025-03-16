@@ -9,9 +9,9 @@ function Programs() {
           <h1 className='programTitle'>BTFC PROGRAMS</h1>
           <p className='description'>The Burlington Track and Field Club offers a number of different programs depending on age and event distance.</p>
           <div className='buttonRow'>
-            <a className='programButton'>JUNIOR</a>
-            <a className='programButton'>DISTANCE</a>
-            <a className='programButton'>SPRINT</a>
+            <a href='/#/Junior/' className='programButton'>JUNIOR</a>
+            <a href='/#/Distance/'className='programButton'>DISTANCE</a>
+            <a href='/#/Sprint/'className='programButton'>SPRINT</a>
           </div>
         </div>
     </>

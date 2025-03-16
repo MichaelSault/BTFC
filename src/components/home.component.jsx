@@ -24,14 +24,9 @@ function Home() {
     <>
         <BannerHero />
         <Programs/>
-        <Junior/>
-        <Distance/>
-        <Sprint/>
         <Registration/>
         <GordRusby/>
         <KenLake/>
-        <GrResults/>
-        <KlResults/>
         <Contact/>
         <Directors/>
     </>

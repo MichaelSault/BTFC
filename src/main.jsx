@@ -10,14 +10,17 @@ import Navbar from 'react-bootstrap/Navbar';
 import './index.css'
 
 import Home from './components/home.component.jsx';
+import Programs from './components/programs.component.jsx';
 import Junior from './components/programs/junior.component.jsx';
 import Distance from './components/programs/distance.component.jsx';
 import Sprint from './components/programs/sprint.component.jsx';
 
-import Programs from './components/programs.component.jsx';
 import Registration from './components/registration.component.jsx';
 import Contact from './components/contact.component.jsx';
 import Results from './components/results.component.jsx';
+import GRResults from './components/events/grResults.component.jsx';
+import KLResults from './components/events/klResults.component.jsx';
+
 import Directors from './components/directors.component.jsx';
 
 import Footer from './components/socialFooter.component.jsx';
@@ -48,9 +51,14 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='/Distance' element={<Distance />}/>
         <Route path='/Sprint' element={<Sprint />}/>
         <Route path='/Programs' element={<Programs/>}/>
+        <Route path='/Junior' element={<Junior/>}/>
+        <Route path='/Distance' element={<Distance/>}/>
+        <Route path='/Sprint' element={<Sprint/>}/>
         <Route path='/Register' element={<Registration/>}/>
         <Route path='/Contact' element={<Contact/>}/>
         <Route path='/Results' element={<Results/>}/>
+        <Route path='/GordRusby' element={<GRResults/>}/>
+        <Route path='/KenLake' element={<KLResults/>}/>
         <Route path='/Directors' element={<Directors/>}/>
       </Routes>
       <Footer/>

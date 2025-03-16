@@ -18,7 +18,7 @@ function KenLake() {
           <h1 className='klTitle'>KEN LAKE MEMORIAL MEET</h1>
           <p className='resultDescription'>Every year, the Burlington Track and Field Club hosts the Ken Lake Memorial Meet during the Cross Country season.</p>
           <div className='buttonRowKL'>
-            <a className='klButton'>RESULTS</a>
+            <a href='/#/KenLake' className='klButton'>RESULTS</a>
           </div>
         </div>
       </div>
