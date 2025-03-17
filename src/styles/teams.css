@@ -55,3 +55,44 @@
 
     align-items: center;
 }
+
+
+@media only screen and (max-width: 640px) {
+    .teamsDesktop {
+        display: none;
+    }
+
+    .teamRow {
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 5vh;
+    }
+
+    .teamImageCol {
+        width: 100vw;
+    }
+
+    .teamImage {
+        width: 100%;
+        height: auto;
+
+        margin: 0;
+        margin-top: 12vh;
+    }
+
+    .teamTextCol {
+        width: 100vw;
+        padding-left: 1em;
+    }
+
+    .teamButton {
+        width: 95%;
+        margin-top: 0.5em;
+    }
+}
+
+@media only screen and (min-width: 641px) {
+    .teamsMobile {
+        display: none;
+    }
+}
