@@ -31,7 +31,7 @@ function Junior() {
             </ul>
           <p className="teamText"><b>Racing:</b> Meets are on some weekends, schedule to come.</p>
 
-          <a className='teamButton'>REGISTER</a>
+          <a href='https://www.trackie.com/club/2025-burlington-track-field-club-outdoor-only-waitlist/1018740/' className='teamButton'>REGISTER</a>
         </div>
       </div>
     </>
