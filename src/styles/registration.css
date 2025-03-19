@@ -1,6 +1,7 @@
 .registrationRow {
     height: 100vh;
-    width: 100vw;
+    min-width: 100vw;
+    height: auto;
 
     background-image: url(../assets/runningbanner.jpeg);
     background-size: 1920px 100vh;
@@ -132,14 +133,64 @@
     }
   }
 
+@media only screen and (max-width: 1460px) {
+    .registrationRow {
+        height: auto;
+        min-height: 100vh;
+        width: 100vw;
+    
+        background-image: url(../assets/runningbanner.jpeg);
+        background-size: auto 100%;
+        
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+        padding-top: 1em;
+    }
+
+    .registrationCol2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-left: 5%;
+    }
+
+    .registrationText {
+        color: whitesmoke;
+        font-size: 20px;
+    }
+
+    .subRow {
+        max-width: 47%;
+    }
+
+    .programName {
+        font-family: Anton;
+        color: #ffe500;
+        width: 120px;
+    }
+
+    .registrationDisclaimerDesktop {
+        display: none;
+    }
+
+    .registrationDisclaimerMobile {
+        width: 100%;
+        display: flex;
+
+        color: whitesmoke;
+        font-size: 17px;
+        align-self: flex-start;
+
+        margin-top: 2em;
+    }
+}
+
 @media only screen and (min-width: 640px) {
     .registrationDisclaimerDesktop {
         color: whitesmoke;
         font-size: 25px;
         align-self: flex-end;
-    }
-
-    .registrationDisclaimerMobile {
-        display: none;
     }
 }

@@ -101,3 +101,56 @@
         margin: 0.1em;
     }
 }
+
+@media only screen and (max-width: 1460px) {
+    .programsRow {
+        background-color: #10ab08;
+        width: 100vw;
+    }
+    
+    .programTitle {
+        font-family: Anton;
+        font-size: 110px;
+        max-width: 1000px;
+    
+        color: #ffe500;
+    
+        padding-top: 1em;
+        align-self: center;
+    }
+    
+    .description {
+        font-family: Pragmatica;
+        font-size: 25px;
+        color: whitesmoke;
+        text-align: center;
+    
+        max-width: 750px;
+        padding-top: 5em;
+        align-self: center;
+    }
+    
+    .buttonRow {
+        padding-top: 8em;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .programButton {
+        height: 60px;
+        width: 200px;
+        min-width: 100px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+    
+        font-family: Anton;
+        font-size: 30px;
+        color: white;
+    
+        align-self: center;
+        align-items: center;
+        margin: 1em;
+    }
+}

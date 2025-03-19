@@ -43,7 +43,7 @@ function Registration() {
                         May - August<br/>
                         Junior - $240<br/>
                         Senior - $275<br/>
-                        <b><i>Registration: Opens March 24, 2025</i></b>
+                        <b><i>Registration Opens: <br/>March 24, 2025</i></b>
                     </p>
                 </div>
                 <div className='subRow'>
@@ -52,7 +52,7 @@ function Registration() {
                         September - December<br/>
                         Junior - $140<br/>
                         Senior - $150<br/>
-                        <b><i>Registration opens July 14th, 2025</i></b>
+                        <b><i>Registration Opens: <br/>July 14th, 2025</i></b>
                     </p>
                 </div>
                 <div className='disclaimerBox'>
