@@ -198,6 +198,50 @@
     }
 }
 
+@media only screen and (min-width: 641px) and (max-width: 1460px) {
+    .mobileOnly {
+        display: none;
+    }
+
+    .klTitle {
+        font-family: Anton;
+        font-size: calc(24px + 6vw);
+        color: #ffe500;
+
+        padding-left: 0.5em;
+        text-align: left;
+
+        max-width: 100%;
+    }
+
+    .klCol {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0;
+    }
+
+    .resultDescription {
+        padding-left: 2em;
+        text-align: left;
+        font-size: calc(15px + 0.8vw);
+    }
+
+    .klResultsCol2 {
+        width: 50%;
+        height: 100%;
+
+        background-image: url(../assets/eventbackground.png);
+        background-size: 960px 100vh;
+        background-repeat: no-repeat;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 @media only screen and (min-width: 641px) {
     .mobileOnly {
         display: none;
