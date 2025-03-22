@@ -23,7 +23,7 @@ function Contact() {
                         <br/>
                         <b>General Inquiries:</b>
                         <br/>
-                        <b>Email: </b> president@burlingtontrackandfield.org
+                        president@burlingtontrackandfield.org
                     </p>
                 </div>
             </div>

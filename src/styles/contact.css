@@ -63,29 +63,44 @@
 
   .contactTitle {
     font-family: Anton;
-    font-size: 70px;
+    font-size: 19vw;
     max-width: 1000px;
   
     color: #10ab08;
   
     padding: .1em .2em;
-    padding-top: 1.5em;
+    padding-top: .8em;
   }
 
   .contactDisclaimer {
     color: whitesmoke;
-    font-size: 17px;
+    font-size: 5vw;
     align-self: flex-end;
   }
 
   .disclaimerBox {
-    height: 50%;
     width: 400px;
     display: flex;
     align-self: self-end;
   
     padding-left: 0em;
   }
+}
+
+@media only screen and (min-width: 641px) and (max-width: 1460px) {
+  .contactCol {
+    width: 100%;
+    padding-left: 0.5em;
+  }
+
+  .contactTitle {
+    font-size: 120px;
+  }
+
+  .contactColRight {
+    display: none;
+  }
+
 }
 
 @media only screen and (min-width: 1015px) {
