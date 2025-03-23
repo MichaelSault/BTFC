@@ -2,14 +2,15 @@
 
 .Banner {
     font-family: Anton;
-    font-size: 160px;
-    max-width: 1000px;
+    font-size: 188px;
+    max-width: 1200px;
+    line-height: 180px;
 
     color: green;
 
     position: absolute;
     bottom: 10px;
-    left: 20px;
+    left: 40px;
     z-index: 2;
 
     text-shadow:
