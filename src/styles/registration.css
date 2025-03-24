@@ -1,7 +1,7 @@
 .registrationRow {
-    height: 100vh;
-    min-width: 100vw;
+    min-height: 100vh;
     height: auto;
+    min-width: 100vw;
 
     background-image: url(../assets/runningbanner.jpeg);
     background-size: 1920px 100vh;
