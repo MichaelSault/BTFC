@@ -2,7 +2,7 @@
 
 .Banner {
     font-family: Anton;
-    font-size: 188px;
+    font-size: 190px;
     max-width: 1200px;
     line-height: 180px;
 
@@ -10,7 +10,7 @@
 
     position: absolute;
     bottom: 10px;
-    left: 40px;
+    left: 25px;
     z-index: 2;
 
     text-shadow:
@@ -63,7 +63,7 @@
     .Banner {
         font-size: 5em;
         max-width: 100%;
-
+        line-height: 85px;
         position: absolute;
         bottom: 10px;
         left: 10px;
