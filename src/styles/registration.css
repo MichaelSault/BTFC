@@ -47,15 +47,6 @@
     font-size: 25px;
 }
 
-.disclaimerBox {
-    height: 50%;
-    width: 400px;
-    display: flex;
-    align-self: self-end;
-
-    padding-left: 3em;
-}
-
 @media only screen and (max-width: 720px) {
     .registrationDisclaimerDesktop {
         display: none;

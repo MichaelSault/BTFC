@@ -8,8 +8,9 @@
     height: 100vh;
     width: 50%;
     background-color: #10ab08;
-    padding-left: 5em;
+    padding-left: 11em;
     padding-right: 5em;
+    padding-top: 3em;
 }
 
 .klCol2 {
@@ -23,8 +24,9 @@
 
 .klTitle {
     font-family: Anton;
-    font-size: 130px;
+    font-size: 140px;
     max-width: 1000px;
+    line-height: 140px;
 
     color: #ffe500;
 
@@ -33,20 +35,19 @@
 }
 
 .klButton {
-    height: 60px;
-    width: 200px;
+    height: 100px;
+    width: 280px;
     min-width: 100px;
     background-color: black;
     display: flex;
     justify-content: center;
 
     font-family: Anton;
-    font-size: 30px;
+    font-size: 35px;
     color: white;
 
     align-self: center;
     align-items: center;
-    margin: 1em;
 }
 
 .klResultCol {
@@ -77,15 +78,20 @@
 
     align-self: center;
     align-items: center;
-    margin: 1em;
+    margin: 2em;
 }
 
 .klResultText {
+    font-size: 85px;
+    line-height: 85px;
+    letter-spacing: 4px;
     font-family: Anton;
     color: white;
 }
 
 .klResultSubText {
+    font-size: 35px;
+    letter-spacing: 2px;
     font-family: Anton;
     color: white;
 }
@@ -116,9 +122,15 @@
 }
 
 .buttonRowKL {
-    width: 100%;
+    height: 100px;
+    width: 280px;
+    min-width: 100px;
+    background-color: black;
     display: flex;
     justify-content: center;
+
+    align-self: center;
+    align-items: center;
 }
 
 @media only screen and (max-width: 640px) {

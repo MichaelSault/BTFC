@@ -36,8 +36,8 @@
 }
 
 .grButton {
-    height: 60px;
-    width: 200px;
+    height: 100px;
+    width: 280px;
     min-width: 100px;
     background-color: black;
     display: flex;
@@ -79,15 +79,20 @@
 
     align-self: center;
     align-items: center;
-    margin: 1em;
+    margin: 2em;
 }
 
 .grResultText {
+    font-size: 85px;
+    line-height: 85px;
+    letter-spacing: 4px;
     font-family: Anton;
     color: white;
 }
 
 .grResultSubText {
+    font-size: 35px;
+    letter-spacing: 2px;
     font-family: Anton;
     color: white;
 }

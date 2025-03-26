@@ -11,6 +11,9 @@
 }
   
 .contactCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 50%;
   height: 100%;
   padding-left: 3em;
@@ -20,12 +23,13 @@
 
 .contactTitle {
   font-family: Anton;
-  font-size: 130px;
+  font-size: 140px;
   max-width: 1000px;
 
   color: #10ab08;
 
-  padding: .3em .2em;
+  padding-top: .9em;
+  padding-left: .45em;
 }
 
 .contactText {
@@ -40,12 +44,11 @@
 }
 
 .disclaimerBox {
-  height: 50%;
   width: 400px;
   display: flex;
-  align-self: self-end;
 
   padding-left: 3em;
+  padding-bottom: 8em;
 }
 
 @media only screen and (max-width: 640px) {
