@@ -28,11 +28,11 @@ function Directors() {
     <>
     <div className="directorsRow">
       <div className="bodTitleRow">
-        <h1 className="bodTitle">BOARD OF DIRECTORS</h1>
+        <h1 className="bodTitle">2025 BOARD OF DIRECTORS</h1>
       </div>
       <div className="desktopOnly">
         <div className="bodSubRow">
-          <BodTile name={"Gustav Karlsson"} title={"President"} photo={President} />
+          <BodTile name={"Gustav Karlsson"} title={"Club President"} photo={President} />
           <BodTile name={"Scott Douglas"} title={"Athletic Director"} photo={AthleticDirector}/>
           <BodTile name={"Angus Shuttleworth"} title={"Treasurer"} photo={Treasurer}/>
         </div>

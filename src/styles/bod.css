@@ -9,8 +9,8 @@
 }
   
 .bodPhoto {
-  height: 100px;
-  border-radius: 50px;
+  height: 140px;
+  border-radius: 80px;
   -webkit-filter: grayscale(100%);
 }
 
@@ -42,7 +42,7 @@
 .bodTile {
   display: flex;
   flex-direction: row;
-  width: 350px;
+  width: 450px;
   min-width: 350px;
   /* outline-style: dotted;
   outline-color: blue; */
@@ -57,16 +57,19 @@
 
 .bodName {
   color: whitesmoke;
-  font-size: larger;
+  font-size: 25px;
+  letter-spacing: 1px;
+  line-height: 20px;
   font-weight: bold;
   margin-bottom: 0;
 }
 
 .bodPosition {
   color: whitesmoke;
-  font-size: large;
-  font-weight: bold;
-  font-style: italic;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-top: 0;
+  /* font-style: italic; */
 }
 
 @media only screen and (max-width: 640px) {
