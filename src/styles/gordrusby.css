@@ -127,6 +127,7 @@
     width: 540px;
     padding-top: 0em;
     padding-bottom: 2em;
+
 }
 
 .buttonRowGR {
@@ -135,10 +136,8 @@
     min-width: 100px;
     background-color: black;
     display: flex;
-    justify-content: center;
 
-    align-self: center;
-    align-items: center;
+    align-items: left;
 }
 
 @media only screen and (max-width: 640px) {
@@ -218,20 +217,21 @@
     }
 }
 
-@media only screen and (min-width: 641px) and (max-width: 1460px) {
+@media only screen and (min-width: 641px) and (max-width: 1502px) {
     .mobileOnly {
         display: none;
     }
 
     .grTitle {
         font-family: Anton;
-        font-size: calc(24px + 6vw);
+        font-size: 130px;
+        max-width: 1000px;
+        line-height: 130px;
+    
         color: #ffe500;
-
-        padding-left: 0.5em;
-        text-align: left;
-
-        max-width: 100%;
+    
+        padding-top: .5em;
+        align-self: center;
     }
 
     .grCol {
@@ -239,10 +239,11 @@
         flex-direction: column;
         justify-content: space-around;
         padding: 0;
+
+        padding-left: 4em;
     }
 
     .resultDescription {
-        padding-left: 2em;
         text-align: left;
         font-size: calc(15px + 0.8vw);
     }
