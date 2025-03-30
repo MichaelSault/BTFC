@@ -125,7 +125,6 @@
     height: 100px;
     width: 280px;
     min-width: 100px;
-    background-color: black;
     display: flex;
     justify-content: center;
 
@@ -162,10 +161,12 @@
 
     .klTitle {
         font-family: Anton;
-        font-size: 60px;
+        font-size: 70px;
+        line-height: 65px;
         color: #ffe500;
 
-        padding-left: 0.25em;
+        padding-left: 0em;
+        padding-top: 0em;
 
         max-width: 100%;
     }
@@ -175,6 +176,7 @@
         font-size: 18px;
         padding-top: 2em;
         padding-bottom: 2em;
+        width: 100%;
     }
 
     .klResultCol {
@@ -207,6 +209,31 @@
         align-self: center;
         align-items: center;
         margin: 0.8em;
+    }
+
+    .buttonRowKL {
+        height: 100px;
+        width: 100%;
+        min-width: 100px;
+        display: flex;
+    
+        align-items: left;
+    }
+
+    .klButton {
+        height: 60px;
+        width: 100%;
+        min-width: 100px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+    
+        font-family: Anton;
+        font-size: 35px;
+        color: white;
+    
+        align-self: center;
+        align-items: center;
     }
 }
 
