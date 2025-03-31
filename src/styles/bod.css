@@ -74,7 +74,12 @@
 
 @media only screen and (max-width: 640px) {
   .desktopOnly {
-      display: none;
+    display: none;
+  }
+
+  .mobileOnly {
+    display: flex;
+    flex-direction: column;
   }
 
   .directorsRow {
@@ -84,6 +89,8 @@
     width: 100%;
     padding-top: 4em;
     padding-bottom: 5em;
+    padding-left: 1em;
+    padding-right: 0;
   }
 
   .directorsSubRow {
@@ -92,16 +99,21 @@
 
   .bodTile {
     padding-top: 1em;
+    width: 100vw;
   }
 
   .bodTileRight {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    width: 350px;
+    width: 95vw;
     min-width: 350px;
 
     padding-top: 1em;
+  }
+
+  .bodTitleRow {
+    height: auto;
   }
 
   .bodTitle {
@@ -113,6 +125,7 @@
   
     padding: 0;  
   }
+
 }
 
 @media only screen and (min-width: 641px) {

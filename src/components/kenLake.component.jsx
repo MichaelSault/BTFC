@@ -26,6 +26,7 @@ function KenLake() {
       <div className='klRow mobileOnly'>
         <div className='klCol'>
           <h1 className='klTitle'>KEN LAKE MEMORIAL MEET</h1>
+          <img className='eventImage' src='src/assets/eventbackground.png' />
           <p className='resultDescription'>Every year, the Burlington Track and Field Club hosts the Gord Rusby Memorial Meet during the Outdoor Track season.</p>
           <div className='buttonRowKL'>
             <a href='/#/KenLake' className='klButton'>RESULTS</a>

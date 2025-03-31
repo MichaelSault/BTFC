@@ -3,7 +3,7 @@
   width: 100vw;
 
   background-image: url(../assets/runningbanner.jpeg);
-  background-size: 1920px 100vh;
+  background-size: 1920px 120vh;
 
   display: flex;
   justify-content: flex-start;
@@ -57,6 +57,11 @@
 }
 
 @media only screen and (max-width: 640px) {
+  .contactRow {
+    min-height: 110vh;
+    height: auto;
+  }
+  
   .contactColRight {
     display: none;
   }
@@ -87,11 +92,10 @@
   }
 
   .disclaimerBox {
-    width: 400px;
+    width: 100%;
     display: flex;
+    padding: 100px 0px;
     align-self: self-end;
-  
-    padding-left: 0em;
   }
 }
 
