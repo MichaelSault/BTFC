@@ -1,7 +1,7 @@
 import '../App.css';
 import '../styles/kenlake.css';
 
-import eventPhoto from '../assets/eventbackground.png';
+import eventPhoto from '../assets/kenlake.jpg';
 
 function KenLake() {
 
