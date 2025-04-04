@@ -27,7 +27,7 @@ function Contact() {
                     </p>
                 </div>
             </div>
-            <div className='contactColRight'>
+            {/* <div className='contactColRight'>
                 <div className='subRow'>
                     <p className='contactText'>
                       We are a volunteer organization with the following aims and objectives:
@@ -52,7 +52,7 @@ function Contact() {
                       </ul>
                     </p>
                 </div>
-            </div>
+            </div> */}
         </div>
     </>
   )
