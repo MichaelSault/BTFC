@@ -22,17 +22,17 @@ function Footer() {
                 <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
                 <h6 className='text-uppercase fw-bold mb-4 text-white'>Programs</h6>
                 <p>
-                    <a href='Junior/' className='text-white'>
+                    <a href='/#/Junior/' className='text-white'>
                         Junior
                     </a>
                 </p>
                 <p>
-                    <a href='Distance/' className='text-white'>
+                    <a href='/#/Distance/' className='text-white'>
                         Senior Distance
                     </a>
                 </p>
                 <p>
-                    <a href='Sprint/' className='text-white'>
+                    <a href='/#/Sprint/' className='text-white'>
                         Senior Sprint
                     </a>
                 </p>
@@ -41,22 +41,22 @@ function Footer() {
                 <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
                 <h6 className='text-uppercase fw-bold mb-4 text-white'>Useful links</h6>
                 <p>
-                    <a href='Programs/' className='text-white'>
+                    <a href='/#/Programs/' className='text-white'>
                         Registration
                     </a>
                 </p>
                 <p>
-                    <a href='Results/' className='text-white'>
+                    <a href='/#/Results/' className='text-white'>
                         Results
                     </a>
                 </p>
                 <p>
-                    <a href='Contact/' className='text-white'>
+                    <a href='/#/Contact/' className='text-white'>
                         Contact
                     </a>
                 </p>
                 <p>
-                    <a href='Directors/' className='text-white'>
+                    <a href='/#/Directors/' className='text-white'>
                         Board of Directors
                     </a>
                 </p>
