@@ -1,7 +1,8 @@
 .grRow {
-    height: 100vh;
+    height: 120vh;
     width: 100vw;
     display: flex;
+    background-color: #10ab08;
 }
 
 .grCol {
@@ -15,7 +16,7 @@
 
 
 .grCol2 {
-    height: 100vh;
+    height: 120vh;
     width: 50%;
 
     overflow: hidden;
@@ -246,7 +247,55 @@
     }
 }
 
-@media only screen and (min-width: 641px) and (max-width: 1502px) {
+@media only screen and (min-width: 641px) and (max-width: 1325px) {
+    .mobileOnly {
+        display: none;
+    }
+
+    .grTitle {
+        font-family: Anton;
+        font-size: calc(9vw);
+        max-width: 1000px;
+        line-height: 9vw;
+    
+        color: #ffe500;
+    
+        padding-top: .5em;
+        align-self: center;
+    }
+
+    .grCol {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0;
+
+        padding-left: 4em;
+    }
+
+    .resultDescription {
+        text-align: left;
+        font-size: calc(15px + 0.8vw);
+        line-height: calc(20px + 0.8vw);
+        width: 40vw;
+    }
+
+    .grResultsCol2 {
+        width: 50%;
+        height: 100%;
+
+        background-image: url(../assets/eventbackground.png);
+        background-size: 960px 100vh;
+        background-repeat: no-repeat;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 1325px) and (max-width: 1502px) {
     .mobileOnly {
         display: none;
     }
