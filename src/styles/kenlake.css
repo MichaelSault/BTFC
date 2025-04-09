@@ -253,9 +253,9 @@
 
     .klTitle {
         font-family: Anton;
-        font-size: calc(9vw);
+        font-size: calc(11vw);
         max-width: 1000px;
-        line-height: 9vw;
+        line-height: 11vw;
     
         color: #ffe500;
     
@@ -269,7 +269,15 @@
         justify-content: space-around;
         padding: 0;
 
-        padding-left: 4em;
+        padding-left: 0em;
+    }
+
+    .outerwrapperKL {
+        transform-origin: 0vh 800vw;
+    }
+
+    .innerwrapperKL {
+        transform-origin: 100vh 200vh;
     }
 
     .resultDescription {

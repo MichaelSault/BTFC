@@ -254,9 +254,9 @@
 
     .grTitle {
         font-family: Anton;
-        font-size: calc(9vw);
+        font-size: calc(11vw);
         max-width: 1000px;
-        line-height: 9vw;
+        line-height: 11vw;
     
         color: #ffe500;
     
@@ -272,6 +272,7 @@
 
         padding-left: 4em;
     }
+    
 
     .resultDescription {
         text-align: left;
