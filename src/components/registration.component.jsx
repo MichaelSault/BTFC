@@ -10,13 +10,11 @@ function Registration() {
         <div className="registrationRow">
             <div className='registrationCol'>
                 <h1 className='registrationTitle'>REGISTRATION OPTIONS</h1>
-                <div className='disclaimerBox desktopOnly'>
                     <p className='registrationDisclaimerDesktop'>
                         <i>
                             Fees include weekly training, MTA membership fees, meet entries and club singlet.
                         </i>
                     </p>
-                </div>
             </div>
             <div className='registrationCol2'>
                 <div className='subRow'>

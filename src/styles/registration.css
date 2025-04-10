@@ -171,6 +171,7 @@
 
     .registrationDisclaimerDesktop {
         display: none;
+        height: 1px;
     }
 
     .registrationDisclaimerMobile {
