@@ -10,7 +10,7 @@
     width: 50%;
     background-color: #10ab08;
     padding-left: 7em;
-    padding-top: 3em;
+    padding-top: 2em;
     padding-right: 0em;
 }
 
@@ -152,10 +152,11 @@
     }
 
     .grCol {
-        height: 110vh;
+        height: 100vh;
         width: 100%;
         padding-left: 1em;
         padding-right: 1em;
+        padding-top: 6em;
     }
 
     .grBanner {
