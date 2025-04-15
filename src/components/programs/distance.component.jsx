@@ -5,7 +5,7 @@ import '../../styles/teams.css';
 
 import Footer from "../socialFooter.component";
 
-import DistanceImage from "../../assets/ProgramImage.png";
+import DistanceImage from "../../assets/distanceTeam.jpeg";
 
 function Distance() {
   const navigate = useNavigate();

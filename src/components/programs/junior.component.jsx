@@ -5,7 +5,7 @@ import '../../styles/teams.css';
 
 import Footer from "../socialFooter.component";
 
-import JuniorImage from "../../assets/ProgramImage.png";
+import JuniorImage from "../../assets/juniorTeam.jpeg";
 
 function Junior() {
   const navigate = useNavigate();

@@ -15,17 +15,17 @@
 .teamImage {
     height: 60%;
     width: auto;
-    margin-left: -20%;
+    margin-left: 0%;
 }
 
 .teamTextCol {
-    height: 60%;
+    height: 100%;
     width: 40%;
     padding-left: 2em;
-    padding-top: 10%;
+    padding-top: 9em;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: left;
 }
 
