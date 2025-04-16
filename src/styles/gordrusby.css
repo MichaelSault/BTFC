@@ -101,14 +101,15 @@
 
 .innerwrapperGR {
     transform: rotate(5deg);
-    transform-origin: 0% -10vw;
+    transform-origin: 15% -280vw;
 
     overflow: hidden;
     width: 100%;
     height: 100%;
 
-    background-image: url(../assets/runningbanner.jpeg);
-    background-size: auto 150vh;
+    background-image: url(../assets/gordRusby.jpeg);
+    background-size: cover;
+    background-position: 80vw 30%;
 }
 
 .outerwrapperGR {

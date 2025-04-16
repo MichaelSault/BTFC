@@ -1,7 +1,7 @@
 import '../App.css';
 import '../styles/gordrusby.css';
 
-import eventPhoto from '../assets/gordrusby.jpg';
+import eventPhoto from '../assets/gordRusby.jpeg';
 
 function GordRusby() {
 
