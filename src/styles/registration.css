@@ -47,6 +47,10 @@
     font-size: 25px;
 }
 
+.whiteText {
+    color: white;
+}
+
 @media only screen and (max-width: 720px) {
     .registrationDisclaimerDesktop {
         display: none;

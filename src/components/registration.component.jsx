@@ -23,7 +23,7 @@ function Registration() {
                         January - December<br/>
                         Junior - $390<br/>
                         Senior - $425<br/>
-                        <b><i>Registration: Closed</i></b>
+                        <a className='whiteText' href='https://www.trackie.com/club/2025OutdoorOnly'><b><i>Registration: Closed</i></b></a>
                     </p>
                 </div>
                 <div className='subRow'>
@@ -32,7 +32,7 @@ function Registration() {
                         January - April<br/>
                         Junior - $140<br/>
                         Senior - $150<br/>
-                        <b><i>Registration: Closed</i></b>
+                        <a className='whiteText' href='https://www.trackie.com/club/2025OutdoorOnly'><b><i>Registration: Closed</i></b></a>
                     </p>
                 </div>
                 <div className='subRow'>
@@ -41,7 +41,7 @@ function Registration() {
                         May - August<br/>
                         Junior - $240<br/>
                         Senior - $275<br/>
-                        <b><i>Registration Opens: <br/>March 24, 2025</i></b>
+                        <a className='whiteText' href='https://www.trackie.com/club/2025OutdoorOnly'><b><i>Registration Opens: <br/>March 24, 2025</i></b></a>
                     </p>
                 </div>
                 <div className='subRow'>
@@ -50,7 +50,7 @@ function Registration() {
                         September - December<br/>
                         Junior - $140<br/>
                         Senior - $150<br/>
-                        <b><i>Registration Opens: <br/>July 14th, 2025</i></b>
+                        <a className='whiteText' href='https://www.trackie.com/club/2025OutdoorOnly'><b><i>Registration Opens: <br/>July 14th, 2025</i></b></a>
                     </p>
                 </div>
                 <div className='disclaimerBox'>

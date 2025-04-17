@@ -5,7 +5,9 @@
   height: 100vh;
   justify-content: start;
   padding: 3em 3em;
-  background-image: url(../assets/runningbanner.jpeg);
+  /* background-image: url(../assets/runningbanner.jpeg); */
+  background-image: linear-gradient(135deg, #000000, #737373);
+
 }
   
 .bodPhoto {
