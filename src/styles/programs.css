@@ -54,6 +54,7 @@
     .programsRow {
         background-color: #10ab08;
         height: 110vh;
+        padding-top: 10vh;
     }
 
     .programTitle {
