@@ -58,6 +58,10 @@
   margin-left: 4px;
 }
 
+.bodCentered {
+  padding-left: 5vw;
+}
+
 .bodName {
   color: whitesmoke;
   font-size: 25px;
