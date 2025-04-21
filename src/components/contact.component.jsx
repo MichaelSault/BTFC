@@ -18,7 +18,7 @@ function Contact() {
                         <br/>
                         <b>Email: </b> tammymackenzie@bell.net
                         <br/>
-                        <b>Call: </b> (905) 332-7072
+                        {/* <b>Call: </b> (905) 332-7072 */}
                         <br/>
                         <br/>
                         <b>General Inquiries:</b>
