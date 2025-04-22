@@ -26,10 +26,7 @@
 }
 
 .bodTitleRow {
-  display: flex;
-  align-items: end;
-  height: 17vh;
-  width: 100%;
+  height: auto;
 }
 
 .bodTitle {
@@ -47,7 +44,7 @@
   flex-direction: row;
   width: 450px;
   min-width: 350px;
-  padding-top: 11.5px;
+  padding-top: 30px;
   /* outline-style: dotted;
   outline-color: blue; */
 }
@@ -59,8 +56,12 @@
   margin-left: 4px;
 }
 
-.bodCentered {
-  padding-left: 5vw;
+.bodCentered1 {
+  padding-left: 3vw;
+}
+
+.bodCentered2 {
+  padding-left: 10vw;
 }
 
 .bodName {
@@ -85,12 +86,12 @@
 
 }
 
-@media only screen and (max-width: 640px) {
-  .desktopOnly {
+@media only screen and (min-width: 641px) and (max-width: 780px) {
+  .desktopOnlyDOB {
     display: none;
   }
 
-  .mobileOnly {
+  .mobileOnlyDOB {
     display: flex;
     flex-direction: column;
   }
@@ -100,7 +101,7 @@
     align-items: center;
     height: auto;
     width: 100%;
-    padding-top: 4em;
+    padding-top: 5.5em;
     padding-bottom: 5em;
     padding-left: 1em;
     padding-right: 0;
@@ -141,12 +142,71 @@
 
 }
 
-@media only screen and (min-width: 641px) {
-  .mobileOnly {
-      display: none;
+@media only screen and (max-width: 640px) {
+  .desktopOnlyDOB {
+    display: none;
   }
 
-  .desktopOnly {
+  .mobileOnlyDOB {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .directorsRow {
+    flex-wrap: nowrap;
+    align-items: center;
+    height: auto;
     width: 100%;
+    padding-top: 5.5em;
+    padding-bottom: 5em;
+    padding-left: 1em;
+    padding-right: 0;
+  }
+
+  .directorsSubRow {
+    flex-direction: column;
+  }
+
+  .bodTile {
+    padding-top: 1em;
+    width: 100vw;
+  }
+
+  .bodTileRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 95vw;
+    min-width: 350px;
+
+    padding-top: 1em;
+  }
+
+  .bodTitleRow {
+    height: auto;
+  }
+
+  .bodTitle {
+    height: auto;
+    font-family: Anton;
+    font-size: 70px;
+  
+    color: #10ab08;
+  
+    padding: 0;  
+  }
+
 }
+
+
+@media only screen and (min-width: 781px) {
+  .desktopOnlyDOB {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .mobileOnlyDOB {
+    display: none;
+  }
+
 }
