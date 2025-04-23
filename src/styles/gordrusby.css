@@ -141,7 +141,7 @@
 
 @media only screen and (max-width: 640px) {
     .grRow {
-        min-height: 100vh;
+        min-height: 140vh;
         height: auto;
         width: 100vw;
         display: flex;

@@ -135,7 +135,7 @@
 
 @media only screen and (max-width: 640px) {
     .klRow {
-        min-height: 110vh;
+        min-height: 140vh;
         height: auto;
         width: 100vw;
         display: flex;
