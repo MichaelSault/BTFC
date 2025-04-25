@@ -64,6 +64,7 @@
 
     .teamRow {
         flex-direction: column;
+        align-content: start;
         height: auto;
         padding-bottom: 5vh;
     }
@@ -83,6 +84,7 @@
     .teamTextCol {
         width: 100vw;
         padding-left: 1em;
+        padding-top: 2em;
     }
 
     .teamButton {
