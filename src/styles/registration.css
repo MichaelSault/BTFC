@@ -16,14 +16,14 @@
     height: 100%;
     padding-left: 3em;
     padding-right: 3em;
+    padding-top: 1em;
 }
 
 .subRow {
     width: 100%;
     display: flex;
     flex-direction: row;
-
-    padding-top: 3em;
+    padding-top: 4em;
 }
 
 .registrationTitle {
@@ -86,6 +86,7 @@
         height: 100%;
         padding-left: 0em;
         padding-right: 0em;
+        padding-top: 3em;
         margin-bottom: 0em;
     }
 
@@ -195,6 +196,9 @@
         color: whitesmoke;
         font-size: 25px;
         align-self: flex-end;
+        max-width: 600px;
+        padding: 4em 1em;
+
     }
 }
 
