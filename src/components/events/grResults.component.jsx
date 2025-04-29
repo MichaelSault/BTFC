@@ -28,6 +28,7 @@ function grResults() {
 
       <div className='grRow mobileOnly'>
         <div className='grResultCol'>
+          <h1 className="grTitle">GORD RUSBY</h1>
           <a href='https://sportmadesimple.com/results/GordRusby2024/index.html' className='grResultButton'>2024 RESULTS</a>
           <a href='https://www.burlingtontrackandfield.org/_files/ugd/2f2bfd_61e44dcc349b4c3c908ded2e6eeb147b.pdf' className='grResultButton'>2023 RESULTS</a>
           <a href='https://www.burlingtontrackandfield.org/_files/ugd/2f2bfd_407dbf51336f4f5b88b4f69ede6c3e4d.pdf?index=true' className='grResultButton'>2022 RESULTS</a>

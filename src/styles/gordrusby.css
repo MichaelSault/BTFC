@@ -200,8 +200,8 @@
         width: 100%;
         background-color: #10ab08;
         padding-top: 2em;
-        padding-left: 5em;
-        padding-right: 5em;
+        padding-left: 4em;
+        padding-right: 4em;
     }
 
     .grResultButton {
@@ -361,5 +361,18 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+
+    .grResultCol {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+        background-color: #10ab08;
+        padding-top: 2em;
+        padding-left: 3em;
+        padding-right: 4em;
     }
 }

@@ -29,6 +29,7 @@ function klResults() {
 
       <div className='klRow mobileOnly'>
         <div className='klResultCol'>
+          <h1 className="grTitle">KEN LAKE</h1>
           <a href='https://www.burlingtontrackandfield.org/_files/ugd/2f2bfd_15944f2a8c894697ac1d4bd03b26221e.pdf' className='klResultButton'>2024 RESULTS</a>
           <a href='https://www.burlingtontrackandfield.org/_files/ugd/2f2bfd_655a990a9269438f9d84117be67021f7.pdf' className='klResultButton'>2023 RESULTS</a>
           <a href='https://www.burlingtontrackandfield.org/_files/ugd/2f2bfd_fb434fc143044e80ab2ac78b2be27c3d.pdf' className='klResultButton'>2022 RESULTS</a>
