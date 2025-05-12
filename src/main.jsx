@@ -27,7 +27,7 @@ import Footer from './components/socialFooter.component.jsx';
 
 ReactDOM.createRoot(document.getElementById('navBar')).render(
   <React.StrictMode>
-    <Navbar bg="dark" data-bs-theme="dark">
+    <Navbar bg="dark" data-bs-theme="dark" className='desktopOnly'>
       <Container>
         <Navbar.Brand href="/">BTFC</Navbar.Brand>
         <Nav className="me-auto">
@@ -39,6 +39,19 @@ ReactDOM.createRoot(document.getElementById('navBar')).render(
         </Nav>
       </Container>
     </Navbar>
+
+    <Navbar bg="dark" data-bs-theme="dark" className='mobileOnly'>
+      <Container>
+        <Navbar.Brand href="/">BTFC</Navbar.Brand>
+        <Nav className="me-auto">
+          <Nav.Link href="#/programs">Programs</Nav.Link>
+          <Nav.Link href="#/register">Register</Nav.Link>
+          <Nav.Link href="#/contact">Contact</Nav.Link>
+          <Nav.Link href="#/results">Results</Nav.Link>
+        </Nav>
+      </Container>
+    </Navbar>
+
   </React.StrictMode>
 )
 
