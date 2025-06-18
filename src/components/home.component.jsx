@@ -7,6 +7,7 @@ import GordRusby from "./gordRusby.component.jsx";
 import KenLake from "./kenLake.component.jsx";
 import Registration from "./registration.component.jsx";
 import Contact from "./contact.component.jsx";
+import Store from "./store.component.jsx";
 import Directors from "./directors.component.jsx";
 
 function Home() {
@@ -19,6 +20,7 @@ function Home() {
         <GordRusby/>
         <KenLake/>
         <Contact/>
+        <Store/>
         <Directors/>
     </>
   )

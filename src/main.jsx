@@ -21,6 +21,8 @@ import Results from './components/results.component.jsx';
 import GRResults from './components/events/grResults.component.jsx';
 import KLResults from './components/events/klResults.component.jsx';
 
+import Store from './components/store.component.jsx';
+
 import Directors from './components/directors.component.jsx';
 
 import Footer from './components/socialFooter.component.jsx';
@@ -33,8 +35,9 @@ ReactDOM.createRoot(document.getElementById('navBar')).render(
         <Nav className="me-auto">
           <Nav.Link href="#/programs">Programs</Nav.Link>
           <Nav.Link href="#/register">Registration</Nav.Link>
-          <Nav.Link href="#/contact">Contact Us</Nav.Link>
           <Nav.Link href="#/results">Results</Nav.Link>
+          <Nav.Link href="#/store">Store</Nav.Link>
+          <Nav.Link href="#/contact">Contact Us</Nav.Link>
           <Nav.Link href="#/directors">Board of Directors</Nav.Link>
         </Nav>
       </Container>
@@ -46,8 +49,8 @@ ReactDOM.createRoot(document.getElementById('navBar')).render(
         <Nav className="me-auto">
           <Nav.Link href="#/programs">Programs</Nav.Link>
           <Nav.Link href="#/register">Register</Nav.Link>
-          <Nav.Link href="#/contact">Contact</Nav.Link>
           <Nav.Link href="#/results">Results</Nav.Link>
+          <Nav.Link href="#/store">Store</Nav.Link>
         </Nav>
       </Container>
     </Navbar>
@@ -72,6 +75,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='/Results' element={<Results/>}/>
         <Route path='/GordRusby' element={<GRResults/>}/>
         <Route path='/KenLake' element={<KLResults/>}/>
+        <Route path='/Store' element={<Store/>}/>
         <Route path='/Directors' element={<Directors/>}/>
       </Routes>
       <Footer/>

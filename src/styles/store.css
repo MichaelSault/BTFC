@@ -1,0 +1,421 @@
+.storeRow {
+    height: 120vh;
+    width: 100vw;
+    display: flex;
+    background-color: #10ab08;
+}
+
+.storeCol {
+    height: 100vh;
+    width: 50%;
+    background-color: #10ab08;
+    padding-left: 7em;
+    padding-top: 2em;
+    padding-right: 0em;
+}
+
+
+.storeCol2 {
+    height: 120vh;
+    width: 50%;
+
+    overflow: hidden;
+
+    background-color: #10ab08;
+}
+
+.storeTitle {
+    font-family: Anton;
+    font-size: 140px;
+    max-width: 1000px;
+    line-height: 140px;
+
+    color: #ffe500;
+
+    padding-top: .5em;
+    align-self: center;
+}
+
+.storeButton {
+    height: 100px;
+    width: 280px;
+    min-width: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+    font-family: Anton;
+    font-size: 35px;
+    color: white;
+
+    align-self: center;
+    align-items: center;
+}
+
+.storeResultCol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 50%;
+    background-color: #10ab08;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.storeResultButton {
+    height: 50px;
+    width: 80%;
+    min-width: 100px;
+    background-color: rgba(0, 0, 0, 0);
+    border: whitesmoke;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+
+    font-size: 20px;
+    color: white;
+
+    align-self: center;
+    align-items: center;
+    margin: 2em;
+}
+
+.storeResultText {
+    font-size: 85px;
+    line-height: 85px;
+    letter-spacing: 4px;
+    font-family: Anton;
+    color: white;
+}
+
+.storeResultSubText {
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-family: Anton;
+    color: white;
+}
+
+
+.innerwrapperStore {
+    transform: rotate(5deg);
+    transform-origin: 15% -280vw;
+
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+
+    background-image: linear-gradient(135deg, #000000, #737373);
+    background-size: cover;
+    background-position: 80vw 30%;
+}
+
+.outerwrapperStore {
+    transform: rotate(-5deg);
+    transform-origin: 0% -10vw;
+    width: 100vw;
+    height: 150vh;
+    overflow: hidden;
+
+    background-color: pink;
+}
+
+.storeDescription {
+    color: whitesmoke;
+    font-size: 2.2em;
+    line-height: 45px;
+    width: 540px;
+    padding-top: 0em;
+    padding-bottom: 2em;
+
+}
+
+.buttonRowStore {
+    height: 100px;
+    width: 280px;
+    min-width: 100px;
+    display: flex;
+}
+
+.sliderContainer {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    height: 1000px;
+    margin: 50px auto;
+}
+
+.pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation-name: example;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0%   {background-image: url("src/assets/BTFC Apparel/yellowshirt.png");}
+    19%  {background-image: url("src/assets/BTFC Apparel/yellowshirt.png");}
+    20%  {background-image: url("src/assets/BTFC Apparel/blackshirt.png");}
+    39%  {background-image: url("src/assets/BTFC Apparel/blackshirt.png");}
+    40%  {background-image: url("src/assets/BTFC Apparel/hoodie.png");}
+    59%  {background-image: url("src/assets/BTFC Apparel/hoodie.png");}
+    60%  {background-image: url("src/assets/BTFC Apparel/hat.png");}
+    79%  {background-image: url("src/assets/BTFC Apparel/hat.png");}
+    80%  {background-image: url("src/assets/BTFC Apparel/longshirt.png");}
+    99%  {background-image: url("src/assets/BTFC Apparel/longshirt.png");}
+    100% {background-image: url("src/assets/BTFC Apparel/yellowshirt.png");}
+}
+
+
+@media only screen and (max-width: 640px) {
+    .storeRow {
+        height: auto;
+        min-height: 960px;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .desktopOnly {
+        display: none;
+    }
+
+    .storeCol {
+        height: 100vh;
+        width: 100%;
+        padding-left: 1em;
+        padding-right: 1.5em;
+        padding-top: 6em;
+    }
+
+    .storeBanner {
+        height: 40vh;
+        width: 100%;
+
+        display: flex;
+        align-items: flex-end;
+        background-image: url(../assets/runningbanner.jpeg);
+    }
+
+    .storeTitle {
+        font-family: Anton;
+        font-size: 68px;
+        line-height: 65px;
+        color: #ffe500;
+
+        padding-left: 0em;
+        padding-top: 0em;
+
+
+        max-width: 100%;
+    }
+
+    .storeDescription {
+        color: whitesmoke;
+        font-size: 18px;
+        line-height: 35px;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        width: 100%;
+    }
+
+    .storeResultCol {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+        background-color: #10ab08;
+        padding-top: 2em;
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+
+    .storeResultButton {
+        height: 50px;
+        width: 100%;
+        min-width: 100px;
+        background-color: rgba(0, 0, 0, 0);
+        border: whitesmoke;
+        border-style: solid;
+        border-width: 1px;
+        display: flex;
+        justify-content: center;
+    
+        font-size: 20px;
+        color: white;
+    
+        align-self: center;
+        align-items: center;
+        margin: 0.8em;
+    }
+
+    .buttonRowStore {
+        height: 100px;
+        width: 100%;
+        min-width: 100px;
+        display: flex;
+    
+        align-items: left;
+    }
+
+    .storeButton {
+        height: 60px;
+        width: 100%;
+        min-width: 100px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+    
+        font-family: Anton;
+        font-size: 35px;
+        color: white;
+    
+        align-self: center;
+        align-items: center;
+    }
+
+    .sliderContainer {
+        max-width: 50%;
+        max-height: 25vh;
+    }
+}
+
+@media only screen and (min-width: 641px) and (max-width: 1325px) {
+    .mobileOnly {
+        display: none;
+    }
+
+    .storeTitle {
+        font-family: Anton;
+        font-size: calc(11vw);
+        max-width: 1000px;
+        line-height: 11vw;
+    
+        color: #ffe500;
+    
+        padding-top: .5em;
+        align-self: center;
+    }
+
+    .storeCol {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0;
+
+        padding-left: 4em;
+    }
+    
+
+    .storeDescription {
+        text-align: left;
+        font-size: calc(15px + 0.8vw);
+        line-height: calc(20px + 0.8vw);
+        width: 40vw;
+    }
+
+    .storeResultsCol2 {
+        width: 50%;
+        height: 100%;
+
+        background-image: url(../assets/eventbackground.png);
+        background-size: 960px 100vh;
+        background-repeat: no-repeat;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 1325px) and (max-width: 1502px) {
+    .mobileOnly {
+        display: none;
+    }
+
+    .storeTitle {
+        font-family: Anton;
+        font-size: 130px;
+        max-width: 1000px;
+        line-height: 130px;
+    
+        color: #ffe500;
+    
+        padding-top: .5em;
+        align-self: center;
+    }
+
+    .storeCol {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0;
+
+        padding-left: 4em;
+    }
+
+    .storeDescription {
+        text-align: left;
+        font-size: calc(15px + 0.8vw);
+    }
+
+    .storeResultsCol2 {
+        width: 50%;
+        height: 100%;
+
+        background-image: url(../assets/eventbackground.png);
+        background-size: 960px 100vh;
+        background-repeat: no-repeat;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 641px) {
+    .mobileOnly {
+        display: none;
+    }
+
+    .storeResultsCol2 {
+        width: 50%;
+        height: 100%;
+
+        background-image: url(../assets/eventbackground.png);
+        background-size: 960px 100vh;
+        background-repeat: no-repeat;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .storeResultCol {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+        background-color: #10ab08;
+        padding-top: 2em;
+        padding-left: 3em;
+        padding-right: 4em;
+    }
+}
