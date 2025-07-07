@@ -148,33 +148,7 @@
     margin: 50px auto;
 }
 
-.pic {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 90%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    animation-name: example;
-    animation-duration: 60s;
-    animation-iteration-count: infinite;
-}
 
-@keyframes example {
-    0%   {background-image: url("src/assets/BTFC Apparel/yellowshirt.png");}
-    19%  {background-image: url("src/assets/BTFC Apparel/yellowshirt.png");}
-    20%  {background-image: url("src/assets/BTFC Apparel/blackshirt.png");}
-    39%  {background-image: url("src/assets/BTFC Apparel/blackshirt.png");}
-    40%  {background-image: url("src/assets/BTFC Apparel/hoodie.png");}
-    59%  {background-image: url("src/assets/BTFC Apparel/hoodie.png");}
-    60%  {background-image: url("src/assets/BTFC Apparel/hat.png");}
-    79%  {background-image: url("src/assets/BTFC Apparel/hat.png");}
-    80%  {background-image: url("src/assets/BTFC Apparel/longshirt.png");}
-    99%  {background-image: url("src/assets/BTFC Apparel/longshirt.png");}
-    100% {background-image: url("src/assets/BTFC Apparel/yellowshirt.png");}
-}
 
 
 @media only screen and (max-width: 640px) {
@@ -289,6 +263,12 @@
     .sliderContainer {
         max-width: 50%;
         max-height: 25vh;
+    }
+
+    .storeItems {
+        height: 200%;
+        max-width: 100%;
+        padding-bottom: 1em;
     }
 }
 
