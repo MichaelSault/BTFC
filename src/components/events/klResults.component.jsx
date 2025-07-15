@@ -12,7 +12,7 @@ function klResults() {
   return (
     <>
       <div className='klRow desktopOnly'>
-        <div className='klResultsCol2'>
+        <div className='klResultCol2'>
           <h1 className="klResultText">KEN LAKE</h1>
           <h1 className="klResultText">MEMORIAL MEET</h1>
           <h4 className="klResultSubText">CROSS COUNTRY</h4>

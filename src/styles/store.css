@@ -141,17 +141,25 @@
 
 .sliderContainer {
     position: relative;
-    display: block;
-    width: 100%;
-    max-width: 800px;
-    height: 1000px;
-    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    height: auto;
+    justify-content: start;
+    align-items: end;
+}
+
+.storeItems {
+    height: auto;
+    width: 100vw;
+    padding-top: 10vh;
+    padding-left: 30vw;
 }
 
 
 
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 900px) {
     .storeRow {
         height: auto;
         min-height: 960px;
@@ -160,12 +168,13 @@
         flex-direction: column;
     }
 
-    .desktopOnly {
+    .desktopOnlyStore {
         display: none;
     }
 
     .storeCol {
-        height: 100vh;
+        height: auto;
+        min-height: 100vh;
         width: 100%;
         padding-left: 1em;
         padding-right: 1.5em;
@@ -198,8 +207,8 @@
         color: whitesmoke;
         font-size: 18px;
         line-height: 35px;
-        padding-top: 2em;
-        padding-bottom: 2em;
+        padding-top: 0em;
+        padding-bottom: 0em;
         width: 100%;
     }
 
@@ -261,19 +270,23 @@
     }
 
     .sliderContainer {
-        max-width: 50%;
-        max-height: 25vh;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
     }
 
     .storeItems {
-        height: 200%;
-        max-width: 100%;
-        padding-bottom: 1em;
+        align-self: center;
+
+        margin-left: 10vw;
+        margin-right: 10vw;
+        padding-left: 0;
+        padding-top: 0;
     }
 }
 
-@media only screen and (min-width: 641px) and (max-width: 1325px) {
-    .mobileOnly {
+@media only screen and (min-width: 901px) and (max-width: 1325px) {
+    .mobileOnlyStore {
         display: none;
     }
 
@@ -322,7 +335,7 @@
 }
 
 @media only screen and (min-width: 1325px) and (max-width: 1502px) {
-    .mobileOnly {
+    .mobileOnlyStore {
         display: none;
     }
 
@@ -367,8 +380,8 @@
     }
 }
 
-@media only screen and (min-width: 641px) {
-    .mobileOnly {
+@media only screen and (min-width: 901px) {
+    .mobileOnlyStore {
         display: none;
     }
 

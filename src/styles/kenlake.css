@@ -88,6 +88,7 @@
     letter-spacing: 4px;
     font-family: Anton;
     color: white;
+    text-align: center;
 }
 
 .klResultSubText {
@@ -289,7 +290,7 @@
         width: 40vw;
     }
 
-    .klResultsCol2 {
+    .klResultCol2 {
         width: 50%;
         height: 100%;
 
@@ -359,7 +360,7 @@
         font-size: calc(15px + 0.8vw);
     }
 
-    .klResultsCol2 {
+    .klResultCol2 {
         width: 50%;
         height: 100%;
 
@@ -379,7 +380,7 @@
         display: none;
     }
 
-    .klResultsCol2 {
+    .klResultCol2 {
         width: 50%;
         height: 100%;
 
