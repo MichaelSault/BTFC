@@ -29,8 +29,16 @@ function Distance() {
               <li>Monday and Wednesday evenings</li>
               <li>Saturday mornings</li>
             </ul>
-            <p className="teamText"><b>Racing:</b> Meets are on some weekends, schedule to come.</p>
 
+            <p className="teamText"><b>Seasons:</b></p>
+            <ul className="teamText">
+              <li>January - April: <i>Indoor Training</i></li>
+              <li>May - August: <i>Outdoor Track</i></li>
+              <li>September - December: <i>Cross Country + Outdoor and Indoor Training</i></li>
+            </ul>
+
+            <p className="teamText"><b>Racing:</b> Meets are on some weekends, schedule to come.</p>
+            
             <a href='https://www.trackie.com/club/2025-burlington-track-field-club-outdoor-only-waitlist/1018740/' className='teamButton'>REGISTER</a>
           </div>
           
