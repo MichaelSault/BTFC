@@ -51,6 +51,13 @@
     color: white;
 }
 
+.registrationOpen {
+    border-width: 1.5px;
+    border-style: solid;
+    border-radius: 3px;
+    padding: 5px;
+}
+
 @media only screen and (max-width: 720px) {
     .registrationDisclaimerDesktop {
         display: none;

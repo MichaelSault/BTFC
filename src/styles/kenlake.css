@@ -101,7 +101,7 @@
 
 .innerwrapperKL {
     transform: rotate(5deg);
-    transform-origin: 100vh 100vw;
+    transform-origin: 100vh 200vh;
     z-index: -1;
 
 
@@ -111,6 +111,7 @@
 
     background-image: url(../assets/kenLake.jpeg);
     background-size: auto 150vh;
+    background-position: center;
 }
 
 .outerwrapperKL {
@@ -280,7 +281,9 @@
     }
 
     .innerwrapperKL {
-        transform-origin: 100vh 200vh;
+        transform-origin: 100vh 450vh;
+        background-position: right;
+
     }
 
     .resultDescription {
@@ -294,7 +297,7 @@
         width: 50%;
         height: 100%;
 
-        background-image: url(../assets/eventbackground.png);
+        background-image: url(../assets/kenLake.jpeg);
         background-size: 960px 100vh;
         background-repeat: no-repeat;
 
@@ -333,7 +336,7 @@
 
     .innerwrapperKL {
         transform: rotate(6deg);
-        transform-origin: 100vh 150vw;
+        transform-origin: 100vh 200vw;
         z-index: -1;
     
     
@@ -343,6 +346,8 @@
     
         background-image: url(../assets/kenLake.jpeg);
         background-size: auto 150vh;
+        background-position: center;
+
     }
     
     .outerwrapperKL {
@@ -364,7 +369,7 @@
         width: 50%;
         height: 100%;
 
-        background-image: url(../assets/eventbackground.png);
+        background-image: url(../assets/kenLake.jpeg);
         background-size: 960px 100vh;
         background-repeat: no-repeat;
 
@@ -384,8 +389,9 @@
         width: 50%;
         height: 100%;
 
-        background-image: url(../assets/eventbackground.png);
-        background-size: 960px 100vh;
+        background-image: url(../assets/kenLake.jpeg);
+        background-size: auto 100%;
+        background-position: -700px;
         background-repeat: no-repeat;
 
         display: flex;

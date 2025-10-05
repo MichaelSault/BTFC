@@ -59,6 +59,18 @@
 }
 
 
+@media only screen and (min-width: 641px) and (max-width: 880px) {
+    .Banner {
+        font-size: 9em;
+        max-width: 100%;
+        line-height: 150px;
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+    }
+}
+
+
 @media only screen and (max-width: 640px) {
     .Banner {
         font-size: 5em;

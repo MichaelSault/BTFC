@@ -16,6 +16,8 @@ function Registration() {
                         </i>
                     </p>
             </div>
+            
+            {/* Add 'registrationOpen' class to outline the registration open button and make it clear that it is open */}
             <div className='registrationCol2'>
                 <div className='subRow'>
                     <h2 className='programName'>FULL YEAR</h2>

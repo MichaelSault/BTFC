@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-//use hashRouter temporarily as browserrouter does not work with ghpages
+//use hashRouter temporarily as browserrouter does not work with gh_pages
 import { BrowserRouter, Routes, Route, HashRouter } from 'react-router-dom';
 
 import Container from 'react-bootstrap/Container';
