@@ -49,7 +49,7 @@ function Store() {
         <div className='storeRow desktopOnlyStore'>
             <div className='storeCol'>
                 <h1 className='storeTitle'>BTFC APPAREL STORE</h1>
-                <p className='storeDescription'>The BTFC apparel store is powered by KCK Teamwear.  All orders are made on demand and could take 7 to 10 business dats to complete.</p>
+                <p className='storeDescription'>The BTFC apparel store is powered by KCK Teamwear.  All orders are made on demand and may take 7 to 10 business days to complete.</p>
                 <div className='buttonRowStore'>
                   <a href='https://www.kckteamwear.com/burlingtontrackandfield' className='storeButton'>VISIT STORE</a>
                 </div>
@@ -71,7 +71,7 @@ function Store() {
             <div className='sliderContainer'>
               <img className="storeItems" src={currentItem}/>
             </div>
-            <p className='storeDescription'>The BTFC apparel store is powered by KCK Teamwear.  All orders are made on demand and could take 7-10 business dats to complete.</p>
+            <p className='storeDescription'>The BTFC apparel store is powered by KCK Teamwear.  All orders are made on demand and may take 7-10 business days to complete.</p>
             <div className='buttonRowStore'>
               <a href='https://www.kckteamwear.com/burlingtontrackandfield' className='storeButton'>VISIT STORE</a>
             </div>

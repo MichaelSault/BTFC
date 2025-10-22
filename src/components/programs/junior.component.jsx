@@ -27,7 +27,7 @@ function Junior() {
             <p className="teamText"><b>Training:</b> 1-2 days per week</p>
             <p className="teamText"><b>Training Days:</b></p>
             <ul className="teamText">
-              <li><b>Indoor:</b> Monday and Wednesday</li>
+              <li><b>Indoor:</b> Monday and Thursday</li>
               <li><b>Outdoor:</b> Monday and Thursday</li>
               <li><b>Cross Country:</b> Monday and Thursday</li>
             </ul>
