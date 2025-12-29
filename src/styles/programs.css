@@ -17,7 +17,6 @@
 }
 
 .description {
-    font-family: Pragmatica;
     font-size: 30px;
     color: whitesmoke;
 
@@ -69,7 +68,6 @@
     }
 
     .description {
-        font-family: Pragmatica;
         font-size: 17px;
         color: whitesmoke;
     
@@ -93,7 +91,6 @@
         display: flex;
         justify-content: center;
     
-        font-family: Anton;
         font-size: 25px;
         color: white;
     
@@ -121,7 +118,6 @@
     }
     
     .description {
-        font-family: Pragmatica;
         font-size: 25px;
         color: whitesmoke;
         text-align: center;
@@ -175,7 +171,6 @@
     }
     
     .description {
-        font-family: Pragmatica;
         font-size: 33px;
         color: whitesmoke;
         text-align: center;

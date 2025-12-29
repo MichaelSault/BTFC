@@ -6,7 +6,7 @@ import '../../styles/teams.css';
 
 import Footer from "../socialFooter.component";
 
-import SprintImage from "../../assets/sprintTeam.png";
+import SprintImage from "../../assets/sprintTeam.jpeg";
 
 
 function Sprint() {
