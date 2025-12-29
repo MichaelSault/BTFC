@@ -5,10 +5,10 @@ import '../../App.css';
 
 import Footer from "../socialFooter.component";
 
-const gr2018 = 'src/assets/results/2018 Gord Rusby Memorial Meet Results.pdf';
-const gr2019 = 'src/assets/results/2019 Gord Rusby Memorial Meet Results.pdf';
-const gr2022 = 'src/assets/results/2022 Gord Rusby Memorial Meet Results.pdf';
-const gr2023 = 'src/assets/results/2023 Gord Rusby Memorial Meet Results.pdf';
+import gr2018 from '../../assets/results/2018 Gord Rusby Memorial Meet Results.pdf';
+import gr2019 from '../../assets/results/2019 Gord Rusby Memorial Meet Results.pdf';
+import gr2022 from '../../assets/results/2022 Gord Rusby Memorial Meet Results.pdf';
+import gr2023 from '../../assets/results/2023 Gord Rusby Memorial Meet Results.pdf';
 
 function grResults() {
   const navigate = useNavigate();

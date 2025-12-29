@@ -5,13 +5,13 @@ import '../../App.css';
 
 import Footer from "../socialFooter.component";
 
-const kl2018 = 'src/assets/results/KEN LAKE X-COUNTRY RESULTS 2018.pdf';
-const kl2019 = 'src/assets/results/KEN LAKE X-COUNTRY RESULTS 2019.pdf';
-const kl2021 = 'src/assets/results/KEN LAKE X-COUNTRY RESULTS 2021.pdf';
-const kl2022 = 'src/assets/results/KEN LAKE X-COUNTRY RESULTS 2022.pdf';
-const kl2023 = 'src/assets/results/KEN LAKE X-COUNTRY RESULTS 2023.pdf';
-const kl2024 = 'src/assets/results/KEN LAKE X-COUNTRY RESULTS 2024.pdf';
-const kl2025 = 'src/assets/results/KEN LAKE X-COUNTRY RESULTS 2025.pdf';
+import kl2018 from '../../assets/results/KEN LAKE X-COUNTRY RESULTS 2018.pdf';
+import kl2019 from '../../assets/results/KEN LAKE X-COUNTRY RESULTS 2019.pdf';
+import kl2021 from '../../assets/results/KEN LAKE X-COUNTRY RESULTS 2021.pdf';
+import kl2022 from '../../assets/results/KEN LAKE X-COUNTRY RESULTS 2022.pdf';
+import kl2023 from '../../assets/results/KEN LAKE X-COUNTRY RESULTS 2023.pdf';
+import kl2024 from '../../assets/results/KEN LAKE X-COUNTRY RESULTS 2024.pdf';
+import kl2025 from '../../assets/results/KEN LAKE X-COUNTRY RESULTS 2025.pdf';
 
 function klResults() {
   const navigate = useNavigate();
