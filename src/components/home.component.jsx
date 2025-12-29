@@ -14,6 +14,7 @@ function Home() {
 
   return (
     <>
+      <div className='homePage'>
         <BannerHero />
         <Programs/>
         <Registration/>
@@ -22,6 +23,7 @@ function Home() {
         <Contact/>
         <Store/>
         <Directors/>
+      </div>
     </>
   )
 }

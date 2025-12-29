@@ -9,7 +9,7 @@ function Footer() {
 
   return (
     <MDBFooter color='white' bgColor='dark' className='text-center text-lg-start text-muted'>
-        <section className='p-4 border-top'>
+        <section className='p-4'>
             <MDBContainer className='text-center text-md-start mt-5'>
             <MDBRow className='mt-3'>
                 <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>

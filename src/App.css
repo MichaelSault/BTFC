@@ -14,6 +14,10 @@ body {
   display: grid; /* set as grid to fix hosted formatting issue with edge */
 }
 
+.homePage {
+  width: 100vw;
+}
+
 button {
   background-color: aliceblue;
 }
@@ -59,6 +63,7 @@ button {
   flex-wrap: wrap;
   align-items: flex-start;
   height: 100vh;
+  width: 100vw;
   justify-content: center;
   padding: 3em 3em;
   background-color: #e4e2bf;
@@ -70,6 +75,7 @@ button {
   flex-wrap: wrap;
   align-items: flex-start;
   height: 100vh;
+  width: 100vw;
   justify-content: center;
   padding: 3em 3em;
   background-color: #e4e2bf;
@@ -139,6 +145,7 @@ hr {
   flex-wrap: wrap;
   align-items: flex-start;
   min-height: 100vh;
+  width: 100vw;
   justify-content: left;
   padding: 3em 3em;
   background-color: #ebece91f;
@@ -161,6 +168,7 @@ hr {
   flex-wrap: wrap;
   align-items: flex-start;
   height: 100vh;
+  width: 100vw;
   justify-content: center;
   padding: 3em 3em;
   background-color: #c5e4bf;

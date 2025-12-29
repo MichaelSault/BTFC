@@ -42,8 +42,6 @@
 .bodTile {
   display: flex;
   flex-direction: row;
-  width: 450px;
-  min-width: 350px;
   padding-top: 30px;
   /* outline-style: dotted;
   outline-color: blue; */
@@ -113,14 +111,12 @@
 
   .bodTile {
     padding-top: 1em;
-    width: 100vw;
   }
 
   .bodTileRight {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    width: 100vw;
     min-width: 350px;
 
     padding-top: 1em;
@@ -152,6 +148,9 @@
     flex-direction: column;
   }
 
+  .bodCentered {
+    margin-left: -5em;
+  }
   .directorsRow {
     flex-wrap: nowrap;
     align-items: center;
@@ -169,15 +168,12 @@
 
   .bodTile {
     padding-top: 1em;
-    width: 100vw;
   }
 
   .bodTileRight {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    width: 100vw;
-    min-width: 350px;
 
     padding-top: 1em;
   }
@@ -189,7 +185,7 @@
   .bodTitle {
     height: auto;
     font-family: Anton;
-    font-size: 70px;
+    font-size: 60px;
   
     color: #10ab08;
   

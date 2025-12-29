@@ -56,7 +56,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 100%;
     width: 50%;
     background-color: #10ab08;
     padding-left: 5em;
@@ -79,7 +79,7 @@
 
     align-self: center;
     align-items: center;
-    margin: 2em;
+    margin: 1.8em;
 }
 
 .klResultText {
@@ -121,7 +121,7 @@
     height: 150vh;
     overflow: hidden;
 
-    background-color: pink;
+    background-color: black;
 }
 
 .buttonRowKL {
@@ -172,6 +172,20 @@
 
         padding-left: 0em;
         padding-top: 0em;
+        padding-bottom: 0em;
+
+        max-width: 100%;
+    }
+
+    .klResultTitle {
+        font-family: Anton;
+        font-size: 70px;
+        line-height: 65px;
+        color: #ffe500;
+
+        padding-left: 0em;
+        padding-top: 0.5em;
+        padding-bottom: 0.2em;
 
         max-width: 100%;
     }
@@ -190,10 +204,10 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 100vh;
+        height: 100%;
         width: 100%;
         background-color: #10ab08;
-        padding-top: 2em;
+        padding-top: 3em;
         padding-left: 4em;
         padding-right: 4em;
     }
@@ -357,7 +371,7 @@
         height: 150vh;
         overflow: hidden;
     
-        background-color: pink;
+        background-color: black;
     }
 
     .resultDescription {
