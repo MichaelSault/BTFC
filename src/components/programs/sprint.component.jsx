@@ -1,6 +1,6 @@
 import {Button} from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import { useState } from 'react'
+import { useState, useEffect } from 'react';
 import '../../styles/teams.css';
 
 
@@ -12,10 +12,14 @@ import SprintImage from "../../assets/sprintTeam.jpeg";
 function Sprint() {
   const navigate = useNavigate();
 
+  useEffect(() => {
+    document.title = 'Programs | Burlington Track & Field Club';
+  });
+
   return (
     <div className="teamRow">
       <div className="teamImageCol">
-        <img className="teamImage" src={SprintImage}/>
+        <img className="teamImage" src={SprintImage} alt="Burlington's Senior Sprint Team"/>
       </div>
     
       <div className="teamTextCol">

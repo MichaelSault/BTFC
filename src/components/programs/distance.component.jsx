@@ -1,6 +1,6 @@
 import {Button} from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import { useState } from 'react'
+import { useState, useEffect } from 'react';
 import '../../styles/teams.css';
 
 import Footer from "../socialFooter.component";
@@ -10,11 +10,15 @@ import DistanceImage from "../../assets/distanceTeam.jpeg";
 function Distance() {
   const navigate = useNavigate();
 
+  useEffect(() => {
+    document.title = 'Programs | Burlington Track & Field Club';
+  });
+
   return (
     <>
       <div className="teamRow">
         <div className="teamImageCol">
-          <img className="teamImage" src={DistanceImage}/>
+          <img className="teamImage" src={DistanceImage} alt="Burlington's Senior Distance Team celebrating after a Cross Country Meet"/>
         </div>
       
         <div className="teamTextCol">

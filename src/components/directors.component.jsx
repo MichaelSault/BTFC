@@ -1,6 +1,6 @@
 import {Button} from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import '../App.css';
 import '../styles/bod.css';
 
@@ -23,6 +23,10 @@ import Director4 from "../assets/bodImages/director4.jpg";
 function Directors() {
   const navigate = useNavigate();
 
+  useEffect(() => {
+    document.title = 'Staff | Burlington Track & Field Club';
+  });
+  
   return (
     <>
     <div className="directorsRow">

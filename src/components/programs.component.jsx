@@ -1,7 +1,12 @@
+import { useEffect } from 'react';
+
 import '../App.css';
 import '../styles/programs.css';
 
 function Programs() {
+  useEffect(() => {
+    document.title = 'Programs | Burlington Track & Field Club';
+  });
 
   return (
     <>

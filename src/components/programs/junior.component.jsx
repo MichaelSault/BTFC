@@ -1,6 +1,6 @@
 import {Button} from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import { useState } from 'react'
+import { useState, useEffect } from 'react';
 import '../../styles/teams.css';
 
 import Footer from "../socialFooter.component";
@@ -10,11 +10,15 @@ import JuniorImage from "../../assets/juniorTeam.jpeg";
 function Junior() {
   const navigate = useNavigate();
 
+  useEffect(() => {
+    document.title = 'Programs | Burlington Track & Field Club';
+  });
+
   return (
     <>
       <div className="teamRow">
         <div className="teamImageCol">
-          <img className="teamImage" src={JuniorImage}/>
+          <img className="teamImage" src={JuniorImage} alt="Burlington's Junior Team at the start line of the Ken Lake Cross Country Meet"/>
         </div>
       
         <div className="teamTextCol">

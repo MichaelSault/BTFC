@@ -19,6 +19,8 @@ function Store() {
   });
 
   useEffect(() => {
+    document.title = 'Store | Burlington Track & Field Club';
+
     console.log("useEffect run");
     setCurrentItem(storeItems[0]);
     if (firstTime == 0) {
@@ -58,7 +60,7 @@ function Store() {
               <div className='outerwrapperStore'>
                 <div className='innerwrapperStore'>
                   <div className='sliderContainer'>
-                    <img className="storeItems" src={currentItem}/>
+                    <img className="storeItems" src={currentItem} alt="BTFC Appearel options availaible in the store."/>
                   </div>
                 </div>
               </div>
@@ -69,7 +71,7 @@ function Store() {
           <div className='storeCol'>
             <h1 className='storeTitle'>BTFC APPAREL STORE</h1>
             <div className='sliderContainer'>
-              <img className="storeItems" src={currentItem}/>
+              <img className="storeItems" src={currentItem} alt="BTFC Appearel options availaible in the store."/>
             </div>
             <p className='storeDescription'>The BTFC apparel store is powered by KCK Teamwear.  All orders are made on demand and may take 7-10 business days to complete.</p>
             <div className='buttonRowStore'>

@@ -1,3 +1,5 @@
+import {useEffect} from 'react';
+
 import '../App.css';
 
 //import page components
@@ -11,6 +13,10 @@ import Store from "./store.component.jsx";
 import Directors from "./directors.component.jsx";
 
 function Home() {
+
+  useEffect(() => {
+    document.title = 'Home | Burlington Track & Field Club';
+  });
 
   return (
     <>
