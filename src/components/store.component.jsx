@@ -19,8 +19,6 @@ function Store() {
   });
 
   useEffect(() => {
-    document.title = 'Store | Burlington Track & Field Club';
-
     console.log("useEffect run");
     setCurrentItem(storeItems[0]);
     if (firstTime == 0) {
@@ -48,38 +46,40 @@ function Store() {
 
   return (
     <>
-        <div className='storeRow desktopOnlyStore'>
-            <div className='storeCol'>
-                <h1 className='storeTitle'>BTFC APPAREL STORE</h1>
-                <p className='storeDescription'>The BTFC apparel store is powered by KCK Teamwear.  All orders are made on demand and may take 7 to 10 business days to complete.</p>
-                <div className='buttonRowStore'>
-                  <a href='https://www.kckteamwear.com/burlingtontrackandfield' className='storeButton'>VISIT STORE</a>
-                </div>
-            </div>
-            <div className='storeCol2'>
-              <div className='outerwrapperStore'>
-                <div className='innerwrapperStore'>
-                  <div className='sliderContainer'>
-                    <img className="storeItems" src={currentItem} alt="BTFC Appearel options availaible in the store."/>
-                  </div>
+      <title>Store | Burlington Track & Field Club</title>
+      <meta name='description' content='Explore the BTFC Store for all your Burlington Track & Field Club gear and essentials. Shop now for high-quality apparel, equipment, and accessories to support your athletic journey.'/>
+      <div className='storeRow desktopOnlyStore'>
+          <div className='storeCol'>
+              <h1 className='storeTitle'>BTFC APPAREL STORE</h1>
+              <p className='storeDescription'>The BTFC apparel store is powered by KCK Teamwear.  All orders are made on demand and may take 7 to 10 business days to complete.</p>
+              <div className='buttonRowStore'>
+                <a href='https://www.kckteamwear.com/burlingtontrackandfield' className='storeButton'>VISIT STORE</a>
+              </div>
+          </div>
+          <div className='storeCol2'>
+            <div className='outerwrapperStore'>
+              <div className='innerwrapperStore'>
+                <div className='sliderContainer'>
+                  <img className="storeItems" src={currentItem} alt="BTFC Appearel options availaible in the store."/>
                 </div>
               </div>
             </div>
-        </div>
-
-        <div className='storeRow mobileOnlyStore'>
-          <div className='storeCol'>
-            <h1 className='storeTitle'>BTFC APPAREL STORE</h1>
-            <div className='sliderContainer'>
-              <img className="storeItems" src={currentItem} alt="BTFC Appearel options availaible in the store."/>
-            </div>
-            <p className='storeDescription'>The BTFC apparel store is powered by KCK Teamwear.  All orders are made on demand and may take 7-10 business days to complete.</p>
-            <div className='buttonRowStore'>
-              <a href='https://www.kckteamwear.com/burlingtontrackandfield' className='storeButton'>VISIT STORE</a>
-            </div>
-            <hr/>
           </div>
+      </div>
+
+      <div className='storeRow mobileOnlyStore'>
+        <div className='storeCol'>
+          <h1 className='storeTitle'>BTFC APPAREL STORE</h1>
+          <div className='sliderContainer'>
+            <img className="storeItems" src={currentItem} alt="BTFC Appearel options availaible in the store."/>
+          </div>
+          <p className='storeDescription'>The BTFC apparel store is powered by KCK Teamwear.  All orders are made on demand and may take 7-10 business days to complete.</p>
+          <div className='buttonRowStore'>
+            <a href='https://www.kckteamwear.com/burlingtontrackandfield' className='storeButton'>VISIT STORE</a>
+          </div>
+          <hr/>
         </div>
+      </div>
     </>
   )
 }

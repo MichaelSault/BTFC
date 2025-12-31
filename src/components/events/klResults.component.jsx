@@ -17,12 +17,10 @@ import kl2025 from '../../assets/results/KEN LAKE X-COUNTRY RESULTS 2025.pdf';
 function klResults() {
   const navigate = useNavigate();
 
-  useEffect(() => {
-    document.title = 'Race Results | Burlington Track & Field Club';
-  });
-
   return (
     <>
+      <title>Race Results | Burlington Track & Field Club</title>
+      <meta name='description' content="Stay updated with the latest race results from Burlington Track & Field Clubs's anual Ken Lake Memorial Cross Country Meet"/>
       <div className='klRow desktopOnly'>
         <div className='klResultCol2'>
           <h1 className="klResultText">KEN LAKE</h1>

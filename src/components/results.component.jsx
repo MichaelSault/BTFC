@@ -7,12 +7,12 @@ import GordRusby from './gordRusby.component';
 import KenLake from './kenLake.component';
 
 function Results() {
-  useEffect(() => {
-    document.title = 'Race Results | Burlington Track & Field Club';
-  });
+  
 
   return (
     <>
+      <title>Race Results | Burlington Track & Field Club</title>
+      <meta name='description' content='Stay updated with the latest race results from Burlington Track & Field. Explore our comprehensive listings to track your progress and celebrate achievements. Visit us now!'/>
       <GordRusby/>
       <KenLake/>
     </>

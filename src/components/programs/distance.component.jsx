@@ -10,12 +10,10 @@ import DistanceImage from "../../assets/distanceTeam.jpeg";
 function Distance() {
   const navigate = useNavigate();
 
-  useEffect(() => {
-    document.title = 'Programs | Burlington Track & Field Club';
-  });
-
   return (
     <>
+      <title>Programs | Burlington Track & Field Club</title>
+      <meta name="description" content="Discover the Senior Distance program offered by the Burlington Track & Field Club, catering to runners of high school age and up. From training sessions to competitive events, find your perfect fit with us today!"/>
       <div className="teamRow">
         <div className="teamImageCol">
           <img className="teamImage" src={DistanceImage} alt="Burlington's Senior Distance Team celebrating after a Cross Country Meet"/>

@@ -10,12 +10,10 @@ import JuniorImage from "../../assets/juniorTeam.jpeg";
 function Junior() {
   const navigate = useNavigate();
 
-  useEffect(() => {
-    document.title = 'Programs | Burlington Track & Field Club';
-  });
-
   return (
     <>
+      <title>Programs | Burlington Track & Field Club</title>
+      <meta name="description" content="Discover Burlington Track & Field Club's Junior team, catering to runners age 6 to 13. From training sessions to competitive events, find your perfect fit with us today!"/>
       <div className="teamRow">
         <div className="teamImageCol">
           <img className="teamImage" src={JuniorImage} alt="Burlington's Junior Team at the start line of the Ken Lake Cross Country Meet"/>
@@ -40,7 +38,7 @@ function Junior() {
             <ul className="teamText">
               <li>January - April: <i>Indoor Training</i></li>
               <li>May - August: <i>Outdoor Track</i></li>
-              <li>September - December: <i>Cross Country + Indoor Training</i></li>
+              <li>September - November: <i>Cross Country</i></li>
             </ul>
 
 

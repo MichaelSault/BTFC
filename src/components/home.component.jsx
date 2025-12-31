@@ -13,11 +13,6 @@ import Store from "./store.component.jsx";
 import Directors from "./directors.component.jsx";
 
 function Home() {
-
-  useEffect(() => {
-    document.title = 'Home | Burlington Track & Field Club';
-  });
-
   return (
     <>
       <div className='homePage'>
@@ -30,6 +25,8 @@ function Home() {
         <Store/>
         <Directors/>
       </div>
+      <title>Home | Burlington Track & Field Club</title>
+      <meta name="description" content="Welcome to Burlington Track and Field, your premier destination for running enthusiasts in Burlington. Discover our vibrant community, engaging events, and expert coaching. Join us and unleash your potential on the track and field!"/>
     </>
   )
 }

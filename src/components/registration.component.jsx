@@ -6,13 +6,10 @@ import '../styles/registration.css';
 import backgroundImage from '../assets/runningbanner.jpeg';
 
 function Registration() {
-
-    useEffect(() => {
-        document.title = 'Registration | Burlington Track & Field Club';
-    });
-    
     return (
         <>
+            <title>Registration | Burlington Track & Field Club</title>
+            <meta name='description' content='Register now at Burlington Track & Field to join our vibrant community of runners and athletes. Explore our programs, events, and membership options. Start your journey today!'/>
             <div className="registrationRow">
                 <div className='registrationCol'>
                     <h1 className='registrationTitle'>REGISTRATION OPTIONS</h1>

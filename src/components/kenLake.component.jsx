@@ -8,6 +8,8 @@ function KenLake() {
 
   return (
     <>
+      <title>Race Results | Burlington Track & Field Club</title>
+      <meta name='description' content='Stay updated with the latest race results from Burlington Track & Field. Explore our comprehensive listings to track your progress and celebrate achievements. Visit us now!'/>
       <div className='klRow desktopOnly'>
         <div className='klCol2'>
           <div className="outerwrapperKL">
