@@ -159,7 +159,7 @@
 
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
     .storeRow {
         height: auto;
         min-height: 960px;
@@ -285,7 +285,7 @@
     }
 }
 
-@media only screen and (min-width: 901px) and (max-width: 1325px) {
+@media only screen and (min-width: 801px) and (max-width: 1325px) {
     .mobileOnlyStore {
         display: none;
     }
@@ -380,7 +380,7 @@
     }
 }
 
-@media only screen and (min-width: 901px) {
+@media only screen and (min-width: 800px) {
     .mobileOnlyStore {
         display: none;
     }
@@ -410,5 +410,19 @@
         padding-top: 2em;
         padding-left: 3em;
         padding-right: 4em;
+    }
+}
+
+@media only screen and (max-width: 956px) and (max-height: 440px) {
+    .storeTitle {
+        font-size: 8vw;
+        line-height: 8vw;
+        padding-top: 1em;
+    }
+
+    .storeButton {
+        width: 250px;
+        height: 50px;
+        font-size: 25px;
     }
 }

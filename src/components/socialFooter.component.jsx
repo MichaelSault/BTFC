@@ -12,14 +12,14 @@ function Footer() {
         <section className='p-4'>
             <MDBContainer className='text-center text-md-start mt-5'>
             <MDBRow className='mt-3'>
-                <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
+                <MDBCol lg="4" xl="3" className='mx-auto mb-4'>
                 <h6 className='text-uppercase fw-bold mb-4 text-white'>
                     <MDBIcon icon="gem" className="me-3"/>
                     Burlington Track and Field
                 </h6>
                 </MDBCol>
 
-                <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
+                <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
                 <h6 className='text-uppercase fw-bold mb-4 text-white'>Programs</h6>
                 <p>
                     <a href='/#/Junior/' className='text-white'>
@@ -62,7 +62,7 @@ function Footer() {
                 </p>
                 </MDBCol>
 
-                <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
+                <MDBCol md="6" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
                 <h6 className='text-uppercase fw-bold mb-4 text-white'>Contact</h6>
                 <p className='text-white'>
                     Head Coach - Tammy Mackenzie

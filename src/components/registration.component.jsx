@@ -28,7 +28,7 @@ function Registration() {
                             January - December<br/>
                             Junior - $390<br/>
                             Senior - $425<br/>
-                            <a className='whiteText' href='https://www.trackie.com/club/BTFC2025FullYear'><b><i>Registration: Closed</i></b></a>
+                            <a className='whiteText registrationOpen' href='https://www.trackie.com/club/BTFC2026FullYear'><b><i>Registration: Open</i></b></a>
                         </p>
                     </div>
                     <div className='subRow'>
@@ -37,25 +37,25 @@ function Registration() {
                             January - April<br/>
                             Junior - $140<br/>
                             Senior - $150<br/>
-                            <a className='whiteText registrationOpen' href='https://www.trackie.com/club/BTFC2025IndoorOnly'><b><i>Registration Opening Soon</i></b></a>
+                            <a className='whiteText registrationOpen' href='https://www.trackie.com/club/BTFC2026IndoorOnly'><b><i>Registration: Open</i></b></a>
                         </p>
                     </div>
                     <div className='subRow'>
                         <h2 className='programName'>OUTDOOR TRACK</h2>
                         <p className='registrationText'>
                             May - August<br/>
-                            Junior - $240<br/>
+                            Junior - $250<br/>
                             Senior - $275<br/>
-                            <a className='whiteText' href='https://www.trackie.com/club/2025OutdoorOnly'><b><i>Registration: Closed<br/></i></b></a>
+                            <a className='greyText' href='https://www.trackie.com/club/2025OutdoorOnly'><b><i>Registration: Closed<br/></i></b></a>
                         </p>
                     </div>
                     <div className='subRow'>
                         <h2 className='programName'>CROSS COUNTRY/ SR.SPRINT</h2>
                         <p className='registrationText'>
-                            September - December<br/>
+                            September - October 31st<br/>
                             Junior - $140<br/>
                             Senior - $150<br/>
-                            <a className='whiteText' href='https://www.trackie.com/club/BTFC2024CrossCountrySeniorSprint'><b><i>Registration: Closed<br/></i></b></a>
+                            <a className='greyText' href='https://www.trackie.com/club/BTFC2025CrossCountrySeniorSprint'><b><i>Registration: Closed<br/></i></b></a>
                         </p>
                     </div>
                     <div className='disclaimerBox'>

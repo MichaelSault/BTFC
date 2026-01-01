@@ -378,3 +378,53 @@
         justify-content: center;
     }
 }
+
+@media only screen and (max-width: 956px) and (max-height: 440px) {
+    .grTitle {
+        font-size: 8vw;
+        line-height: 8vw;
+        padding-top: 1em;
+    }
+
+    .resultDescription {
+        padding-bottom: 0em;
+    }
+
+    .grButton {
+        width: 250px;
+        height: 50px;
+        font-size: 25px;
+    }
+
+    .grCol {
+        height: 120vh;
+    }
+
+    .grCol2 {
+        height: 130vh;
+    }
+
+    .grRow {
+        height: 130vh;
+    }
+
+    .grResultCol {
+        padding-top: 8em;
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+
+    .grResultButton {
+        margin: 1em;
+    }
+
+    .grResultText {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .grResultSubText {
+        font-size: 25px;
+        line-height: 25px;
+    }
+}
