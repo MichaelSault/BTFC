@@ -11,6 +11,7 @@ import Registration from "./registration.component.jsx";
 import Contact from "./contact.component.jsx";
 import Store from "./store.component.jsx";
 import Directors from "./directors.component.jsx";
+import BTFCNews from './btfcNews.component.jsx';
 
 function Home() {
   return (
@@ -23,6 +24,7 @@ function Home() {
         <KenLake/>
         <Contact/>
         <Store/>
+        <BTFCNews/>
         <Directors/>
       </div>
       <title>Home | Burlington Track & Field Club</title>
