@@ -13,9 +13,7 @@ function BTFCNews() {
       <div className='newsRow desktopOnly'>
         <div className='newsCol2'>
           <div className="outerwrapperNews">
-            <div className='innerwrapperNews'>
-              <img className="newsImage" src={awardPhoto} alt="BTFC Appearel options availaible in the store."/>
-            </div>
+            <img className="newsImage" src={awardPhoto} alt="BTFC Appearel options availaible in the store."/>
           </div>
         </div>
         <div className='newsCol'>
