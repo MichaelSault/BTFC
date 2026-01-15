@@ -28,7 +28,7 @@ function Registration() {
                             January - December<br/>
                             Junior - $390<br/>
                             Senior - $425<br/>
-                            <a className='whiteText registrationOpen' href='https://www.trackie.com/club/BTFC2026FullYear'><b><i>Registration: Open</i></b></a>
+                            <a className='whiteText' href='https://www.trackie.com/club/BTFC2026FullYear'><b><i>Registration: Closed</i></b></a>
                         </p>
                     </div>
                     <div className='subRow'>
@@ -37,7 +37,7 @@ function Registration() {
                             January - April<br/>
                             Junior - $140<br/>
                             Senior - $150<br/>
-                            <a className='whiteText registrationOpen' href='https://www.trackie.com/club/BTFC2026IndoorOnly'><b><i>Registration: Open</i></b></a>
+                            <a className='whiteText' href='https://www.trackie.com/club/BTFC2026IndoorOnly'><b><i>Registration: Closed</i></b></a>
                         </p>
                     </div>
                     <div className='subRow'>
