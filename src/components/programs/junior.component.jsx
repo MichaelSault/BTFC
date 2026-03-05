@@ -22,7 +22,7 @@ function Junior() {
         <div className="teamTextCol">
           <div className="teamTextSubCol">
 
-            <h1 className="teamName">JUNIOR TRACK AND FIELD/CROSS COUNTRY</h1>
+            <h1 className="teamName">JUNIOR TEAM</h1>
             <p className="teamText"><b>Ages:</b> 6 to 13</p>
             <p className="teamText"><b>Distances:</b> All</p>
             <p className="teamText"><b>Experience Level:</b> All levels welcome</p>
@@ -38,7 +38,7 @@ function Junior() {
             <ul className="teamText">
               <li>January - April: <i>Indoor Training</i></li>
               <li>May - August: <i>Outdoor Track</i></li>
-              <li>September - November: <i>Cross Country</i></li>
+              <li>September - October: <i>Cross Country</i></li>
             </ul>
 
 

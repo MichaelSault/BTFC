@@ -16,11 +16,19 @@ function Contact() {
                         <br/>
                         <b><i>Head Coach</i></b>
                         <br/>
-                        <b><i>Junior and Senior Distance Team</i></b>
+                        <b><i>Junior Group and Senior Distance Team</i></b>
                         <br/>
                         <b>Email: </b> tammymackenzie@bell.net
                         <br/>
-                        {/* <b>Call: </b> (905) 332-7072 */}
+                        <br/>
+                        <b>Jordan Mabbott</b>
+                        <br/>
+                        <b><i>Head Coach</i></b>
+                        <br/>
+                        <b><i>Senior Sprint Team</i></b>
+                        <br/>
+                        <b>Email: </b> jordanmabbott@gmail.com
+                        <br/>
                         <br/>
                         <br/>
                         <b>General Inquiries:</b>

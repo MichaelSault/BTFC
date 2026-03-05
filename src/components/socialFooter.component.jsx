@@ -23,7 +23,7 @@ function Footer() {
                 <h6 className='text-uppercase fw-bold mb-4 text-white'>Programs</h6>
                 <p>
                     <a href='/#/Junior/' className='text-white'>
-                        Junior
+                        Junior Group
                     </a>
                 </p>
                 <p>
