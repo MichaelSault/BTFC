@@ -30,7 +30,6 @@ function Contact() {
                         <b>Email: </b> jordanmabbott@gmail.com
                         <br/>
                         <br/>
-                        <br/>
                         <b>General Inquiries:</b>
                         <br/>
                         president@burlingtontrackandfield.org

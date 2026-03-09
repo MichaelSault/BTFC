@@ -22,7 +22,7 @@ function Junior() {
         <div className="teamTextCol">
           <div className="teamTextSubCol">
 
-            <h1 className="teamName">JUNIOR TEAM</h1>
+            <h1 className="teamName">JUNIOR GROUP</h1>
             <p className="teamText"><b>Ages:</b> 6 to 13</p>
             <p className="teamText"><b>Distances:</b> All</p>
             <p className="teamText"><b>Experience Level:</b> All levels welcome</p>
@@ -44,7 +44,7 @@ function Junior() {
 
             <p className="teamText"><b>Racing:</b> Meets are on some weekends, schedule to come.</p>
 
-            <a href='https://www.trackie.com/club/2025-burlington-track-field-club-outdoor-only-waitlist/1018740/' className='teamButton'>REGISTER</a>
+            <a href='https://www.trackie.com/club/2026-burlington-track-field-club-outdoor-only-waitlist/1018740/' className='teamButton'>REGISTER</a>
           </div>
         </div>
       </div>
