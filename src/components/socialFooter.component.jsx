@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
-import React from 'react';
-import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
+import { Container, Row, Col } from "react-bootstrap";
+import { FaDesktop, FaEnvelope, FaFolder, FaInstagram } from "react-icons/fa";
 
 import '../App.css';
 
@@ -8,102 +8,74 @@ function Footer() {
   const navigate = useNavigate();
 
   return (
-    <MDBFooter color='white' bgColor='dark' className='text-center text-lg-start text-muted'>
-        <section className='p-4'>
-            <MDBContainer className='text-center text-md-start mt-5'>
-            <MDBRow className='mt-3'>
-                <MDBCol lg="4" xl="3" className='mx-auto mb-4'>
-                <h6 className='text-uppercase fw-bold mb-4 text-white'>
-                    <MDBIcon icon="gem" className="me-3"/>
-                    Burlington Track and Field
-                </h6>
-                </MDBCol>
+    <footer className="text-center text-lg-start text-muted bg-dark text-white">
 
-                <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
-                <h6 className='text-uppercase fw-bold mb-4 text-white'>Programs</h6>
-                <p>
-                    <a href='/#/Junior/' className='text-white'>
-                        Junior Group
-                    </a>
-                </p>
-                <p>
-                    <a href='/#/Distance/' className='text-white'>
-                        Senior Distance
-                    </a>
-                </p>
-                <p>
-                    <a href='/#/Sprint/' className='text-white'>
-                        Senior Sprint
-                    </a>
-                </p>
-                </MDBCol>
+      <section className="p-4">
+        <Container className="text-center text-md-start mt-5">
+          <Row className="mt-3">
 
-                <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
-                <h6 className='text-uppercase fw-bold mb-4 text-white'>Useful links</h6>
-                <p>
-                    <a href='/#/Programs/' className='text-white'>
-                        Registration
-                    </a>
-                </p>
-                <p>
-                    <a href='/#/Results/' className='text-white'>
-                        Results
-                    </a>
-                </p>
-                <p>
-                    <a href='/#/Contact/' className='text-white'>
-                        Contact
-                    </a>
-                </p>
-                <p>
-                    <a href='/#/Directors/' className='text-white'>
-                        Board of Directors
-                    </a>
-                </p>
-                </MDBCol>
+            <Col lg="4" xl="3" className="mx-auto mb-4">
+              <h6 className="text-uppercase fw-bold mb-4 text-white">
+                Burlington Track and Field
+              </h6>
+            </Col>
 
-                <MDBCol md="6" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
-                <h6 className='text-uppercase fw-bold mb-4 text-white'>Contact</h6>
-                <p className='text-white'>
-                    Head Coach - Tammy Mackenzie
-                </p>
-                <p className='text-white'>
-                    <MDBIcon icon="envelope" className="me-1" />
-                    tammymackenzie@bell.net
-                </p>
-                <p className='text-white'>
-                    General Inquires
-                </p>
-                <p className='text-white'>
-                    <MDBIcon icon="envelope" className="me-1" />
-                    president@burlingtontrackandfield.org
-                </p>
-                </MDBCol>
-            </MDBRow>
-            </MDBContainer>
-        </section>
+            <Col md="3" lg="2" xl="2" className="mx-auto mb-4">
+              <h6 className="text-uppercase fw-bold mb-4 text-white">Programs</h6>
+              <p><a href="/#/Junior/" className="text-white">Junior Group</a></p>
+              <p><a href="/#/Distance/" className="text-white">Senior Distance</a></p>
+              <p><a href="/#/Sprint/" className="text-white">Senior Sprint</a></p>
+            </Col>
 
-        <div className='text-center p-4 text-white' style={{ backgroundColor: 'rgba(0, 0, 0, 0.02)' }}>
-            © 2025 Copyright Burlington Track and Field Club
+            <Col md="3" lg="2" xl="2" className="mx-auto mb-4">
+              <h6 className="text-uppercase fw-bold mb-4 text-white">Useful links</h6>
+              <p><a href="/#/Programs/" className="text-white">Registration</a></p>
+              <p><a href="/#/Results/" className="text-white">Results</a></p>
+              <p><a href="/#/Contact/" className="text-white">Contact</a></p>
+              <p><a href="/#/Directors/" className="text-white">Board of Directors</a></p>
+            </Col>
+
+            {/* Contact */}
+            <Col md="6" lg="3" xl="3" className="mx-auto mb-md-0 mb-4" >
+              <h6 className="text-uppercase fw-bold mb-4 text-white">Contact</h6>
+              <p className="text-white" style={{marginBottom: '.2em'}}>Head Coach - Tammy Mackenzie</p>
+              <a className="text-white" href="mailto:tammymackenzie@bell.net">
+                <FaEnvelope className="me-1" />
+                tammymackenzie@bell.net
+              </a>
+              <br/><br/>
+              <p className="text-white" style={{marginBottom: '.2em'}}>General Inquiries</p>
+              <a className="text-white" href="mailto:president@burlingtontrackandfield.org">
+                <FaEnvelope className="me-0" />
+                president@burlingtontrackandfield.org
+              </a>
+            </Col>
+
+          </Row>
+        </Container>
+      </section>
+
+      <div className="text-center p-4" style={{ backgroundColor: "rgba(0, 0, 0, 0.02)", color:"white"}}>
+        © 2026 Copyright Burlington Track and Field Club
+      </div>
+
+      <section className="d-flex justify-content-center justify-content-lg-between p-4" style={{ backgroundColor: "rgba(0, 0, 0, 0.02)" }}>
+        <div className="centerSocials">
+          <a href="https://www.burlingtontrackandfield.org/" className="me-4 text-white">
+            <FaDesktop />
+          </a>
+          <a href="/#/Results/" className="me-4 text-white">
+            <FaFolder />
+          </a>
+          <a href="mailto:president@burlingtontrackandfield.org" className="me-4 text-white">
+            <FaEnvelope />
+          </a>
+          <a href="https://www.instagram.com/burlington_track_field_club/" className="me-4 text-white">
+            <FaInstagram />
+          </a>
         </div>
-
-        <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom' style={{ backgroundColor: 'rgba(0, 0, 0, 0.02)' }}>
-            <div className="centerSocials">
-                <a href='https://www.burlingtontrackandfield.org/' className='me-4 text-reset text-white'>
-                    <MDBIcon icon="desktop" className='text-white'/>
-                </a>
-                <a href='Results/' className='me-4 text-reset'>
-                    <MDBIcon icon="folder" className='text-white'/>
-                </a>
-                <a href='mailto:president@burlingtontrackandfield.org' className='me-4 text-reset'>
-                    <MDBIcon icon="envelope" className='text-white'/>
-                </a>
-                <a href='https://www.instagram.com/burlington_track_field_club/' className='me-4 text-reset'>
-                    <MDBIcon icon="instagram" className='text-white'/>
-                </a> 
-            </div>
-        </section>
-    </MDBFooter>
+      </section>
+    </footer>
   );
 }
 
