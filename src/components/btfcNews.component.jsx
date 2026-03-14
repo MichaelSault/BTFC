@@ -18,7 +18,7 @@ function BTFCNews() {
         </div>
         <div className='newsCol'>
           <h1 className='newsTitle'>Congratulations!</h1>
-          <p className='newsDescription'>Congratulations Maya Markowska on being named Athletic's Ontario's 2025 Female U18 Athlete of the Year!</p>
+          <p className='newsDescription'>Congratulations Maya Markowska on being named Athletics Ontario's 2025 Female U18 Athlete of the Year!</p>
           <div className='buttonRowNews'>
             <a href='https://www.instagram.com/p/DSvfeKziZIS/?img_index=3' target='_blank' className='newsButton'>VIEW POST</a>
           </div>
@@ -29,7 +29,7 @@ function BTFCNews() {
         <div className='newsCol'>
           <h1 className='newsTitle'>Congratulations!</h1>
           <img className='newsImageMobile' src={awardPhoto} alt="2025 Athlete of the Year Winner.  Female U18.  Maya Markowska, Burlington Track & Field Club." />
-          <p className='newsDescription'>Congratulations Maya Markowska on being named Athletic's Ontario's 2025 Female U18 Athlete of the Year!</p>
+          <p className='newsDescription'>Congratulations Maya Markowska on being named Athletics Ontario's 2025 Female U18 Athlete of the Year!</p>
           <div className='buttonRowNews'>
             <a href='https://www.instagram.com/p/DSvfeKziZIS/?img_index=3' target='_blank' className='newsButton'>VIEW POST</a>
           </div>
