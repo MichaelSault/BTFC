@@ -42,7 +42,8 @@ function Directors() {
           <div className="bodCentered2">
             <BodTile name={"Nirup Urs"} title={"Director"} photo={Director1}/>
             <BodTile name={"Heather Larsen"} title={"Director"} photo={Director2}/>
-            <BodTile name={"Sergio Costa"} title={"Director"} photo={Director4}/>
+            <BodTile name={"Sergio Costa"} title={"Director"} photo={Director3}/>
+            <BodTile name={"Claudio Leppe"} title={"Director"} photo={Director4}/>
           </div>
         </div>
 
@@ -55,7 +56,8 @@ function Directors() {
             <BodTile name={"Tammy MacKenzie"} title={"Head Coach"} photo={Coach}/>
             <BodTile name={"Nirup Urs"} title={"Director"} photo={Director1}/>
             <BodTile name={"Heather Larsen"} title={"Director"} photo={Director2}/>
-            <BodTile name={"Sergio Costa"} title={"Director"} photo={Director4}/>
+            <BodTile name={"Sergio Costa"} title={"Director"} photo={Director3}/>
+            <BodTile name={"Claudio Leppe"} title={"Director"} photo={Director4}/>
           </div>
         </div>
       </div>

@@ -46,7 +46,7 @@ function Registration() {
                             May - August<br/>
                             Junior - $250<br/>
                             Senior - $275<br/>
-                            <a className='greyText' href='https://www.trackie.com/club/2025OutdoorOnly'><b><i>Registration opens early April<br/></i></b></a>
+                            <a className='greyText' href='https://www.trackie.com/club/2025OutdoorOnly'><b><i>Waitlist Only: Open April 6-April 13, 2026<br/></i></b></a>
                         </p>
                     </div>
                     <div className='subRow'>
@@ -56,7 +56,7 @@ function Registration() {
                             Junior - $140<br/>
                             September - December<br/>
                             Senior - $150<br/>
-                            <a className='greyText' href='https://www.trackie.com/club/BTFC2025CrossCountrySeniorSprint'><b><i>Registration opens early August<br/></i></b></a>
+                            <a className='greyText' href='https://www.trackie.com/club/BTFC2025CrossCountrySeniorSprint'><b><i>Registration Opens August 4, 2026<br/></i></b></a>
                         </p>
                     </div>
                     <div className='disclaimerBox'>
