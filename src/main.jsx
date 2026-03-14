@@ -35,11 +35,11 @@ ReactDOM.createRoot(document.getElementById('navBar')).render(
         <Navbar.Brand href="/">BTFC</Navbar.Brand>
         <Nav className="me-auto">
           <Nav.Link href="/programs">Programs</Nav.Link>
-          <Nav.Link href="/register">Registration</Nav.Link>
-          <Nav.Link href="/results">Results</Nav.Link>
+          <Nav.Link href="/registration">Registration</Nav.Link>
+          <Nav.Link href="/race-results">Results</Nav.Link>
           <Nav.Link href="/store">Store</Nav.Link>
-          <Nav.Link href="/contact">Contact Us</Nav.Link>
-          <Nav.Link href="/directors">Board of Directors</Nav.Link>
+          <Nav.Link href="/contact-us">Contact Us</Nav.Link>
+          <Nav.Link href="/board-of-directors">Board of Directors</Nav.Link>
         </Nav>
       </Container>
     </Navbar>
@@ -48,10 +48,10 @@ ReactDOM.createRoot(document.getElementById('navBar')).render(
       <Container>
         <Navbar.Brand href="/">BTFC</Navbar.Brand>
         <Nav className="me-auto">
-          <Nav.Link href="#/programs">Programs</Nav.Link>
-          <Nav.Link href="#/register">Register</Nav.Link>
-          <Nav.Link href="#/results">Results</Nav.Link>
-          <Nav.Link href="#/store">Store</Nav.Link>
+          <Nav.Link href="/programs">Programs</Nav.Link>
+          <Nav.Link href="/registration">Register</Nav.Link>
+          <Nav.Link href="/race-results">Results</Nav.Link>
+          <Nav.Link href="/store">Store</Nav.Link>
         </Nav>
       </Container>
     </Navbar>
@@ -64,20 +64,17 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />}/>
-        <Route path='/Junior' element={<Junior />}/>
-        <Route path='/Distance' element={<Distance />}/>
-        <Route path='/Sprint' element={<Sprint />}/>
-        <Route path='/Programs' element={<Programs/>}/>
-        <Route path='/Junior' element={<Junior/>}/>
-        <Route path='/Distance' element={<Distance/>}/>
-        <Route path='/Sprint' element={<Sprint/>}/>
-        <Route path='/Register' element={<Registration/>}/>
-        <Route path='/Contact' element={<Contact/>}/>
-        <Route path='/Results' element={<Results/>}/>
-        <Route path='/GordRusby' element={<GRResults/>}/>
-        <Route path='/KenLake' element={<KLResults/>}/>
-        <Route path='/Store' element={<Store/>}/>
-        <Route path='/Directors' element={<Directors/>}/>
+        <Route path='/programs' element={<Programs/>}/>
+        <Route path='/junior' element={<Junior/>}/>
+        <Route path='/distance' element={<Distance/>}/>
+        <Route path='/sprint' element={<Sprint/>}/>
+        <Route path='/registration' element={<Registration/>}/>
+        <Route path='/contact-us' element={<Contact/>}/>
+        <Route path='/race-results' element={<Results/>}/>
+        <Route path='/gordrusby' element={<GRResults/>}/>
+        <Route path='/kenlake' element={<KLResults/>}/>
+        <Route path='/store' element={<Store/>}/>
+        <Route path='/board-of-directors' element={<Directors/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>

@@ -13,9 +13,9 @@ function Programs() {
         <p className='description'>The Burlington Track and Field Club offers both Junior and Senior programs. Specialized distance and sprint programs are offered at the senior level.  Please see the links below for more details.<br/><br/></p>
         
         <div className='buttonRow'>
-          <a href='/#/Junior/' className='programButton'>JUNIOR GROUP</a>
-          <a href='/#/Distance/'className='programButton'>SENIOR DISTANCE</a>
-          <a href='/#/Sprint/'className='programButton'>SENIOR SPRINT</a>
+          <a href='/junior/' className='programButton'>JUNIOR GROUP</a>
+          <a href='/distance/'className='programButton'>SENIOR DISTANCE</a>
+          <a href='/sprint/'className='programButton'>SENIOR SPRINT</a>
         </div>
       </div>
     </>

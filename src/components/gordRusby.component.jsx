@@ -14,7 +14,7 @@ function GordRusby() {
               <h1 className='grTitle'>GORD RUSBY MEMORIAL MEET</h1>
               <p className='resultDescription'>Every year, the Burlington Track and Field Club hosts the Gord Rusby Memorial Meet during the Outdoor Track season.</p>
               <div className='buttonRowGR'>
-                <a href='/#/GordRusby' className='grButton'>RESULTS</a>
+                <a href='/GordRusby' className='grButton'>RESULTS</a>
               </div>
           </div>
           <div className='grCol2'>
@@ -30,7 +30,7 @@ function GordRusby() {
         <img className='eventImage' src={eventPhoto} alt='An action shot from the Gord Rusby Memorial Track Meet'/>
           <p className='resultDescription'>Every year, the Burlington Track and Field Club hosts the Gord Rusby Memorial Meet during the Outdoor Track season.</p>
           <div className='buttonRowGR'>
-            <a href='/#/GordRusby' className='grButton'>RESULTS</a>
+            <a href='/GordRusby' className='grButton'>RESULTS</a>
           </div>
           <hr/>
         </div>
