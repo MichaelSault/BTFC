@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 //use hashRouter temporarily as browserrouter does not work with gh_pages
-import { BrowserRouter, Routes, Route, HashRouter } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -34,12 +34,12 @@ ReactDOM.createRoot(document.getElementById('navBar')).render(
       <Container>
         <Navbar.Brand href="/">BTFC</Navbar.Brand>
         <Nav className="me-auto">
-          <Nav.Link href="#/programs">Programs</Nav.Link>
-          <Nav.Link href="#/register">Registration</Nav.Link>
-          <Nav.Link href="#/results">Results</Nav.Link>
-          <Nav.Link href="#/store">Store</Nav.Link>
-          <Nav.Link href="#/contact">Contact Us</Nav.Link>
-          <Nav.Link href="#/directors">Board of Directors</Nav.Link>
+          <Nav.Link href="/programs">Programs</Nav.Link>
+          <Nav.Link href="/register">Registration</Nav.Link>
+          <Nav.Link href="/results">Results</Nav.Link>
+          <Nav.Link href="/store">Store</Nav.Link>
+          <Nav.Link href="/contact">Contact Us</Nav.Link>
+          <Nav.Link href="/directors">Board of Directors</Nav.Link>
         </Nav>
       </Container>
     </Navbar>
@@ -61,7 +61,7 @@ ReactDOM.createRoot(document.getElementById('navBar')).render(
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <HashRouter>
+    <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />}/>
         <Route path='/Junior' element={<Junior />}/>
@@ -80,7 +80,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='/Directors' element={<Directors/>}/>
       </Routes>
       <Footer/>
-    </HashRouter>
+    </BrowserRouter>
     
   </React.StrictMode>
 
