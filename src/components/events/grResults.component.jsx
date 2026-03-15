@@ -16,8 +16,8 @@ function grResults() {
 
   return (
     <>
-      <title>Race Results | Burlington Track & Field Club</title>
-      <meta name='description' content="Stay updated with the latest race results from Burlington Track & Field Clubs's anual Gord Rusby Memorial Track and Field Meet"/>
+      <title>Race Results | Burlington Track and Field Club</title>
+      <meta name='description' content="Stay updated with the latest race results from Burlington Track and Field Clubs's anual Gord Rusby Memorial Track and Field Meet"/>
       <div className='grRow desktopOnly'>
         <div className='grResultCol2'>
           <h1 className="grResultText">GORD RUSBY</h1>

@@ -27,7 +27,7 @@ function Home() {
         <BTFCNews/>
         <Directors/>
       </div>
-      <title>Home | Burlington Track & Field Club</title>
+      <title>Home | Burlington Track and Field Club</title>
       <meta name="description" content="Welcome to Burlington Track and Field, your premier destination for running enthusiasts in Burlington. Discover our vibrant community, engaging events, and expert coaching. Join us and unleash your potential on the track and field!"/>
     </>
   )

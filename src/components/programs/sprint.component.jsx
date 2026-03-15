@@ -14,8 +14,8 @@ function Sprint() {
 
   return (
     <>
-      <title>Programs | Burlington Track & Field Club</title>
-      <meta name="description" content="Discover the Senior Sprint program offered by the Burlington Track & Field Club, catering to runners of high school age and up. From training sessions to competitive events, find your perfect fit with us today!"/>
+      <title>Programs | Burlington Track and Field Club</title>
+      <meta name="description" content="Discover the Senior Sprint program offered by the Burlington Track and Field Club, catering to runners of high school age and up. From training sessions to competitive events, find your perfect fit with us today!"/>
       <div className="teamRow">
         <div className="teamImageCol">
           <img className="teamImage" src={SprintImage} alt="Burlington's Senior Sprint Team"/>

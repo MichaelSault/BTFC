@@ -11,8 +11,8 @@ function Results() {
 
   return (
     <>
-      <title>Race Results | Burlington Track & Field Club</title>
-      <meta name='description' content='Stay updated with the latest race results from Burlington Track & Field. Explore our comprehensive listings to track your progress and celebrate achievements. Visit us now!'/>
+      <title>Race Results | Burlington Track and Field Club</title>
+      <meta name='description' content='Stay updated with the latest race results from Burlington Track and Field. Explore our comprehensive listings to track your progress and celebrate achievements. Visit us now!'/>
       <GordRusby/>
       <KenLake/>
     </>

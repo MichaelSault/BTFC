@@ -12,8 +12,8 @@ function Junior() {
 
   return (
     <>
-      <title>Programs | Burlington Track & Field Club</title>
-      <meta name="description" content="Discover Burlington Track & Field Club's Junior team, catering to runners age 6 to 13. From training sessions to competitive events, find your perfect fit with us today!"/>
+      <title>Programs | Burlington Track and Field Club</title>
+      <meta name="description" content="Discover Burlington Track and Field Club's Junior team, catering to runners age 6 to 13. From training sessions to competitive events, find your perfect fit with us today!"/>
       <div className="teamRow">
         <div className="teamImageCol">
           <img className="teamImage" src={JuniorImage} alt="Burlington's Junior Team at the start line of the Ken Lake Cross Country Meet"/>

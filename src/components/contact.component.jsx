@@ -5,8 +5,8 @@ function Contact() {
 
   return (
     <>
-      <title>Contact Us | Burlington Track & Field Club</title>
-      <meta name='description' content='Connect with Burlington Track & Field Club through our Contact Us page. Reach out to our dedicated team for inquiries, support, or collaboration opportunities. We are here to assist you!'/>
+      <title>Contact Us | Burlington Track and Field Club</title>
+      <meta name='description' content='Connect with Burlington Track and Field Club through our Contact Us page. Reach out to our dedicated team for inquiries, support, or collaboration opportunities. We are here to assist you!'/>
         <div className="contactRow">
             <div className='contactCol'>
                 <h1 className='contactTitle'>CONTACT US</h1>

@@ -25,8 +25,8 @@ function Directors() {
   
   return (
     <>
-      <title>Staff | Burlington Track & Field Club</title>
-      <meta name="description" content="Meet the dedicated staff behind Burlington Track & Field Club. Discover our team of experienced coaches and administrators committed to fostering a thriving athletic community. Learn more about our programs and initiatives today!"/>
+      <title>Staff | Burlington Track and Field Club</title>
+      <meta name="description" content="Meet the dedicated staff behind Burlington Track and Field Club. Discover our team of experienced coaches and administrators committed to fostering a thriving athletic community. Learn more about our programs and initiatives today!"/>
       <div className="directorsRow">
         <div className="bodTitleRow">
           <h1 className="bodTitle">2026 BOARD OF DIRECTORS</h1>

@@ -46,8 +46,8 @@ function Store() {
 
   return (
     <>
-      <title>Store | Burlington Track & Field Club</title>
-      <meta name='description' content='Explore the BTFC Store for all your Burlington Track & Field Club gear and essentials. Shop now for high-quality apparel, equipment, and accessories to support your athletic journey.'/>
+      <title>Store | Burlington Track and Field Club</title>
+      <meta name='description' content='Explore the BTFC Store for all your Burlington Track and Field Club gear and essentials. Shop now for high-quality apparel, equipment, and accessories to support your athletic journey.'/>
       <div className='storeRow desktopOnlyStore'>
           <div className='storeCol'>
               <h1 className='storeTitle'>BTFC APPAREL STORE</h1>
