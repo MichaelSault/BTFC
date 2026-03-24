@@ -23,7 +23,7 @@ function Junior() {
           <div className="teamTextSubCol">
 
             <h1 className="teamName">JUNIOR GROUP</h1>
-            <p className="teamText"><b>Ages:</b> 6 to 14</p>
+            <p className="teamText"><b>Ages:</b> 6 to 14 years old</p>
             <p className="teamText"><b>Distances:</b> All</p>
             <p className="teamText"><b>Experience Level:</b> All levels welcome</p>
             <p className="teamText"><b>Training:</b> 1-2 days per week</p>
