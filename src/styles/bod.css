@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: flex-start;
   height: 100vh;
+  min-height: 1000px;
   justify-content: start;
   padding: 3em 3em;
   /* background-image: url(../assets/runningbanner.jpeg); */

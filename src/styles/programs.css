@@ -60,7 +60,6 @@
 @media only screen and (max-width: 640px) {
     .programsRow {
         background-color: #10ab08;
-        height: 110vh;
         padding-top: 10vh;
     }
 

@@ -1,5 +1,6 @@
 .contactRow {
   height: 100vh;
+  min-height: 1000px;
   width: 100vw;
 
   background-image: url(../assets/contactUs.jpeg);
