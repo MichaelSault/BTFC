@@ -14,6 +14,7 @@ function GordRusby() {
               <h1 className='grTitle'>GORD RUSBY MEMORIAL MEET</h1>
               <p className='resultDescription'>Every year, the Burlington Track and Field Club hosts the Gord Rusby Memorial Meet during the Outdoor Track season.</p>
               <div className='buttonRowGR'>
+                <a target="_blank" href='https://www.trackie.com/event/the-34th-annual-gord-rusby-memorial-track-field-meet/1036642/' className='grButton'>REGISTER</a>
                 <a href='/GordRusby' className='grButton'>RESULTS</a>
               </div>
           </div>
@@ -29,6 +30,9 @@ function GordRusby() {
         <h1 className='grTitle'>GORD RUSBY MEMORIAL MEET</h1>
         <img className='eventImage' src={eventPhoto} alt='An action shot from the Gord Rusby Memorial Track Meet'/>
           <p className='resultDescription'>Every year, the Burlington Track and Field Club hosts the Gord Rusby Memorial Meet during the Outdoor Track season.</p>
+          <div className='buttonRowGR'>
+            <a target="_blank" href='https://www.trackie.com/event/the-34th-annual-gord-rusby-memorial-track-field-meet/1036642/' className='grButton'>REGISTER</a>
+          </div>
           <div className='buttonRowGR'>
             <a href='/GordRusby' className='grButton'>RESULTS</a>
           </div>
