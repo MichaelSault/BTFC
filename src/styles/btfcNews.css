@@ -131,17 +131,6 @@
     background-color: black;
 }
 
-.buttonRowKL {
-    height: 100px;
-    width: 280px;
-    min-width: 100px;
-    display: flex;
-    justify-content: center;
-
-    align-self: flex-start;
-    align-items: center;
-}
-
 .newsImage {
     transform: rotate(5deg);
     transform-origin: 0vh 200vw;
@@ -163,7 +152,7 @@
 @media only screen and (max-width: 599px) {
     .newsRow {
         height: 120vh;
-        min-height: 960px;
+        min-height: 1100px;
         width: 100vw;
         display: flex;
         flex-direction: column;
