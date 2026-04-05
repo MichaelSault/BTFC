@@ -41,7 +41,7 @@ function Distance() {
 
             <p className="teamText"><b>Racing:</b> Meets are on some weekends, schedule to come.</p>
             
-            <a href='https://www.trackie.com/club/2026-burlington-track-field-club-outdoor-only/1036151/' className='teamButton'>REGISTER</a>
+            <a target="_blank" href='https://www.trackie.com/club/2026-burlington-track-field-club-outdoor-only/1036151/' className='teamButton'>REGISTER</a>
           </div>
           
         </div>

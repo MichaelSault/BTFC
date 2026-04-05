@@ -28,7 +28,7 @@ function Registration() {
                             January - December<br/>
                             Junior - $390<br/>
                             Senior - $425<br/>
-                            <a className='greyText' href='https://www.trackie.com/club/BTFC2026FullYear'><b><i>Registration Closed</i></b></a>
+                            <a className='greyText' target="_blank" href='https://www.trackie.com/club/BTFC2026FullYear'><b><i>Registration Closed</i></b></a>
                         </p>
                     </div>
                     <div className='subRow'>
@@ -37,7 +37,7 @@ function Registration() {
                             January - April<br/>
                             Junior - $140<br/>
                             Senior - $150<br/>
-                            <a className='greyText' href='https://www.trackie.com/club/BTFC2026IndoorOnly'><b><i>Registration Closed</i></b></a>
+                            <a className='greyText' target="_blank" href='https://www.trackie.com/club/BTFC2026IndoorOnly'><b><i>Registration Closed</i></b></a>
                         </p>
                     </div>
                     <div className='subRow'>
@@ -46,7 +46,7 @@ function Registration() {
                             May - August<br/>
                             Junior - $250<br/>
                             Senior - $275<br/>
-                            <a className='registrationOpen whiteText' href='https://www.trackie.com/club/2026-burlington-track-field-club-outdoor-only/1036151/'><b><i>Waitlist Only: Open April 6-April 13, 2026<br/></i></b></a>
+                            <a className='registrationOpen whiteText' target="_blank" href='https://www.trackie.com/club/2026-burlington-track-field-club-outdoor-only/1036151/'><b><i>Waitlist Only: Open April 6-April 13, 2026<br/></i></b></a>
                         </p>
                     </div>
                     <div className='subRow'>
@@ -56,7 +56,7 @@ function Registration() {
                             Junior - $140<br/>
                             September - December<br/>
                             Senior - $150<br/>
-                            <a className='greyText' href='https://www.trackie.com/club/BTFC2025CrossCountrySeniorSprint'><b><i>Registration Opens August 4, 2026<br/></i></b></a>
+                            <a className='greyText' target="_blank" href='https://www.trackie.com/club/BTFC2025CrossCountrySeniorSprint'><b><i>Registration Opens August 4, 2026<br/></i></b></a>
                         </p>
                     </div>
                     <div className='disclaimerBox'>
