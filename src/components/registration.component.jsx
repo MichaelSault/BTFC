@@ -46,7 +46,7 @@ function Registration() {
                             May - August<br/>
                             Junior - $250<br/>
                             Senior - $275<br/>
-                            <a className='greyText' href='https://www.trackie.com/club/2026-burlington-track-field-club-outdoor-only/1036151/'><b><i>Waitlist Only: Open April 6-April 13, 2026<br/></i></b></a>
+                            <a className='registrationOpen whiteText' href='https://www.trackie.com/club/2026-burlington-track-field-club-outdoor-only/1036151/'><b><i>Waitlist Only: Open April 6-April 13, 2026<br/></i></b></a>
                         </p>
                     </div>
                     <div className='subRow'>
