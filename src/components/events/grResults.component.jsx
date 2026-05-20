@@ -25,6 +25,8 @@ function grResults() {
           <h4 className="grResultSubText">TRACK AND FIELD</h4>
         </div>
         <div className='grResultCol'>
+          <br/> <br/>
+          <a href='https://sportmadesimple.com/results/GordRusby2026/index.html' target="_blank" className='grResultButton'>2026 RESULTS</a>
           <a href='https://www.sportmadesimple.com/results/BurlingtonTrack/GR2025/index.html' target="_blank" className='grResultButton'>2025 RESULTS</a>
           <a href='https://sportmadesimple.com/results/GordRusby2024/index.html' target="_blank" className='grResultButton'>2024 RESULTS</a>
           <a href={gr2023} target="_blank" className='grResultButton'>2023 RESULTS</a>
@@ -37,6 +39,7 @@ function grResults() {
       <div className='grRow mobileOnly'>
         <div className='grResultCol'>
           <h1 className="grResultTitle">GORD RUSBY</h1>
+          <a href='https://sportmadesimple.com/results/GordRusby2026/index.html' target="_blank" className='grResultButton'>2026 RESULTS</a>
           <a href='https://www.sportmadesimple.com/results/BurlingtonTrack/GR2025/index.html' target="_blank" className='grResultButton'>2025 RESULTS</a>
           <a href='https://sportmadesimple.com/results/GordRusby2024/index.html' target="_blank" className='grResultButton'>2024 RESULTS</a>
           <a href={gr2023} target="_blank" className='grResultButton'>2023 RESULTS</a>
