@@ -57,7 +57,7 @@ function Registration() {
                             Junior - $140<br/>
                             September - December<br/>
                             Senior - $150<br/>
-                            <a className='greyText' target="_blank" href='https://www.trackie.com/club/BTFC2025CrossCountrySeniorSprint'><b><i>Registration Opens August 4, 2026<br/></i></b></a>
+                            <a className='registrationOpen whiteText' target="_blank" href='https://www.trackie.com/club/2026-burlington-track-field-club-fall-xc/1031234/'><b><i>Register Here (Opens August 4, 2026)<br/></i></b></a>
                         </p>
                     </div>
                     <div className='disclaimerBox'>
