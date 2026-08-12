@@ -57,7 +57,8 @@ function Registration() {
                             Junior - $140<br/>
                             September - December<br/>
                             Senior - $150<br/>
-                            <a className='registrationOpen whiteText' target="_blank" href='https://www.trackie.com/club/2026-burlington-track-field-club-fall-xc/1031234/'><b><i>Register Here (Opens August 4, 2026)<br/></i></b></a>
+                            {/* <a className='registrationOpen whiteText' target="_blank" href='https://www.trackie.com/club/2026-burlington-track-field-club-fall-xc/1031234/'><b><i>Register Here (Opens August 4, 2026)<br/></i></b></a> */}
+                            <a className='greyText' target="_blank" href='https://www.trackie.com/club/2026-burlington-track-field-club-fall-xc/1031234/'><b><i>Registration Closed</i></b></a>
                         </p>
                     </div>
                     <div className='disclaimerBox'>
