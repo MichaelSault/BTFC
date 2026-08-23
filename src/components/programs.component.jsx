@@ -3,6 +3,8 @@ import { useEffect } from 'react';
 import '../App.css';
 import '../styles/programs.css';
 
+import racePacket from '../assets/racePackets/Ken Lake invite 2026.pdf';
+
 function Programs() {
   return (
     <>
@@ -12,10 +14,13 @@ function Programs() {
       <div className="programsRow">
         <div className="alert">
           <span className="closebtn" onClick={(e) => {e.target.parentElement.style.display="none";}}>&times;</span> 
-          <strong><b>Registration Update: Cross Country Season</b></strong>
+          <strong><b>Registration Updates: Cross Country Season</b></strong>
           <hr/>
           <p>Fall Registration is now closed.  Please check back in November for 2027 Registrations.</p>
           {/* <a className='whiteText' target="_blank" href='https://www.trackie.com/club/2026-burlington-track-field-club-fall-xc/1031234/'><b><i>REGISTER HERE</i></b></a> */}
+          <br/>
+          <p>Ken Lake Memorial Meet package is now available.</p>
+          <a className='whiteText' target="_blank" href={racePacket}><b><i>View Meet Package</i></b></a>
         </div>
         <h1 className='programTitle'>BTFC PROGRAMS</h1>
         <p className='description'>The Burlington Track and Field Club offers both Junior and Senior programs. Specialized distance and sprint programs are offered at the senior level.  Please see the links below for more details.<br/><br/></p>

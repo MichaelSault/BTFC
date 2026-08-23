@@ -39,18 +39,22 @@
 }
 
 .klButton {
-    height: 100px;
-    width: 280px;
-    min-width: 280px;
+    width: 100%;
+    min-width: 0;
+    min-height: 72px;
+    padding: 0.75rem 0.5rem;
+    box-sizing: border-box;
     background-color: black;
     display: flex;
     justify-content: center;
 
     font-family: Anton;
-    font-size: 35px;
+    font-size: clamp(20px, 2vw, 30px);
     color: white;
+    line-height: 1.1;
+    text-align: center;
+    text-decoration: none;
 
-    align-self: center;
     align-items: center;
 }
 
@@ -131,14 +135,11 @@
 }
 
 .buttonRowKL {
-    height: 100px;
     width: 100%;
-    min-width: 100px;
-    display: inline-block;
-    justify-content: center;
-
-    align-self: flex-start;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(180px, 100%), 1fr));
+    gap: 1rem;
+    align-self: stretch;
 }
 
 @media only screen and (max-width: 640px) {
@@ -155,10 +156,12 @@
     }
 
     .klCol {
-        height: 110vh;
+        height: auto;
+        min-height: 0;
         width: 100%;
         padding-left: 1em;
         padding-right: 1.5em;
+        padding-bottom: 3em;
     }
 
     .klBanner {
@@ -238,28 +241,13 @@
     }
 
     .buttonRowKL {
-        height: 100px;
         width: 100%;
-        min-width: 100px;
-        display: flex;
-    
-        align-items: left;
+        grid-template-columns: 1fr;
     }
 
     .klButton {
-        height: 60px;
-        width: 100%;
-        min-width: 100px;
-        background-color: black;
-        display: flex;
-        justify-content: center;
-    
-        font-family: Anton;
-        font-size: 35px;
-        color: white;
-    
-        align-self: center;
-        align-items: center;
+        min-height: 60px;
+        font-size: clamp(26px, 8vw, 35px);
     }
 
     .eventImage {
@@ -433,8 +421,8 @@
     }
 
     .klButton {
-        width: 250px;
-        height: 50px;
+        width: 100%;
+        min-height: 50px;
         font-size: 25px;
     }
 
