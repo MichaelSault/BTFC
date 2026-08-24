@@ -21,7 +21,7 @@ function KenLake() {
           <h1 className='klTitle'>KEN LAKE MEMORIAL MEET</h1>
           <p className='resultDescription'>Every year, the Burlington Track and Field Club hosts the Ken Lake Memorial Meet during the Cross Country season.</p>
           <div className='buttonRowKL'>
-            <a /* target="_blank" href='' */ className='klButton' disabled>REGISTERATION 2026</a>
+            <a target="_blank" href='https://www.trackie.com/event/ken-lake-memorial-x-country-meet/1038859/' className='klButton' disabled>REGISTERATION 2026</a>
             <a href={racePacket} target="_blank" className='klButton'>MEET PACKAGE 2026</a>
             <a href='/KenLake' className='klButton'>RESULTS</a>
           </div>
@@ -34,7 +34,7 @@ function KenLake() {
           <img className='eventImage' src={eventPhoto} alt='An action shot from the Ken Lake Memorial Cross Country Meet' />
           <p className='resultDescription'>Every year, the Burlington Track and Field Club hosts the Ken Lake Memorial Meet during the Cross Country season.</p>
           <div className='buttonRowKL'>
-            <a /* target="_blank" href='' */  className='klButton'>REGISTERATION 2026</a>
+            <a target="_blank" href='https://www.trackie.com/event/ken-lake-memorial-x-country-meet/1038859/' className='klButton'>REGISTERATION 2026</a>
             <a href={racePacket} target="_blank" className='klButton'>MEET PACKAGE 2026</a>
             <a href='/KenLake' className='klButton'>RESULTS</a>
           </div>
