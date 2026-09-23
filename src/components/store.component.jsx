@@ -53,7 +53,7 @@ function Store() {
               <h1 className='storeTitle'>BTFC APPAREL STORE</h1>
               <p className='storeDescription'>The BTFC apparel store is powered by KCK Teamwear.  All orders are made on demand and may take 7 to 10 business days to complete.</p>
               <div className='buttonRowStore'>
-                <a href='https://www.kckteamwear.com/burlingtontrackandfield' className='storeButton'>VISIT STORE</a>
+                <a href='https://www.kckteamwear.com/burlington-track-field' className='storeButton'>VISIT STORE</a>
               </div>
           </div>
           <div className='storeCol2'>
@@ -75,7 +75,7 @@ function Store() {
           </div>
           <p className='storeDescription'>The BTFC apparel store is powered by KCK Teamwear.  All orders are made on demand and may take 7-10 business days to complete.</p>
           <div className='buttonRowStore'>
-            <a href='https://www.kckteamwear.com/burlingtontrackandfield' className='storeButton'>VISIT STORE</a>
+            <a href='https://www.kckteamwear.com/burlington-track-field' className='storeButton'>VISIT STORE</a>
           </div>
           <hr/>
         </div>
