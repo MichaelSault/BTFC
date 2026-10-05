@@ -21,15 +21,6 @@ function Contact() {
                         <b>Email: </b> tammymackenzie@bell.net
                         <br/>
                         <br/>
-                        <b>Jordan Mabbott</b>
-                        <br/>
-                        <b><i>Head Coach</i></b>
-                        <br/>
-                        <b><i>Senior Sprint Team</i></b>
-                        <br/>
-                        <b>Email: </b> jordanmabbott@gmail.com
-                        <br/>
-                        <br/>
                         <b>General Inquiries:</b>
                         <br/>
                         president@burlingtontrackandfield.org
