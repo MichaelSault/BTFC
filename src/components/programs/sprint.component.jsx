@@ -31,7 +31,7 @@ function Sprint() {
             <p className="teamText"><b>Training:</b> 2-3 days per week</p>
             <p className="teamText"><b>Training Days:</b></p>
             <ul className="teamText">
-              <li>Monday and Wednesday evenings</li>
+              <li>Wednesday evenings</li>
               <li>Saturday mornings</li>
             </ul>
             
