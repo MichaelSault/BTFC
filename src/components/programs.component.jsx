@@ -12,17 +12,16 @@ function Programs() {
       <meta name="description" content="Discover the diverse programs offered by Burlington Track and Field, catering to runners of all levels and ages. From training sessions to competitive events, find your perfect fit with us today!"/>
       
       <div className="programsRow">
-        {/* <div className="alert">
+        <div className="alert">
           <span className="closebtn" onClick={(e) => {e.target.parentElement.style.display="none";}}>&times;</span> 
-          <strong><b>Registration Updates: Cross Country Season</b></strong>
+          <strong><b>2027 Full Year Registration will open live on Nov. 28.</b></strong>
           <hr/>
-          <p>Fall Registration is now closed.  Please check back in November for 2027 Registrations.</p>
+          <p>Important Note: If you wish to register for the full year, you are <b>committing to full attendance throughout all training seasons: indoor, outdoor, and fall.</b> If you cannot commit to the full year please wait and register by seaon. Indoor Only registration will open mid December.</p>
           <br/>
-          <p>Ken Lake Memorial Meet registration is now open.</p>
-          <a className='whiteText' target="_blank" href='https://www.trackie.com/event/ken-lake-memorial-x-country-meet/1038859/'><b><i>REGISTER HERE</i></b></a>
+          
+          /* <a className='whiteText' target="_blank" href='https://www.trackie.com/event/ken-lake-memorial-x-country-meet/1038859/'><b><i>REGISTER HERE</i></b></a> */
           <br/>
-          <a className='whiteText' target="_blank" href={racePacket}><b><i>MEET PACKAGE</i></b></a>
-        </div> */}
+        </div>
         <h1 className='programTitle'>BTFC PROGRAMS</h1>
         <p className='description'>The Burlington Track and Field Club offers both Junior and Senior programs. Specialized distance and sprint programs are offered at the senior level.  Please see the links below for more details.<br/><br/></p>
         
