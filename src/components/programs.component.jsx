@@ -19,7 +19,7 @@ function Programs() {
           <p>Important Note: If you wish to register for the full year, you are <b>committing to full attendance throughout all training seasons: indoor, outdoor, and fall.</b> If you cannot commit to the full year please wait and register by seaon. Indoor Only registration will open mid December.</p>
           <br/>
           
-          /* <a className='whiteText' target="_blank" href='https://www.trackie.com/event/ken-lake-memorial-x-country-meet/1038859/'><b><i>REGISTER HERE</i></b></a> */
+          {/* <a className='whiteText' target="_blank" href='https://www.trackie.com/event/ken-lake-memorial-x-country-meet/1038859/'><b><i>REGISTER HERE</i></b></a> */}
           <br/>
         </div>
         <h1 className='programTitle'>BTFC PROGRAMS</h1>
