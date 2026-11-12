@@ -13,6 +13,7 @@ import kl2022 from '../../assets/results/KEN LAKE X-COUNTRY RESULTS 2022.pdf';
 import kl2023 from '../../assets/results/KEN LAKE X-COUNTRY RESULTS 2023.pdf';
 import kl2024 from '../../assets/results/KEN LAKE X-COUNTRY RESULTS 2024.pdf';
 import kl2025 from '../../assets/results/KEN LAKE X-COUNTRY RESULTS 2025.pdf';
+import kl2026 from '../../assets/results/KEN LAKE X-COUNTRY RESULTS 2026.pdf';
 
 function klResults() {
   const navigate = useNavigate();
@@ -28,6 +29,7 @@ function klResults() {
           <h4 className="klResultSubText">CROSS COUNTRY</h4>
         </div>
         <div className='klResultCol'>
+          <a href={kl2026} target="_blank" className='klResultButton'>2026 RESULTS</a>
           <a href={kl2025} target="_blank" className='klResultButton'>2025 RESULTS</a>
           <a href={kl2024} target="_blank" className='klResultButton'>2024 RESULTS</a>
           <a href={kl2023} target="_blank" className='klResultButton'>2023 RESULTS</a>
@@ -41,6 +43,7 @@ function klResults() {
       <div className='klRow mobileOnly'>
         <div className='klResultCol'>
           <h1 className="klResultTitle">KEN LAKE</h1>
+          <a href={kl2026} target="_blank" className='klResultButton'>2026 RESULTS</a>
           <a href={kl2025} target="_blank" className='klResultButton'>2025 RESULTS</a>
           <a href={kl2024} target="_blank" className='klResultButton'>2024 RESULTS</a>
           <a href={kl2023} target="_blank" className='klResultButton'>2023 RESULTS</a>
