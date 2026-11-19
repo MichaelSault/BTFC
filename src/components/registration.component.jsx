@@ -26,8 +26,8 @@ function Registration() {
                         <h2 className='programName'>FULL YEAR</h2>
                         <p className='registrationText'>
                             January - December<br/>
-                            Junior - $390<br/>
-                            Senior - $425<br/>
+                            Junior - $425<br/>
+                            Senior - $475<br/>
                             <a className='greyText' target="_blank" href='https://www.trackie.com/club/BTFC2026FullYear'><b><i>Registration Closed</i></b></a>
                         </p>
                     </div>
@@ -35,8 +35,8 @@ function Registration() {
                         <h2 className='programName'>INDOOR TRACK</h2>
                         <p className='registrationText'>
                             January - April<br/>
-                            Junior - $140<br/>
-                            Senior - $150<br/>
+                            Junior - $195<br/>
+                            Senior - $225<br/>
                             <a className='greyText' target="_blank" href='https://www.trackie.com/club/BTFC2026IndoorOnly'><b><i>Registration Closed</i></b></a>
                         </p>
                     </div>
@@ -44,8 +44,8 @@ function Registration() {
                         <h2 className='programName'>OUTDOOR TRACK</h2>
                         <p className='registrationText'>
                             May - August<br/>
-                            Junior - $250<br/>
-                            Senior - $275<br/>
+                            Junior - $270<br/>
+                            Senior - $300<br/>
                             {/* <a className='registrationOpen whiteText' target="_blank" href='https://www.trackie.com/club/2026-burlington-track-field-club-outdoor-only/1036151/'><b><i>Waitlist Only: Open April 6-April 13, 2026<br/></i></b></a> */}
                             <a className='greyText' target="_blank" href='https://www.trackie.com/club/2026-burlington-track-field-club-outdoor-only/1036151/'><b><i>Registration Closed</i></b></a>
                         </p>
@@ -54,9 +54,9 @@ function Registration() {
                         <h2 className='programName'>CROSS COUNTRY/ SR.SPRINT</h2>
                         <p className='registrationText'>
                             September - October 31st<br/>
-                            Junior - $140<br/>
+                            Junior - $155<br/>
                             September - December<br/>
-                            Senior - $150<br/>
+                            Senior - $175<br/>
                             {/* <a className='registrationOpen whiteText' target="_blank" href='https://www.trackie.com/club/2026-burlington-track-field-club-fall-xc/1031234/'><b><i>Register Here (Opens August 4, 2026)<br/></i></b></a> */}
                             <a className='greyText' target="_blank" href='https://www.trackie.com/club/2026-burlington-track-field-club-fall-xc/1031234/'><b><i>Registration Closed</i></b></a>
                         </p>
