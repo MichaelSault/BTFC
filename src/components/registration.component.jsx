@@ -28,7 +28,7 @@ function Registration() {
                             January - December<br/>
                             Junior - $425<br/>
                             Senior - $475<br/>
-                            <a className='greyText' target="_blank" href='https://www.trackie.com/club/BTFC2026FullYear'><b><i>Registration Closed</i></b></a>
+                            <a className='greyText' target="_blank" href='https://www.trackie.com/club/2027-burlington-track-club-full-year-registration/1039548/'><b><i>Registration Closed</i></b></a>
                         </p>
                     </div>
                     <div className='subRow'>
