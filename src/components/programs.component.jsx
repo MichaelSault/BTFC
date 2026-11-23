@@ -18,6 +18,8 @@ function Programs() {
           <hr/>
           <p>Important Note: If you wish to register for the full year, you are <b>committing to full attendance throughout all training seasons: indoor, outdoor, and fall.</b> If you cannot commit to the full year please wait and register by seaon. Indoor Only registration will open mid December.</p>
           <br/>
+
+          <a className='whiteText' trarget="_blank" href='https://www.trackie.com/club/2027-burlington-track-club-full-year-registration/1039548'><b><i>REGISTER HERE</i></b></a>
                 
           <br/>
         </div>
